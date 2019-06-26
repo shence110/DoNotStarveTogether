@@ -1,0 +1,6 @@
+[00:10:34]: [Join Announcement] Fairy Law
+[00:19:05]: [Death Announcement] Fairy Law 被此人杀死： 蜘蛛女王. 她变成了可怕的鬼魂！
+[00:21:12]: [Join Announcement] Fairy Law
+[00:24:30]: [Leave Announcement] Fairy Law
+[00:32:27]: [Join Announcement] Fairy Law
+[00:36:56]: [Leave Announcement] Fairy Law

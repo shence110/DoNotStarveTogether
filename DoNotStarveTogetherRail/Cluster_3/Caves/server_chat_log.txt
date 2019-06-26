@@ -1,0 +1,7 @@
+[00:00:38]: [Join Announcement] 
+[00:01:05]: [Join Announcement] 
+[00:01:05]: [Join Announcement] 
+[00:02:43]: [Leave Announcement] 
+[00:03:21]: [Join Announcement] 
+[00:09:07]: [Death Announcement]  已被击杀，击杀者是 发条战车. 她变成了一个幽灵！
+[00:09:19]: [Leave Announcement] 

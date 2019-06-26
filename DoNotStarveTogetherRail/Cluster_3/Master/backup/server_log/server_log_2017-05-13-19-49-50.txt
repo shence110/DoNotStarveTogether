@@ -1,0 +1,1317 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 28%
+	Available Physical Memory: 8652m/12177m
+	Available Page File: 9716m/14033m
+	Available Virtual Memory: 3995m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 11m
+	Working Set Size: 10m
+	Quota Peak Page Pool Usage: 188k
+	Quota Page Pool Usage: 185k
+	Quota Peak Non Paged Pool Usage:14k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 3m
+	Peak Page File Usage: 3m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/Cluster_3/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 214171
+[00:00:00]: Current time: Sat May 13 19:43:13 2017
+
+[00:00:00]: Don't Starve Together: 214171 WIN32
+[00:00:00]: Build Date: 2047
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 12628 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_3 -ownernetid R:76561197973341873 -backup_log_count 10 -shard Master -sigprefix DST_Master --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600022628 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: [Rail] Initializing Rail (2000004)
+[00:00:00]: [Rail] Rail SDK version 1.8.2.0
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (7544)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:6.35
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application D:\
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'ConsoleInput' (8404)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: RU_76561197973341873
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/Cluster_3/cluster_token.txt
+[00:00:00]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/Cluster_3/cluster_token.txt
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 企业版
+    version                   10.0.15063
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2304
+  RAM                       
+    megsOfRam                 12288
+  GPU                       
+    name                      Intel(R) HD Graphics 530
+    driverDate                20161024000000.000000-000
+    megsOfRam                 1024
+    refreshRate               60
+    videoModeDescription      1920 x 1080 x 4294967296 种颜色
+    driverVersion             21.20.16.4542
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: FMOD Error: An invalid object handle was used. 
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:00]: Translator:LoadPOFile - loading file: scripts/languages/simplifiedchinese.po	
+[00:00:01]: running main.lua
+	
+[00:00:01]: Could not load modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: DownloadMods(0)
+[00:00:01]: modoverrides.lua enabling workshop-100010027	
+[00:00:01]: modoverrides.lua enabling workshop-2199027653598512025	
+[00:00:01]: modoverrides.lua enabling workshop-100010062	
+[00:00:01]: modoverrides.lua enabling workshop-100010058	
+[00:00:01]: modoverrides.lua enabling workshop-100010024	
+[00:00:01]: modoverrides.lua enabling workshop-100010023	
+[00:00:01]: modoverrides.lua enabling workshop-100010002	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:01]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598512025	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-100010002_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:01]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:01]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:01]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:01]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:01]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:01]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:01]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:01]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:01]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:01]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:01]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:01]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:01]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:01]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-100010023_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:01]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:01]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:01]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:01]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:01]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:01]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:01]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:01]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:01]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:01]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:01]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:01]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:01]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:01]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:01]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:01]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:01]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:01]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:01]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:01]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:01]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:01]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:01]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:01]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:01]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:01]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:01]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:01]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:01]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:01]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:01]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:01]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:01]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:01]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:01]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:01]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:01]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:01]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:01]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:01]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:01]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:01]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:01]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:01]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:01]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:01]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:01]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:01]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:02]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:02]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:02]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:02]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:02]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:02]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:02]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:02]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:02]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:02]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:02]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:02]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:02]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:02]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:02]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:02]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:02]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:02]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:02]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:02]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:02]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:02]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:02]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:02]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:02]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:02]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:02]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:02]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:02]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:02]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:02]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:02]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:02]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:02]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:02]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:02]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:02]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:02]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:02]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:02]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:02]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:02]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:02]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:02]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:02]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:02]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:02]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:02]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:02]: Could not load mod_config_data/modconfiguration_workshop-2199027653598512025_CLIENT	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:02]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:02]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:02]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:02]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:02]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:02]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:02]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:02]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:02]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:02]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:02]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:02]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:02]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:02]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:02]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:02]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:02]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:02]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:02]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:02]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:02]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:02]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:02]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:02]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:02]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:02]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:02]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:02]: Loading mod: workshop-2199027653598512025 (骑牛无限时间) Version:1.0.1	
+[00:00:02]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:00:02]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:00:02]: Mod: workshop-2199027653598512025 (骑牛无限时间)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-2199027653598512025 (骑牛无限时间)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-2199027653598512025 (骑牛无限时间)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:00:02]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598512025	
+[00:00:02]: FMOD Error: An invalid object handle was used. 
+[00:00:02]: AppData writable: True.
+[00:00:02]: Documents writable: True.
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: Registering mod namespace "workshop-100010023"
+[00:00:02]: Registering mod namespace "food item"
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: bloom_enabled	false	
+[00:00:02]: Could not load saveindex	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:00:04]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:00:04]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-2199027653598512025 (骑牛无限时间)	Registering prefabs	
+[00:00:04]: Mod: workshop-2199027653598512025 (骑牛无限时间)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:04]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:04]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:00:04]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:00:04]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:00:04]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-100010002 (Damage Indicators)	Registering prefabs	
+[00:00:04]: Mod: workshop-100010002 (Damage Indicators)	  Registering prefab file: prefabs/dmgind	
+[00:00:04]: Mod: workshop-100010002 (Damage Indicators)	    dmgind	
+[00:00:04]: Mod: workshop-100010002 (Damage Indicators)	  Registering default mod prefab	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	Registering prefabs	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	    globalposition_classified	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	    smoketrail	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	    ping_generic	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	    ping_omw	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	    ping_danger	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	    ping_explore	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	    ping_gohere	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	    globalmapicon_noproxy	
+[00:00:04]: Mod: workshop-100010023 (Global Positions)	  Registering default mod prefab	
+[00:00:04]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:05]: [IPC] Signal 'DST_Master_Kill' opened  #00000530
+[00:00:05]: [IPC] Registering handler for signal #00000530
+[00:00:05]: [IPC] Handle #00000530 added to the Eventhandles
+[00:00:05]: [IPC] Signal 'DST_Master_Starting' opened  #00000524
+[00:00:05]: [IPC] Sending signal... #00000524
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Received (KU_3RvV-H5E) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: true
+[00:00:06]:   ServerPort: 10999
+[00:00:06]:   SteamAuthPort: 8766
+[00:00:06]:   SteamMasterServerPort: 27016
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: false
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 6
+[00:00:06]:   GameMode: survival
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   VoteEnabled: false
+[00:00:06]:   InternetBroadcasting: true
+[00:00:06]:   Intent: cooperative
+[00:00:06]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010027	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010023	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010002	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010058	
+[00:00:06]: Could not load mod_config_data/modconfiguration_workshop-100010062	
+[00:00:06]: Online Server Started on port: 10999
+[00:00:06]: [Rail] Punchthrough start.
+[00:00:06]: Found a level data override file with these contents:	
+[00:00:06]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:00:06]: 	K: 	hideminimap	 V: 	false	
+[00:00:06]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:06]: 	K: 	location	 V: 	forest	
+[00:00:06]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:06]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:06]: 	K: 	name	 V: 	Default	
+[00:00:06]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:06]: 	K: 	ordered_story_setpieces	 V: 	table: 0B8F97D0	
+[00:00:06]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:06]: 		K: 	2	 V: 	Maxwell5	
+[00:00:06]: 	K: 	override_level_string	 V: 	false	
+[00:00:06]: 	K: 	overrides	 V: 	table: 0B8F99D8	
+[00:00:06]: 		K: 	alternatehunt	 V: 	default	
+[00:00:06]: 		K: 	angrybees	 V: 	default	
+[00:00:06]: 		K: 	antliontribute	 V: 	default	
+[00:00:06]: 		K: 	autumn	 V: 	default	
+[00:00:06]: 		K: 	bearger	 V: 	default	
+[00:00:06]: 		K: 	beefalo	 V: 	default	
+[00:00:06]: 		K: 	beefaloheat	 V: 	default	
+[00:00:06]: 		K: 	bees	 V: 	default	
+[00:00:06]: 		K: 	berrybush	 V: 	default	
+[00:00:06]: 		K: 	birds	 V: 	default	
+[00:00:06]: 		K: 	boons	 V: 	default	
+[00:00:06]: 		K: 	branching	 V: 	default	
+[00:00:06]: 		K: 	butterfly	 V: 	default	
+[00:00:06]: 		K: 	buzzard	 V: 	default	
+[00:00:06]: 		K: 	cactus	 V: 	default	
+[00:00:06]: 		K: 	carrot	 V: 	default	
+[00:00:06]: 		K: 	catcoon	 V: 	default	
+[00:00:06]: 		K: 	chess	 V: 	default	
+[00:00:06]: 		K: 	day	 V: 	default	
+[00:00:06]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:06]: 		K: 	deerclops	 V: 	default	
+[00:00:06]: 		K: 	disease_delay	 V: 	none	
+[00:00:06]: 		K: 	dragonfly	 V: 	default	
+[00:00:06]: 		K: 	flint	 V: 	default	
+[00:00:06]: 		K: 	flowers	 V: 	default	
+[00:00:06]: 		K: 	frograin	 V: 	default	
+[00:00:06]: 		K: 	goosemoose	 V: 	default	
+[00:00:06]: 		K: 	grass	 V: 	default	
+[00:00:06]: 		K: 	houndmound	 V: 	default	
+[00:00:06]: 		K: 	hounds	 V: 	default	
+[00:00:06]: 		K: 	hunt	 V: 	default	
+[00:00:06]: 		K: 	krampus	 V: 	default	
+[00:00:06]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:06]: 		K: 	liefs	 V: 	default	
+[00:00:06]: 		K: 	lightning	 V: 	default	
+[00:00:06]: 		K: 	lightninggoat	 V: 	default	
+[00:00:06]: 		K: 	loop	 V: 	default	
+[00:00:06]: 		K: 	lureplants	 V: 	default	
+[00:00:06]: 		K: 	marshbush	 V: 	default	
+[00:00:06]: 		K: 	merm	 V: 	default	
+[00:00:06]: 		K: 	meteorshowers	 V: 	default	
+[00:00:06]: 		K: 	meteorspawner	 V: 	default	
+[00:00:06]: 		K: 	moles	 V: 	default	
+[00:00:06]: 		K: 	mushroom	 V: 	default	
+[00:00:06]: 		K: 	penguins	 V: 	default	
+[00:00:06]: 		K: 	perd	 V: 	default	
+[00:00:06]: 		K: 	petrification	 V: 	default	
+[00:00:06]: 		K: 	pigs	 V: 	default	
+[00:00:06]: 		K: 	ponds	 V: 	default	
+[00:00:06]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:06]: 		K: 	rabbits	 V: 	default	
+[00:00:06]: 		K: 	reeds	 V: 	default	
+[00:00:06]: 		K: 	regrowth	 V: 	default	
+[00:00:06]: 		K: 	roads	 V: 	default	
+[00:00:06]: 		K: 	rock	 V: 	default	
+[00:00:06]: 		K: 	rock_ice	 V: 	default	
+[00:00:06]: 		K: 	sapling	 V: 	default	
+[00:00:06]: 		K: 	season_start	 V: 	default	
+[00:00:06]: 		K: 	specialevent	 V: 	default	
+[00:00:06]: 		K: 	spiders	 V: 	default	
+[00:00:06]: 		K: 	spring	 V: 	default	
+[00:00:06]: 		K: 	start_location	 V: 	default	
+[00:00:06]: 		K: 	summer	 V: 	default	
+[00:00:06]: 		K: 	tallbirds	 V: 	default	
+[00:00:06]: 		K: 	task_set	 V: 	default	
+[00:00:06]: 		K: 	tentacles	 V: 	default	
+[00:00:06]: 		K: 	touchstone	 V: 	default	
+[00:00:06]: 		K: 	trees	 V: 	default	
+[00:00:06]: 		K: 	tumbleweed	 V: 	default	
+[00:00:06]: 		K: 	walrus	 V: 	default	
+[00:00:06]: 		K: 	weather	 V: 	default	
+[00:00:06]: 		K: 	wildfires	 V: 	default	
+[00:00:06]: 		K: 	winter	 V: 	default	
+[00:00:06]: 		K: 	world_size	 V: 	default	
+[00:00:06]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:06]: 	K: 	random_set_pieces	 V: 	table: 0B8F9938	
+[00:00:06]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:06]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:06]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:06]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:06]: 		K: 	5	 V: 	Chessy_1	
+[00:00:06]: 		K: 	6	 V: 	Chessy_2	
+[00:00:06]: 		K: 	7	 V: 	Chessy_3	
+[00:00:06]: 		K: 	8	 V: 	Chessy_4	
+[00:00:06]: 		K: 	9	 V: 	Chessy_5	
+[00:00:06]: 		K: 	10	 V: 	Chessy_6	
+[00:00:06]: 		K: 	11	 V: 	Maxwell1	
+[00:00:06]: 		K: 	12	 V: 	Maxwell2	
+[00:00:06]: 		K: 	13	 V: 	Maxwell3	
+[00:00:06]: 		K: 	14	 V: 	Maxwell4	
+[00:00:06]: 		K: 	15	 V: 	Maxwell6	
+[00:00:06]: 		K: 	16	 V: 	Maxwell7	
+[00:00:06]: 		K: 	17	 V: 	Warzone_1	
+[00:00:06]: 		K: 	18	 V: 	Warzone_2	
+[00:00:06]: 		K: 	19	 V: 	Warzone_3	
+[00:00:06]: 	K: 	required_prefabs	 V: 	table: 0B8F99B0	
+[00:00:06]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:06]: 	K: 	substitutes	 V: 	table: 0B8F9A50	
+[00:00:06]: 	K: 	version	 V: 	3	
+[00:00:06]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:06]: Overwriting savedata with level data file.	
+[00:00:06]: Not applying world gen overrides.	
+[00:00:06]: unloading prefabs for mod MOD_workshop-100010058	
+[00:00:06]: unloading prefabs for mod MOD_workshop-100010062	
+[00:00:06]: unloading prefabs for mod MOD_workshop-2199027653598512025	
+[00:00:06]: unloading prefabs for mod MOD_workshop-100010024	
+[00:00:06]: unloading prefabs for mod MOD_workshop-100010027	
+[00:00:06]: unloading prefabs for mod MOD_workshop-100010002	
+[00:00:06]: unloading prefabs for mod MOD_workshop-100010023	
+[00:00:06]: Collecting garbage...
+[00:00:06]: lua_gc took 0.02 seconds
+[00:00:06]: ~ShardLuaProxy()
+[00:00:06]: ~ItemServerLuaProxy()
+[00:00:06]: ~InventoryLuaProxy()
+[00:00:06]: ~NetworkLuaProxy()
+[00:00:06]: ~SimLuaProxy()
+[00:00:06]: lua_close took 0.03 seconds
+[00:00:06]: ReleaseAll
+[00:00:06]: ReleaseAll Finished
+[00:00:06]: cGame::StartPlaying
+[00:00:06]: LOADING LUA
+[00:00:06]: DoLuaFile scripts/main.lua
+[00:00:06]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]: Translator:LoadPOFile - loading file: scripts/languages/simplifiedchinese.po	
+[00:00:07]: running main.lua
+	
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:07]: modoverrides.lua enabling workshop-100010027	
+[00:00:07]: modoverrides.lua enabling workshop-2199027653598512025	
+[00:00:07]: modoverrides.lua enabling workshop-100010062	
+[00:00:07]: modoverrides.lua enabling workshop-100010058	
+[00:00:07]: modoverrides.lua enabling workshop-100010024	
+[00:00:07]: modoverrides.lua enabling workshop-100010023	
+[00:00:07]: modoverrides.lua enabling workshop-100010002	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598512025	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010002	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:07]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:07]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:07]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:07]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:07]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:07]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:07]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:07]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:07]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:07]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:07]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:07]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:07]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:07]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:07]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:07]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:07]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:07]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:07]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010023	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:07]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:07]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:07]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:07]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:07]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:07]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:07]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:07]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:07]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:07]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:07]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:07]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:07]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:07]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:07]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:07]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:07]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:07]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:07]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:07]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:07]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:07]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:07]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:07]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:07]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:07]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:07]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:07]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:07]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:07]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:07]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:07]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:07]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:07]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:07]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:07]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:07]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:07]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010027	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:07]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:07]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:07]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:07]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:07]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:07]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:07]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:07]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:07]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:07]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:07]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:07]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:07]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:07]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:07]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:07]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:07]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:07]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:07]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010058	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:07]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:07]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:07]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:07]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:07]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:07]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:07]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:07]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:07]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:07]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:07]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:07]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:07]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:07]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:07]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:07]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:07]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:07]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:07]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010062	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:07]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:07]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:07]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:07]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:07]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:07]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:07]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:07]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:07]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:07]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:07]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:07]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:07]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:07]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:07]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:07]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:07]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:07]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:07]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-2199027653598512025	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:07]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598512025	
+[00:00:07]: Overriding mod workshop-2199027653598512025's option uses with value 10000000000	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:07]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:07]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:07]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:07]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:07]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:07]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:07]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:07]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:07]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:07]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:07]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:07]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:07]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:07]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:07]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:07]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:07]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:07]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:07]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:07]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:07]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:07]: Loading mod: workshop-2199027653598512025 (骑牛无限时间) Version:1.0.1	
+[00:00:07]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:00:07]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:00:07]: Mod: workshop-2199027653598512025 (骑牛无限时间)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-2199027653598512025 (骑牛无限时间)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-2199027653598512025 (骑牛无限时间)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:00:07]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:07]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:07]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:07]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598512025	
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:07]: Registering mod namespace "workshop-100010023"
+[00:00:07]: Registering mod namespace "food item"
+[00:00:08]: PlayerDeaths could not load morgue	
+[00:00:08]: PlayerHistory could not load player_history	
+[00:00:08]: bloom_enabled	false	
+[00:00:08]: OnLoad slot	2	: World options was nil! Populating with default.	
+[00:00:08]: OnLoad slot	3	: World options was nil! Populating with default.	
+[00:00:08]: OnLoad slot	4	: World options was nil! Populating with default.	
+[00:00:08]: OnLoad slot	5	: World options was nil! Populating with default.	
+[00:00:08]: loaded saveindex	
+[00:00:08]: OnFilesLoaded()	
+[00:00:08]: OnUpdatePurchaseStateComplete	
+[00:00:08]: Load Slot: ... generating new world	
+[00:00:08]: [IPC] Signal 'DST_Master_WorldGen' opened  #000005B0
+[00:00:08]: [IPC] Sending signal... #000005B0
+[00:00:08]: WorldSim::SimThread::SimThread()
+[00:00:08]: ABOUT TO INSTALL STACKTRACE
+[00:00:08]: DoLuaFile scripts/stacktrace.lua
+[00:00:08]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:08]: INSTALLED STACKTRACE
+[00:00:08]: WorldSim::SimThread::SimThread() complete
+[00:00:08]: THREAD - started 'WorldSim' (7528)
+[00:00:08]: WorldSim::SimThread::Main()
+[00:00:08]: DoLuaFile scripts/worldgen_main.lua
+[00:00:08]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:08]: ModIndex: Load sequence finished successfully.	
+[00:00:08]: Reset() returning
+[00:00:08]: Translator:LoadPOFile - loading file: scripts/languages/simplifiedchinese.po	
+[00:00:08]: DLC enabled : 	false	
+[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-100010027	
+[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-100010023	
+[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-2199027653598512025	
+[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-100010024	
+[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-100010002	
+[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-100010058	
+[00:00:08]: ModIndex:GetModsToLoad inserting modname, 	workshop-100010062	
+[00:00:08]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:00:08]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:00:08]: Loading mod: workshop-2199027653598512025 (骑牛无限时间) Version:1.0.1	
+[00:00:08]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:08]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:00:08]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:00:08]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:08]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-2199027653598512025 (骑牛无限时间)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-2199027653598512025 (骑牛无限时间)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:08]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:08]: running worldgen_main.lua
+	
+[00:00:08]: SEED = 	1494675801	
+[00:00:08]: Generating world with these parameters:	
+[00:00:08]: level_type	SURVIVAL	
+[00:00:08]: level_data:	
+[00:00:08]: 	K: 	1	 V: 	table: 0984B430	
+[00:00:08]: 		K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:00:08]: 		K: 	hideminimap	 V: 	false	
+[00:00:08]: 		K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:08]: 		K: 	location	 V: 	forest	
+[00:00:08]: 		K: 	max_playlist_position	 V: 	999	
+[00:00:08]: 		K: 	min_playlist_position	 V: 	0	
+[00:00:08]: 		K: 	name	 V: 	Default	
+[00:00:08]: 		K: 	numrandom_set_pieces	 V: 	4	
+[00:00:08]: 		K: 	ordered_story_setpieces	 V: 	table: 0984B4A8	
+[00:00:08]: 			K: 	1	 V: 	Sculptures_1	
+[00:00:08]: 			K: 	2	 V: 	Maxwell5	
+[00:00:08]: 		K: 	override_level_string	 V: 	false	
+[00:00:08]: 		K: 	overrides	 V: 	table: 06BE95D0	
+[00:00:08]: 			K: 	alternatehunt	 V: 	default	
+[00:00:08]: 			K: 	angrybees	 V: 	default	
+[00:00:08]: 			K: 	antliontribute	 V: 	default	
+[00:00:08]: 			K: 	autumn	 V: 	default	
+[00:00:08]: 			K: 	bearger	 V: 	default	
+[00:00:08]: 			K: 	beefalo	 V: 	default	
+[00:00:08]: 			K: 	beefaloheat	 V: 	default	
+[00:00:08]: 			K: 	bees	 V: 	default	
+[00:00:08]: 			K: 	berrybush	 V: 	default	
+[00:00:08]: 			K: 	birds	 V: 	default	
+[00:00:08]: 			K: 	boons	 V: 	default	
+[00:00:08]: 			K: 	branching	 V: 	default	
+[00:00:08]: 			K: 	butterfly	 V: 	default	
+[00:00:08]: 			K: 	buzzard	 V: 	default	
+[00:00:08]: 			K: 	cactus	 V: 	default	
+[00:00:08]: 			K: 	carrot	 V: 	default	
+[00:00:08]: 			K: 	catcoon	 V: 	default	
+[00:00:08]: 			K: 	chess	 V: 	default	
+[00:00:08]: 			K: 	day	 V: 	default	
+[00:00:08]: 			K: 	deciduousmonster	 V: 	default	
+[00:00:08]: 			K: 	deerclops	 V: 	default	
+[00:00:08]: 			K: 	disease_delay	 V: 	none	
+[00:00:08]: 			K: 	dragonfly	 V: 	default	
+[00:00:08]: 			K: 	flint	 V: 	default	
+[00:00:08]: 			K: 	flowers	 V: 	default	
+[00:00:08]: 			K: 	frograin	 V: 	default	
+[00:00:08]: 			K: 	goosemoose	 V: 	default	
+[00:00:08]: 			K: 	grass	 V: 	default	
+[00:00:08]: 			K: 	houndmound	 V: 	default	
+[00:00:08]: 			K: 	hounds	 V: 	default	
+[00:00:08]: 			K: 	hunt	 V: 	default	
+[00:00:08]: 			K: 	krampus	 V: 	default	
+[00:00:08]: 			K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:08]: 			K: 	liefs	 V: 	default	
+[00:00:08]: 			K: 	lightning	 V: 	default	
+[00:00:08]: 			K: 	lightninggoat	 V: 	default	
+[00:00:08]: 			K: 	loop	 V: 	default	
+[00:00:08]: 			K: 	lureplants	 V: 	default	
+[00:00:08]: 			K: 	marshbush	 V: 	default	
+[00:00:08]: 			K: 	merm	 V: 	default	
+[00:00:08]: 			K: 	meteorshowers	 V: 	default	
+[00:00:08]: 			K: 	meteorspawner	 V: 	default	
+[00:00:08]: 			K: 	moles	 V: 	default	
+[00:00:08]: 			K: 	mushroom	 V: 	default	
+[00:00:08]: 			K: 	penguins	 V: 	default	
+[00:00:08]: 			K: 	perd	 V: 	default	
+[00:00:08]: 			K: 	petrification	 V: 	default	
+[00:00:08]: 			K: 	pigs	 V: 	default	
+[00:00:08]: 			K: 	ponds	 V: 	default	
+[00:00:08]: 			K: 	prefabswaps_start	 V: 	default	
+[00:00:08]: 			K: 	rabbits	 V: 	default	
+[00:00:08]: 			K: 	reeds	 V: 	default	
+[00:00:08]: 			K: 	regrowth	 V: 	default	
+[00:00:08]: 			K: 	roads	 V: 	default	
+[00:00:08]: 			K: 	rock	 V: 	default	
+[00:00:08]: 			K: 	rock_ice	 V: 	default	
+[00:00:08]: 			K: 	sapling	 V: 	default	
+[00:00:08]: 			K: 	season_start	 V: 	default	
+[00:00:08]: 			K: 	specialevent	 V: 	default	
+[00:00:08]: 			K: 	spiders	 V: 	default	
+[00:00:08]: 			K: 	spring	 V: 	default	
+[00:00:08]: 			K: 	start_location	 V: 	default	
+[00:00:08]: 			K: 	summer	 V: 	default	
+[00:00:08]: 			K: 	tallbirds	 V: 	default	
+[00:00:08]: 			K: 	task_set	 V: 	default	
+[00:00:08]: 			K: 	tentacles	 V: 	default	
+[00:00:08]: 			K: 	touchstone	 V: 	default	
+[00:00:08]: 			K: 	trees	 V: 	default	
+[00:00:08]: 			K: 	tumbleweed	 V: 	default	
+[00:00:08]: 			K: 	walrus	 V: 	default	
+[00:00:08]: 			K: 	weather	 V: 	default	
+[00:00:08]: 			K: 	wildfires	 V: 	default	
+[00:00:08]: 			K: 	winter	 V: 	default	
+[00:00:08]: 			K: 	world_size	 V: 	default	
+[00:00:08]: 			K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:08]: 		K: 	random_set_pieces	 V: 	table: 06BE8B30	
+[00:00:08]: 			K: 	1	 V: 	Sculptures_2	
+[00:00:08]: 			K: 	2	 V: 	Sculptures_3	
+[00:00:08]: 			K: 	3	 V: 	Sculptures_4	
+[00:00:08]: 			K: 	4	 V: 	Sculptures_5	
+[00:00:08]: 			K: 	5	 V: 	Chessy_1	
+[00:00:08]: 			K: 	6	 V: 	Chessy_2	
+[00:00:08]: 			K: 	7	 V: 	Chessy_3	
+[00:00:08]: 			K: 	8	 V: 	Chessy_4	
+[00:00:08]: 			K: 	9	 V: 	Chessy_5	
+[00:00:08]: 			K: 	10	 V: 	Chessy_6	
+[00:00:08]: 			K: 	11	 V: 	Maxwell1	
+[00:00:08]: 			K: 	12	 V: 	Maxwell2	
+[00:00:08]: 			K: 	13	 V: 	Maxwell3	
+[00:00:08]: 			K: 	14	 V: 	Maxwell4	
+[00:00:08]: 			K: 	15	 V: 	Maxwell6	
+[00:00:08]: 			K: 	16	 V: 	Maxwell7	
+[00:00:08]: 			K: 	17	 V: 	Warzone_1	
+[00:00:08]: 			K: 	18	 V: 	Warzone_2	
+[00:00:08]: 			K: 	19	 V: 	Warzone_3	
+[00:00:08]: 		K: 	required_prefabs	 V: 	table: 06BE8BD0	
+[00:00:08]: 			K: 	1	 V: 	multiplayer_portal	
+[00:00:08]: 		K: 	substitutes	 V: 	table: 06BE8E00	
+[00:00:08]: 		K: 	version	 V: 	3	
+[00:00:08]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:08]: Prefab Swap Selection: grass gekko	
+[00:00:08]: Prefab Swap Selection: twiggy trees	
+[00:00:08]: Prefab Swap Selection: juicy berries	
+[00:00:09]: Chessy_6	added to	The hunters	
+[00:00:09]: Maxwell3	added to	The hunters	
+[00:00:09]: Maxwell6	added to	Beeeees!	
+[00:00:09]: Sculptures_3	added to	The hunters	
+[00:00:09]: New size:	425	default	
+[00:00:09]: Creating story...	
+[00:00:09]: LinkNodesByKeys	
+[00:00:09]: Finding valid start task...	
+[00:00:09]:    ...picked 	Make a pick	
+[00:00:09]: Has start node	Clearing	
+[00:00:09]: Baking map...	425	
+[00:00:09]: [WorldSimActual::GenerateVoronoiMap]
+[00:00:09]: GenerateVoronoiMap [1]:
+[00:00:09]: ...Done.
+[00:00:09]: [AddEmptyNodes]
+[00:00:09]: GenerateVoronoiMap [100]:
+[00:00:11]: ...Done.
+[00:00:11]: [WorldSimActual::GenerateVoronoiMap] complete [success]
+[00:00:11]: [WorldSimActual::ConvertToTileMap]
+[00:00:11]: [ConvertToTileMap]
+[00:00:11]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:11]: [WorldSimActual::SeparateIslands]
+[00:00:11]: [SeparateIslands]
+[00:00:11]: [WorldSimActual::SeparateIslands] complete
+[00:00:11]: Map Baked!	
+[00:00:11]: [WorldSimActual::ForceConnectivity]
+[00:00:11]: [GenerateLandmasses]
+[00:00:11]: [MergeConnectedLandmasses] true
+[00:00:11]: [WorldSimActual::ForceConnectivity] complete
+[00:00:11]: [GetWormholesExtra] connected 0 unconnected 1
+[00:00:11]: [GetWormholesExtra] after: connected 1 unconnected 0
+[00:00:11]: [GetWormholesExtra] pushed 0 wormholes
+[00:00:11]: [WorldSimActual::DrawRoads]
+[00:00:11]: [DrawRoads]
+[00:00:11]: [WorldSimActual::DrawRoads] complete
+[00:00:11]: Encoding...	
+[00:00:11]: Encoding... DONE	
+[00:00:11]: Checking Tags	
+[00:00:11]: Populating voronoi...	
+[00:00:12]: Warning! Could not find a spot for Maxwell6 in node Beeeees!:BG_48:BGGrass	
+[00:00:12]: disconnected tiles...	0	
+[00:00:13]: Checking Required Prefab multiplayer_portal has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab pigking has at least 1 instances (1 found).	
+[00:00:13]: Done forest map gen!	
+[00:00:13]: Checking map...	
+[00:00:13]: Generation complete	
+[00:00:13]: WorldSim::SimThread::Main() complete
+[00:00:13]: Serializing world: session/0AD53BC530BB631E/0000000002
+[00:00:13]: 	Unload FE	
+[00:00:13]: 	Unload FE done	
+[00:00:14]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:00:14]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:00:14]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-2199027653598512025 (骑牛无限时间)	Registering prefabs	
+[00:00:14]: Mod: workshop-2199027653598512025 (骑牛无限时间)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:00:14]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:00:14]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-100010002 (Damage Indicators)	Registering prefabs	
+[00:00:14]: Mod: workshop-100010002 (Damage Indicators)	  Registering prefab file: prefabs/dmgind	
+[00:00:14]: Mod: workshop-100010002 (Damage Indicators)	    dmgind	
+[00:00:14]: Mod: workshop-100010002 (Damage Indicators)	  Registering default mod prefab	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	Registering prefabs	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	    globalposition_classified	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	    smoketrail	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	    ping_generic	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	    ping_omw	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	    ping_danger	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	    ping_explore	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	    ping_gohere	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	    globalmapicon_noproxy	
+[00:00:14]: Mod: workshop-100010023 (Global Positions)	  Registering default mod prefab	
+[00:00:14]: 	LOAD BE	
+[00:00:16]: 	LOAD BE: done	
+[00:00:16]: Begin Session: 0AD53BC530BB631E
+[00:00:16]: saving to server_temp/server_save	
+[00:00:16]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/campfire.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_generic.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_gohere.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_explore.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_danger.xml )
+[00:00:16]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_omw.xml )
+[00:00:17]: Loading Nav Grid	
+[00:00:18]: OVERRIDE: setting	disease_delay	to	none	
+[00:00:22]: Reconstructing topology	
+[00:00:22]: 	...Sorting points	
+[00:00:22]: 	...Sorting edges	
+[00:00:22]: 	...Connecting nodes	
+[00:00:22]: 	...Validating connections	
+[00:00:22]: 	...Housekeeping	
+[00:00:22]: 	...Done!	
+[00:00:22]: 1 uploads added to server. From server_temp
+[00:00:22]: About to start a shard with these settings:
+[00:00:22]:   ShardName: [SHDMASTER]
+[00:00:22]:   ShardID: 1
+[00:00:22]:   ShardRole: MASTER
+[00:00:22]:   MasterHost: (null)
+[00:00:22]:   MasterBind: 127.0.0.1
+[00:00:22]:   MasterPort: 10888
+[00:00:22]: [Shard] Starting master server
+[00:00:22]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:22]: [Shard] Shard server started on port: 10888
+[00:00:22]: [IPC] Signal 'DST_Master_Ready' opened  #0000057C
+[00:00:22]: [IPC] Sending signal... #0000057C
+[00:00:22]: Telling Client our new session identifier: 0AD53BC530BB631E
+[00:00:22]: [Rail] Creating game server...
+[00:00:22]: [Rail] Done.
+[00:00:22]: Validating portal[1] <-> <nil>[1] (inactive)	
+[00:00:22]: Validating portal[2] <-> <nil>[2] (inactive)	
+[00:00:22]: Validating portal[3] <-> <nil>[3] (inactive)	
+[00:00:22]: Validating portal[4] <-> <nil>[4] (inactive)	
+[00:00:22]: Validating portal[5] <-> <nil>[5] (inactive)	
+[00:00:22]: Validating portal[6] <-> <nil>[6] (inactive)	
+[00:00:22]: Validating portal[7] <-> <nil>[7] (inactive)	
+[00:00:22]: Validating portal[8] <-> <nil>[8] (inactive)	
+[00:00:22]: Validating portal[9] <-> <nil>[9] (inactive)	
+[00:00:22]: Validating portal[10] <-> <nil>[10] (inactive)	
+[00:00:23]: [Rail] Game server created.
+[00:00:23]: [P2P] Setting rail id 90071997165490695
+[00:00:23]: Sim paused
+[00:00:23]: [Rail] Register to server list success.
+[00:00:27]: [Shard] Slave Caves(1630157245) connected: [LAN] 127.0.0.1
+[00:00:30]: [Shard] Slave Caves(1630157245) ready!
+[00:00:30]: World 1630157245 is now connected	
+[00:00:30]: Validating portal[1] <-> 1630157245[1] (disabled)	
+[00:00:30]: Validating portal[2] <-> 1630157245[2] (disabled)	
+[00:00:30]: Validating portal[3] <-> 1630157245[3] (disabled)	
+[00:00:30]: Validating portal[4] <-> 1630157245[4] (disabled)	
+[00:00:30]: Validating portal[5] <-> 1630157245[5] (disabled)	
+[00:00:30]: Validating portal[6] <-> 1630157245[6] (disabled)	
+[00:00:30]: Validating portal[7] <-> 1630157245[7] (disabled)	
+[00:00:30]: Validating portal[8] <-> 1630157245[8] (disabled)	
+[00:00:30]: Validating portal[9] <-> 1630157245[9] (disabled)	
+[00:00:30]: Validating portal[10] <-> 1630157245[10] (disabled)	
+[00:00:32]: New incoming connection 127.0.0.1|65026 <3756590240361213607>
+[00:00:32]: Client connected from [LAN] 127.0.0.1|65026 <3756590240361213607>
+[00:00:32]: ValidateGameSessionToken pgs-sing^KU_3RvV-H5E^DontStarveTogether^4JvrzNiE0aUDvU8G+G2qCoGwQ4c3SwfPeSg04Wogq34= for <3756590240361213607>
+[00:00:32]: Client authenticated: (KU_3RvV-H5E) 
+[00:00:35]: [Shard] Read save location file for (KU_3RvV-H5E)
+[00:00:35]: [Rail] Reporting played with: "" (R:76561197973341873).
+[00:00:35]: [Rail] Reporting player join "" (R:76561197973341873).
+[00:00:44]: Resuming user: session/0AD53BC530BB631E/KU_3RvV-H5E_
+[00:01:10]: Spawn request: wathgrithr from 
+[00:01:10]: Skin request: (wathgrithr_none) (body_pj_purple_mauve) (hand_wilson_formal) (legs_skirt_basic_pink_pigman) ()
+[00:01:10]: Spawning player at: [Fixed] (154.00, 0.00, 114.00)	
+[00:01:10]: Serializing user: session/0AD53BC530BB631E/KU_3RvV-H5E_/0000000003
+[00:01:10]: Sim unpaused
+[00:01:26]: New incoming connection 10.21.25.41|57620 <5782748173861119787>
+[00:01:26]: Client connected from [LAN] 10.21.25.41|57620 <5782748173861119787>
+[00:01:26]: ValidateGameSessionToken pgs-sing^KU_q87X4g9W^DontStarveTogether^ovy+F8g8w1nCssms/or5kkHa7UkzCLjPzCWWGhldW+U= for <5782748173861119787>
+[00:01:27]: Client authenticated: (KU_q87X4g9W) 
+[00:01:28]: [Shard] Read save location file for (KU_q87X4g9W)
+[00:01:28]: [Rail] Reporting played with: "" (R:76561197973379781).
+[00:01:28]: [Rail] Reporting player join "" (R:76561197973379781).
+[00:01:35]: Resuming user: session/0AD53BC530BB631E/KU_q87X4g9W_
+[00:02:23]: Spawn request: wolfgang from 
+[00:02:23]: Skin request: (wolfgang_none) (body_buttons_white_ghost) () (legs_pants_basic_brown_sepia) (feet_sneakers_blue_catcoon)
+[00:02:23]: Spawning player at: [Fixed] (154.00, 0.00, 114.00)	
+[00:02:23]: Serializing user: session/0AD53BC530BB631E/KU_q87X4g9W_/0000000003
+[00:05:02]: [SYSMEM]43% - PH:6835m/12177m PG:7927m/14033m VRT:3388m/4095m XM:0m
+[00:05:02]: [PRCMEM]PWS:558m WS:552m PPU:273k PU 242k PNU:138k NU:105k PF:566m PPF:573m
+[00:06:13]: Could not find anim [death] in bank [ghost]
+[00:06:13]: Serializing user: session/0AD53BC530BB631E/KU_3RvV-H5E_/0000000003
+[00:06:16]: [Shard] (KU_3RvV-H5E) disconnected from [SHDMASTER](1)
+[00:06:16]: [Rail] Reporting player quit "" (R:76561197973341873).
+[00:06:16]: [IPC] Received shutdown signal.
+[00:06:16]: Serializing user: session/0AD53BC530BB631E/KU_3RvV-H5E_/0000000003
+[00:06:16]: Serializing user: session/0AD53BC530BB631E/KU_q87X4g9W_/0000000003
+[00:06:16]: Serializing world: session/0AD53BC530BB631E/0000000003
+[00:06:16]: unloading prefabs for mod MOD_workshop-100010058	
+[00:06:16]: unloading prefabs for mod MOD_workshop-100010062	
+[00:06:16]: unloading prefabs for mod MOD_workshop-2199027653598512025	
+[00:06:16]: unloading prefabs for mod MOD_workshop-100010024	
+[00:06:16]: unloading prefabs for mod MOD_workshop-100010027	
+[00:06:16]: unloading prefabs for mod MOD_workshop-100010002	
+[00:06:16]: unloading prefabs for mod MOD_workshop-100010023	
+[00:06:16]: [Shard] Stopping shard mode
+[00:06:17]: Collecting garbage...
+[00:06:17]: lua_gc took 0.14 seconds
+[00:06:17]: ~ShardLuaProxy()
+[00:06:17]: ~ItemServerLuaProxy()
+[00:06:17]: ~InventoryLuaProxy()
+[00:06:17]: ~NetworkLuaProxy()
+[00:06:17]: ~SimLuaProxy()
+[00:06:17]: lua_close took 0.26 seconds
+[00:06:17]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[00:06:17]: shaders/ui_yuv.ksh - 1
+[00:06:17]: CurlRequestManager::ClientThread::Main() complete
+[00:06:17]: HttpClient2 discarded 1 callbacks.
+[00:06:17]: [Rail] Shutting down Rail
+[00:06:17]: Shutting down

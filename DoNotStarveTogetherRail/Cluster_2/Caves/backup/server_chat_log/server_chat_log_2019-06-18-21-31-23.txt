@@ -1,0 +1,6 @@
+[00:00:45]: [Join Announcement] @Viru Man
+[00:01:06]: [Join Announcement] Fairy Law
+[00:01:29]: [Leave Announcement] Fairy Law
+[00:02:51]: [Join Announcement] Fairy Law
+[00:03:51]: [Leave Announcement] Fairy Law
+[00:04:02]: [Leave Announcement] @Viru Man

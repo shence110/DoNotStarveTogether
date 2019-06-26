@@ -1,0 +1,7 @@
+[00:01:01]: [Join Announcement] @Viru Man
+[00:01:38]: [Join Announcement] Fairy Law
+[01:07:29]: [Skin Announcement] @Viru Man body_tshirt_white_smoke
+[02:22:29]: [Skin Announcement] @Viru Man body_buttons_red_burgundy
+[03:13:19]: [Death Announcement] Fairy Law 被此人杀死： 冰猎犬. 她变成了可怕的鬼魂！
+[03:13:26]: [Leave Announcement] @Viru Man
+[03:13:27]: [Leave Announcement] Fairy Law

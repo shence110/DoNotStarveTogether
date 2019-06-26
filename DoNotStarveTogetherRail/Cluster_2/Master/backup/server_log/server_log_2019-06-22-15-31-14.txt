@@ -1,0 +1,2073 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 49%
+	Available Physical Memory: 6197m/12177m
+	Available Page File: 3743m/12945m
+	Available Virtual Memory: 3991m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 11m
+	Working Set Size: 11m
+	Quota Peak Page Pool Usage: 194k
+	Quota Page Pool Usage: 192k
+	Quota Peak Non Paged Pool Usage:15k
+	Quota Non Paged Pool Usage: 14k
+	Page File Usage: 3m
+	Peak Page File Usage: 3m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/Cluster_2/Master/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 341205
+[00:00:00]: Current time: Fri Jun 21 15:11:02 2019
+
+[00:00:00]: Don't Starve Together: 341205 WIN32
+[00:00:00]: Build Date: 4215
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 15984 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogetherRail -cluster Cluster_2 -ownernetid R:76561197973341873 -backup_log_count 10 -backup_log_period 0 -shard Master -sigprefix DST_Master -region China --rail_platform_type=1 --rail_app_type=2 --rail_channel_id=1600025984 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: [Rail] Initializing Rail (2000004)
+[00:00:00]: [Rail] Rail SDK version 1.8.6.0
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (7020)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:6.42
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: THREAD - started 'Ping Job Thread' (16508)
+[00:00:00]: Platform: 4
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application D:\WeGame\rail_apps\
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: Overriding region to China
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (22200)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: RU_76561197973341873
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/Cluster_2/cluster_token.txt
+[00:00:01]: Token retrieved from: APP:Klei//DoNotStarveTogetherRail/Cluster_2/cluster_token.txt
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 企业版
+    version                   10.0.17134
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2304
+  RAM                       
+    megsOfRam                 12288
+  GPU                       
+    name                      Intel(R) HD Graphics 530
+    driverDate                20170724000000.000000-000
+    megsOfRam                 1024
+    refreshRate               0
+    videoModeDescription      
+    driverVersion             22.20.16.4749
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:02]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:03]:   taskgrouplist:	default	联机版	
+[00:00:03]:   taskgrouplist:	classic	经典	
+[00:00:03]:   taskgrouplist:	cave_default	地下	
+[00:00:03]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:03]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:03]: running main.lua
+	
+[00:00:03]: loaded modindex	
+[00:00:03]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:03]: DownloadMods(0)
+[00:00:03]: modoverrides.lua enabling workshop-100010027	
+[00:00:03]: modoverrides.lua enabling workshop-100010018	
+[00:00:03]: modoverrides.lua enabling workshop-100010023	
+[00:00:03]: modoverrides.lua enabling workshop-100010002	
+[00:00:03]: modoverrides.lua enabling workshop-100010022	
+[00:00:03]: modoverrides.lua enabling workshop-100010059	
+[00:00:03]: modoverrides.lua enabling workshop-2199027653598519491	
+[00:00:03]: modoverrides.lua enabling workshop-100010062	
+[00:00:03]: modoverrides.lua enabling workshop-100010058	
+[00:00:03]: modoverrides.lua enabling workshop-100010034	
+[00:00:03]: modoverrides.lua enabling workshop-100010024	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010018	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010034	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010002_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010018_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010018 ( Don't Drop Everything) Version:1.1	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010022_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010023_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010034_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010034 (Tools Are Fuels) Version:1.1	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010059_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:03]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491_CLIENT	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:03]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:03]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:03]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:03]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:03]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:03]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:03]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:03]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:03]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:03]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:03]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:03]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:03]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:03]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:03]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:03]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:03]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:03]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:03]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:03]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:03]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:03]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:03]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:03]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:03]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:03]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:03]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:03]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:03]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:03]: Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:00:03]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010022 (Slot Machine)	Loading modmain.lua	
+[00:00:03]: modimport: ../mods/workshop-100010022/lib_ver.lua	
+[00:00:03]: 1.05	Slot Machine	
+[00:00:03]: modimport: ../mods/workshop-100010022/lib_fn.lua	
+[00:00:03]: 1.05	Slot Machine	
+[00:00:03]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:00:03]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:00:03]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-100010034 (Tools Are Fuels)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010034 (Tools Are Fuels)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010034 (Tools Are Fuels)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-100010018 ( Don't Drop Everything)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010018 ( Don't Drop Everything)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010018 ( Don't Drop Everything)	Loading modmain.lua	
+[00:00:03]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:03]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:03]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010018	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010034	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:03]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:00:03]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: Registering mod namespace "workshop-100010023"
+[00:00:04]: Registering mod namespace "food item"
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory could not load player_history	
+[00:00:04]: ServerPreferences could not load server_preferences	
+[00:00:04]: bloom_enabled	false	
+[00:00:04]: loaded saveindex	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:04]: Klump load on boot started.	
+[00:00:04]: Klump files loaded: 	0	
+[00:00:06]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-100010022 (Slot Machine)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/dubloon	
+[00:00:06]: Mod: workshop-100010022 (Slot Machine)	    dubloon	
+[00:00:06]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/slotmachine	
+[00:00:06]: Mod: workshop-100010022 (Slot Machine)	    slotmachine	
+[00:00:06]: Mod: workshop-100010022 (Slot Machine)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:00:06]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-100010034 (Tools Are Fuels)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010034 (Tools Are Fuels)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-100010002 (Damage Indicators)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010002 (Damage Indicators)	  Registering prefab file: prefabs/dmgind	
+[00:00:06]: Mod: workshop-100010002 (Damage Indicators)	    dmgind	
+[00:00:06]: Mod: workshop-100010002 (Damage Indicators)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Registering prefabs	
+[00:00:06]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-100010018 ( Don't Drop Everything)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010018 ( Don't Drop Everything)	  Registering default mod prefab	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	Registering prefabs	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	    globalposition_classified	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	    smoketrail	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	    ping_generic	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	    ping_omw	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	    ping_danger	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	    ping_explore	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	    ping_gohere	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	    globalmapicon_noproxy	
+[00:00:06]: Mod: workshop-100010023 (Global Positions)	  Registering default mod prefab	
+[00:00:06]: 	Load FE	
+[00:00:07]: 	Load FE: done	
+[00:00:07]: THREAD - started 'FilesExistAsyncThread' (10712)
+[00:00:07]: FilesExistAsyncThread started (10807 files)...
+[00:00:07]: ModIndex: Load sequence finished successfully.	
+[00:00:07]: Reset() returning
+[00:00:07]: [IPC] Signal 'DST_Master_Kill' opened  #00000498
+[00:00:07]: [IPC] Registering handler for signal #00000498
+[00:00:07]: [IPC] Handle #00000498 added to the Eventhandles
+[00:00:07]: [IPC] Signal 'DST_Master_Starting' opened  #000005B0
+[00:00:07]: [IPC] Sending signal... #000005B0
+[00:00:07]: ... FilesExistAsyncThread complete
+[00:00:07]: [200] Account Communication Success (6)
+[00:00:07]: Received (KU_3RvV-H5E) from TokenPurpose
+[00:00:07]: Starting Dedicated Server Game	
+[00:00:07]: Network tick rate: U=15(2), D=0
+[00:00:07]: About to start a server with the following settings:
+[00:00:07]:   Dedicated: true
+[00:00:07]:   Online: true
+[00:00:07]:   Passworded: true
+[00:00:07]:   ServerPort: 10999
+[00:00:07]:   SteamAuthPort: 8766
+[00:00:07]:   SteamMasterServerPort: 27016
+[00:00:07]:   ClanID: false
+[00:00:07]:   ClanOnly: false
+[00:00:07]:   ClanAdmin: false
+[00:00:07]:   LanOnly: false
+[00:00:07]:   FriendsOnly: false
+[00:00:07]:   EnableAutosaver: true
+[00:00:07]:   EncodeUserPath: true
+[00:00:07]:   PVP: false
+[00:00:07]:   MaxPlayers: 3
+[00:00:07]:   GameMode: survival
+[00:00:07]:   OverridenDNS: 
+[00:00:07]:   PauseWhenEmpty: true
+[00:00:07]:   IdleTimeout: 1800s
+[00:00:07]:   VoteEnabled: false
+[00:00:07]:   InternetBroadcasting: true
+[00:00:07]:   Intent: cooperative
+[00:00:07]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010027	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010034	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010002	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010058	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010023	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010022	
+[00:00:07]: Could not load mod_config_data/modconfiguration_workshop-100010062	
+[00:00:07]: Online Server Started on port: 10999
+[00:00:08]: [Rail] Punchthrough start.
+[00:00:08]: Collecting garbage...
+[00:00:08]: lua_gc took 0.03 seconds
+[00:00:08]: ~ShardLuaProxy()
+[00:00:08]: ~cEventLeaderboardProxy()
+[00:00:08]: ~ItemServerLuaProxy()
+[00:00:08]: ~InventoryLuaProxy()
+[00:00:08]: ~NetworkLuaProxy()
+[00:00:08]: ~SimLuaProxy()
+[00:00:08]: lua_close took 0.04 seconds
+[00:00:08]: ReleaseAll
+[00:00:08]: ReleaseAll Finished
+[00:00:08]: cGame::StartPlaying
+[00:00:08]: LOADING LUA
+[00:00:08]: DoLuaFile scripts/main.lua
+[00:00:08]: DoLuaFile loading buffer scripts/main.lua
+[00:00:08]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:09]:   taskgrouplist:	default	联机版	
+[00:00:09]:   taskgrouplist:	classic	经典	
+[00:00:09]:   taskgrouplist:	cave_default	地下	
+[00:00:09]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:09]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:09]: running main.lua
+	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010059	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010058	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010022	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010062	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010024	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010027	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010034	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010002	
+[00:00:09]: unloading prefabs for mod MOD_workshop-2199027653598519491	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010018	
+[00:00:09]: unloading prefabs for mod MOD_workshop-100010023	
+[00:00:09]: loaded modindex	
+[00:00:09]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:09]: modoverrides.lua enabling workshop-100010027	
+[00:00:09]: modoverrides.lua enabling workshop-100010018	
+[00:00:09]: modoverrides.lua enabling workshop-100010023	
+[00:00:09]: modoverrides.lua enabling workshop-100010002	
+[00:00:09]: modoverrides.lua enabling workshop-100010022	
+[00:00:09]: modoverrides.lua enabling workshop-100010059	
+[00:00:09]: modoverrides.lua enabling workshop-2199027653598519491	
+[00:00:09]: modoverrides.lua enabling workshop-100010062	
+[00:00:09]: modoverrides.lua enabling workshop-100010058	
+[00:00:09]: modoverrides.lua enabling workshop-100010034	
+[00:00:09]: modoverrides.lua enabling workshop-100010024	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010018	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010034	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010002	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010018	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010018 ( Don't Drop Everything) Version:1.1	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010022	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010023	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010024	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010027	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010034 (Tools Are Fuels) Version:1.1	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010058	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010059 (Extra Equip Slots) Version:1.8.0	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-100010062	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:09]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010027	
+[00:00:09]: Overriding mod workshop-100010027's option Draw over FoW with value disabled	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010018	
+[00:00:09]: Overriding mod workshop-100010018's option kong with value 0	
+[00:00:09]: Overriding mod workshop-100010018's option maxdiaoluo with value 4	
+[00:00:09]: Overriding mod workshop-100010018's option mindiaoluo with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010023	
+[00:00:09]: Overriding mod workshop-100010023's option FIREOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHAREMINIMAPPROGRESS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERICONS with value true	
+[00:00:09]: Overriding mod workshop-100010023's option OVERRIDEMODE with value false	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWPLAYERSOPTIONS with value 2	
+[00:00:09]: Overriding mod workshop-100010023's option SHOWFIREICONS with value true	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010002	
+[00:00:09]: Overriding mod workshop-100010002's option dmg_only with value on	
+[00:00:09]: Overriding mod workshop-100010002's option amount_of_numbers with value default	
+[00:00:09]: Overriding mod workshop-100010002's option show_decimal_points with value no	
+[00:00:09]: Overriding mod workshop-100010002's option display_mode with value waving	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010022	
+[00:00:09]: Overriding mod workshop-100010022's option rec_dubloon with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option rec_gold with value 3	
+[00:00:09]: Overriding mod workshop-100010022's option dont_give_dubloons with value 2	
+[00:00:09]: Overriding mod workshop-100010022's option position with value 1	
+[00:00:09]: Overriding mod workshop-100010022's option give_dubloons with value 1	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010059	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-2199027653598519491	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010062	
+[00:00:09]: Overriding mod workshop-100010062's option random_range with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option divider with value 5	
+[00:00:09]: Overriding mod workshop-100010062's option use_blacklist with value true	
+[00:00:09]: Overriding mod workshop-100010062's option unknwon_prefabs with value 1	
+[00:00:09]: Overriding mod workshop-100010062's option show_type with value 0	
+[00:00:09]: Overriding mod workshop-100010062's option send_unknwon_prefabs with value true	
+[00:00:09]: Overriding mod workshop-100010062's option random_health_value with value 0	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010058	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_Language with value CN	
+[00:00:09]: Overriding mod workshop-100010058's option DFV_MinimalMode with value default	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010034	
+[00:00:09]: applying configuration_options from modoverrides.lua to mod workshop-100010024	
+[00:00:09]: Overriding mod workshop-100010024's option FoodSpoilage with value 0	
+[00:00:09]: Overriding mod workshop-100010024's option Destroyable with value yees	
+[00:00:09]: Overriding mod workshop-100010024's option Slots with value 80	
+[00:00:09]: Overriding mod workshop-100010024's option Position with value Center	
+[00:00:09]: Overriding mod workshop-100010024's option Language with value En	
+[00:00:09]: Overriding mod workshop-100010024's option Craft with value Easy	
+[00:00:09]: Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:00:09]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010059 (Extra Equip Slots)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010059 (Extra Equip Slots)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010022 (Slot Machine)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-100010022/lib_ver.lua	
+[00:00:09]: 1.05	Slot Machine	
+[00:00:09]: modimport: ../mods/workshop-100010022/lib_fn.lua	
+[00:00:09]: 1.05	Slot Machine	
+[00:00:09]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:00:09]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:00:09]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-100010034 (Tools Are Fuels)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010034 (Tools Are Fuels)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010034 (Tools Are Fuels)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-100010018 ( Don't Drop Everything)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010018 ( Don't Drop Everything)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010018 ( Don't Drop Everything)	Loading modmain.lua	
+[00:00:09]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:09]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:09]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010018	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010034	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010059	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:00:09]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:00:10]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:10]: LOADING LUA SUCCESS
+[00:00:10]: Registering mod namespace "workshop-100010023"
+[00:00:10]: Registering mod namespace "food item"
+[00:00:10]: PlayerDeaths could not load morgue	
+[00:00:10]: PlayerHistory could not load player_history	
+[00:00:10]: ServerPreferences could not load server_preferences	
+[00:00:10]: bloom_enabled	false	
+[00:00:10]: loaded saveindex	
+[00:00:10]: OnFilesLoaded()	
+[00:00:10]: OnUpdatePurchaseStateComplete	
+[00:00:10]: Loading world: session/6E9D7551A33ADA7F/0000000144	
+[00:00:10]: Save file is at version 4.77	
+[00:00:10]: Klump load on boot started.	
+[00:00:10]: Klump files loaded: 	0	
+[00:00:10]: 	Unload FE	
+[00:00:10]: 	Unload FE done	
+[00:00:12]: Mod: workshop-100010059 (Extra Equip Slots)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010059 (Extra Equip Slots)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-100010022 (Slot Machine)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/dubloon	
+[00:00:12]: Mod: workshop-100010022 (Slot Machine)	    dubloon	
+[00:00:12]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/slotmachine	
+[00:00:12]: Mod: workshop-100010022 (Slot Machine)	    slotmachine	
+[00:00:12]: Mod: workshop-100010022 (Slot Machine)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:00:12]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:00:12]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:00:12]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-100010034 (Tools Are Fuels)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010034 (Tools Are Fuels)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-100010002 (Damage Indicators)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010002 (Damage Indicators)	  Registering prefab file: prefabs/dmgind	
+[00:00:12]: Mod: workshop-100010002 (Damage Indicators)	    dmgind	
+[00:00:12]: Mod: workshop-100010002 (Damage Indicators)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Registering prefabs	
+[00:00:12]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-100010018 ( Don't Drop Everything)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010018 ( Don't Drop Everything)	  Registering default mod prefab	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	Registering prefabs	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	    globalposition_classified	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	    smoketrail	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	    ping_generic	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	    ping_omw	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	    ping_danger	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	    ping_explore	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	    ping_gohere	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	    globalmapicon_noproxy	
+[00:00:12]: Mod: workshop-100010023 (Global Positions)	  Registering default mod prefab	
+[00:00:12]: 	LOAD BE	
+[00:00:14]: 	LOAD BE: done	
+[00:00:14]: Begin Session: 6E9D7551A33ADA7F
+[00:00:14]: saving to server_temp/server_save	
+[00:00:15]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/campfire.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_generic.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_gohere.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_explore.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_danger.xml )
+[00:00:15]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_omw.xml )
+[00:00:15]: Loading 14 new character(s)	
+[00:00:15]: Total 14 character(s) loaded	
+[00:00:15]: Loading Nav Grid	
+[00:00:15]: setting 	summerlength	15	
+[00:00:15]: setting 	isnightmaredawn	false	
+[00:00:15]: setting 	elapseddaysinseason	11	
+[00:00:15]: setting 	isfullmoon	false	
+[00:00:15]: setting 	moisture	1170.9327392578	
+[00:00:15]: setting 	springlength	20	
+[00:00:15]: setting 	isnightmarewild	false	
+[00:00:15]: setting 	moonphase	half	
+[00:00:15]: setting 	precipitationrate	0	
+[00:00:15]: setting 	iswet	false	
+[00:00:15]: setting 	isnewmoon	false	
+[00:00:15]: setting 	iswinter	false	
+[00:00:15]: setting 	israining	false	
+[00:00:15]: setting 	isnightmarewarn	false	
+[00:00:15]: setting 	precipitation	none	
+[00:00:15]: setting 	cavephase	day	
+[00:00:15]: setting 	iscaveday	true	
+[00:00:15]: setting 	moistureceil	6364.7353515625	
+[00:00:15]: setting 	isday	true	
+[00:00:15]: setting 	timeinphase	0.32550118186257	
+[00:00:15]: setting 	wetness	0	
+[00:00:15]: setting 	temperature	90.466092969424	
+[00:00:15]: setting 	isnightmarecalm	false	
+[00:00:15]: setting 	isnight	false	
+[00:00:15]: setting 	isdusk	false	
+[00:00:15]: setting 	iscavedusk	false	
+[00:00:15]: setting 	isautumn	false	
+[00:00:15]: setting 	issnowing	false	
+[00:00:15]: setting 	iswaxingmoon	false	
+[00:00:15]: setting 	pop	0.13641663123807	
+[00:00:15]: setting 	snowlevel	0	
+[00:00:15]: setting 	issnowcovered	false	
+[00:00:15]: setting 	autumnlength	20	
+[00:00:15]: setting 	phase	day	
+[00:00:15]: setting 	nightmaretime	0	
+[00:00:15]: setting 	winterlength	15	
+[00:00:15]: setting 	isspring	false	
+[00:00:15]: setting 	nightmarephase	none	
+[00:00:15]: setting 	remainingdaysinseason	4	
+[00:00:15]: setting 	cycles	136	
+[00:00:15]: setting 	iscavenight	false	
+[00:00:15]: setting 	nightmaretimeinphase	0	
+[00:00:15]: setting 	season	summer	
+[00:00:15]: setting 	time	0.22378206253052	
+[00:00:15]: setting 	issummer	true	
+[00:00:21]: Reconstructing topology	
+[00:00:21]: 	...Sorting points	
+[00:00:21]: 	...Sorting edges	
+[00:00:21]: 	...Connecting nodes	
+[00:00:21]: 	...Validating connections	
+[00:00:21]: 	...Housekeeping	
+[00:00:21]: 	...Done!	
+[00:00:21]: 1 uploads added to server. From server_temp
+[00:00:21]: About to start a shard with these settings:
+[00:00:21]:   ShardName: [SHDMASTER]
+[00:00:21]:   ShardID: 1
+[00:00:21]:   ShardRole: MASTER
+[00:00:21]:   MasterHost: (null)
+[00:00:21]:   MasterBind: 127.0.0.1
+[00:00:21]:   MasterPort: 10888
+[00:00:21]: [Shard] Starting master server
+[00:00:21]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:21]: [Shard] Shard server started on port: 10888
+[00:00:21]: [IPC] Signal 'DST_Master_Ready' opened  #00000650
+[00:00:21]: [IPC] Sending signal... #00000650
+[00:00:21]: Telling Client our new session identifier: 6E9D7551A33ADA7F
+[00:00:21]: ModIndex: Load sequence finished successfully.	
+[00:00:21]: Reset() returning
+[00:00:21]: [Rail] Creating game server...
+[00:00:21]: [Rail] Done.
+[00:00:21]: Validating portal[8] <-> 752602010[8] (inactive)	
+[00:00:21]: Validating portal[5] <-> 752602010[5] (inactive)	
+[00:00:21]: Validating portal[7] <-> 752602010[7] (inactive)	
+[00:00:21]: Validating portal[1] <-> 752602010[1] (inactive)	
+[00:00:21]: Validating portal[3] <-> 752602010[3] (inactive)	
+[00:00:21]: Validating portal[10] <-> 752602010[10] (inactive)	
+[00:00:21]: Validating portal[2] <-> 752602010[2] (inactive)	
+[00:00:21]: Validating portal[4] <-> 752602010[4] (inactive)	
+[00:00:21]: Validating portal[9] <-> 752602010[9] (inactive)	
+[00:00:21]: Validating portal[6] <-> 752602010[6] (inactive)	
+[00:00:25]: Sim paused
+[00:00:25]: Registering master server in China lobby
+[00:00:25]: [Rail] Game server created.
+[00:00:25]: [P2P] Setting rail id 90071997616787361
+[00:00:25]: [Rail] WARNING: Spent 3241 milliseconds in rail calls in the last 3.55 seconds
+[00:00:25]:     RailLibrary::RailFireEvents: 0ms
+[00:00:25]: [Rail] Register to server list success.
+[00:00:26]: [Shard] Slave Caves(752602010) connected: [LAN] 127.0.0.1
+[00:00:26]: [Shard] Slave Caves(752602010) ready!
+[00:00:26]: World 752602010 is now connected	
+[00:00:26]: Validating portal[8] <-> 752602010[8] (disabled)	
+[00:00:26]: Validating portal[5] <-> 752602010[5] (disabled)	
+[00:00:26]: Validating portal[7] <-> 752602010[7] (disabled)	
+[00:00:26]: Validating portal[1] <-> 752602010[1] (disabled)	
+[00:00:26]: Validating portal[3] <-> 752602010[3] (disabled)	
+[00:00:26]: Validating portal[10] <-> 752602010[10] (disabled)	
+[00:00:26]: Validating portal[2] <-> 752602010[2] (disabled)	
+[00:00:26]: Validating portal[4] <-> 752602010[4] (active)	
+[00:00:26]: Validating portal[9] <-> 752602010[9] (disabled)	
+[00:00:26]: Validating portal[6] <-> 752602010[6] (disabled)	
+[00:00:27]: [Shard] Slave 'Caves(752602010)' restarting...
+[00:00:27]: World 752602010 is now disconnected	
+[00:00:27]: Validating portal[8] <-> 752602010[8] (inactive)	
+[00:00:27]: Validating portal[5] <-> 752602010[5] (inactive)	
+[00:00:27]: Validating portal[7] <-> 752602010[7] (inactive)	
+[00:00:27]: Validating portal[1] <-> 752602010[1] (inactive)	
+[00:00:27]: Validating portal[3] <-> 752602010[3] (inactive)	
+[00:00:27]: Validating portal[10] <-> 752602010[10] (inactive)	
+[00:00:27]: Validating portal[2] <-> 752602010[2] (inactive)	
+[00:00:27]: Validating portal[4] <-> 752602010[4] (inactive)	
+[00:00:27]: Validating portal[9] <-> 752602010[9] (inactive)	
+[00:00:27]: Validating portal[6] <-> 752602010[6] (inactive)	
+[00:00:35]: Registering master server in China lobby
+[00:00:37]: [Shard] Slave Caves(752602010) ready!
+[00:00:37]: World 752602010 is now connected	
+[00:00:37]: Validating portal[8] <-> 752602010[8] (disabled)	
+[00:00:37]: Validating portal[5] <-> 752602010[5] (disabled)	
+[00:00:37]: Validating portal[7] <-> 752602010[7] (disabled)	
+[00:00:37]: Validating portal[1] <-> 752602010[1] (disabled)	
+[00:00:37]: Validating portal[3] <-> 752602010[3] (disabled)	
+[00:00:37]: Validating portal[10] <-> 752602010[10] (disabled)	
+[00:00:37]: Validating portal[2] <-> 752602010[2] (disabled)	
+[00:00:37]: Validating portal[4] <-> 752602010[4] (active)	
+[00:00:37]: Validating portal[9] <-> 752602010[9] (disabled)	
+[00:00:37]: Validating portal[6] <-> 752602010[6] (disabled)	
+[00:00:39]: New incoming connection 127.0.0.1|65127 <4144563377172814873>
+[00:00:39]: Client connected from [LAN] 127.0.0.1|65127 <4144563377172814873>
+[00:00:39]: ValidateGameSessionToken pgs-sing^KU_3RvV-H5E^DontStarveTogether^upY5odYWfp8dnDuncyyNHmg2NDPhjL7DQ67Chg7flI4= for <4144563377172814873>
+[00:00:39]: Client authenticated: (KU_3RvV-H5E) @Viru Man
+[00:00:40]: There is no active event to validate against.
+[00:00:40]: [Shard] Read save location file for (KU_3RvV-H5E)
+[00:00:40]: [Shard] Forwarding player to Caves(752602010)
+[00:00:40]: [Shard] Begin migration #1 for (KU_3RvV-H5E)
+[00:00:40]: [Shard] #1 [SHDMASTER](1) -> Caves(752602010)
+[00:00:40]: [Rail] Reporting played with: "@Viru Man" (R:76561197973341873).
+[00:00:40]: [Rail] Reporting player join "@Viru Man" (R:76561197973341873).
+[00:00:40]: Sim unpaused
+[00:00:40]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:00:40]: [Shard] (KU_3RvV-H5E) disconnected from [SHDMASTER](1)
+[00:00:45]: Registering master server in China lobby
+[00:00:46]: [Shard] Completed migration #1 for player (KU_3RvV-H5E)
+[00:00:46]: [Shard] Writing save location file for (KU_3RvV-H5E)
+[00:00:50]: SimLuaProxy::QueryServer()
+[00:00:51]: ----------------- HEALTH INFO WARNING ------------------	
+[00:00:51]: Please, show this log message to authors of Health Info mod.	
+[00:00:51]: Unknown Prefabs: fence_gate	
+[00:00:51]: The mod should be fixed to support these prefabs.	
+[00:00:51]: Also you can change settings of the Health Info mod to be more useful but less compatible.	
+[00:00:51]: If you are mod developer, you can add the tag "healthinfo" to you prefab:	
+[00:00:51]: inst:AddTag("healthinfo")	
+[00:00:51]: Add tags before this line: inst.entity:SetPristine()	
+[00:00:51]: Thanks!	
+[00:00:51]: --------------------------------------------------------	
+[00:00:57]: Registering master server in China lobby
+[00:01:14]: [Shard] Begin migration #2 for (KU_3RvV-H5E)
+[00:01:14]: [Shard] #2 Caves(752602010) -> [SHDMASTER](1)
+[00:01:14]: [Shard] #2 -> session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000145
+[00:01:14]: [Shard] Received migration #2 data for (KU_3RvV-H5E)
+[00:01:14]: [Shard] (KU_3RvV-H5E) disconnected from Caves(752602010)
+[00:01:18]: New incoming connection 127.0.0.1|53279 <363492939445055410>
+[00:01:18]: Client connected from [LAN] 127.0.0.1|53279 <363492939445055410>
+[00:01:18]: ValidateGameSessionToken pgs-sing^KU_3RvV-H5E^DontStarveTogether^dz7zsyXk9eUcVETOS3Y1sLRkiSgnY2vuy9yEVvUmcbc= for <363492939445055410>
+[00:01:19]: Client authenticated: (KU_3RvV-H5E) @Viru Man
+[00:01:19]: [Shard] Completed incoming migration #2 for (KU_3RvV-H5E)
+[00:01:19]: [Shard] Completed migration #2 for player (KU_3RvV-H5E)
+[00:01:19]: [Shard] Writing save location file for (KU_3RvV-H5E)
+[00:01:27]: [P2P] Session request for '76561197973379781'
+[00:01:27]: [P2P] Create session: 57.111.147.201|1 'R:76561197973379781'
+[00:01:27]: [P2P] Received from 57.111.147.201|1 'R:76561197973379781'
+[00:01:27]: [P2P] Sent to 57.111.147.201|1 'R:76561197973379781'
+[00:01:27]: New incoming connection 57.111.147.201|1 <2549426708320488061>
+[00:01:27]: Client connected from 57.111.147.201|1 <2549426708320488061>
+[00:01:27]: ValidateGameSessionToken pgs-sing^KU_q87X4g9W^DontStarveTogether^hNcfkzQwEatWIkTlptVLWHvCDt8YXz5+c4xS5i0Q6ts= for <2549426708320488061>
+[00:01:27]: Client authenticated: (KU_q87X4g9W) Fairy Law
+[00:01:29]: Resuming user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000145
+[00:01:29]: Player will spawn close to portal #4	
+[00:01:29]: Spawning player at: [Load] (-19.43, 0.00, 155.02)	
+[00:01:29]: There is no active event to validate against.
+[00:01:29]: [Shard] Read save location file for (KU_q87X4g9W)
+[00:01:29]: [Rail] Reporting played with: "Fairy Law" (R:76561197973379781).
+[00:01:29]: [Rail] Reporting player join "Fairy Law" (R:76561197973379781).
+[00:01:32]: Registering master server in China lobby
+[00:01:53]: Resuming user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000144
+[00:01:53]: Spawning player at: [Load] (27.38, -0.00, 235.90)	
+[00:01:53]: Registering master server in China lobby
+[00:06:53]: Registering master server in China lobby
+[00:06:54]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000145
+[00:06:54]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000145
+[00:06:54]: Serializing world: session/6E9D7551A33ADA7F/0000000145
+[00:14:54]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000146
+[00:14:54]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000146
+[00:14:54]: Serializing world: session/6E9D7551A33ADA7F/0000000146
+[00:14:58]: Registering master server in China lobby
+[00:15:46]: CURL ERROR: (metric.kleientertainment.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:22:55]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000147
+[00:22:55]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000147
+[00:22:55]: Serializing world: session/6E9D7551A33ADA7F/0000000147
+[00:23:03]: Registering master server in China lobby
+[00:30:08]: [200] Account Communication Success (6)
+[00:30:08]: Received (KU_3RvV-H5E) from TokenPurpose
+[00:30:54]: Registering master server in China lobby
+[00:30:55]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000148
+[00:30:55]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000148
+[00:30:55]: Serializing world: session/6E9D7551A33ADA7F/0000000148
+[00:38:55]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000149
+[00:38:55]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000149
+[00:38:55]: Serializing world: session/6E9D7551A33ADA7F/0000000149
+[00:38:59]: Registering master server in China lobby
+[00:46:55]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000150
+[00:46:55]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000150
+[00:46:56]: Serializing world: session/6E9D7551A33ADA7F/0000000150
+[00:47:04]: Registering master server in China lobby
+[00:54:55]: Registering master server in China lobby
+[00:54:56]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000151
+[00:54:56]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000151
+[00:54:56]: Serializing world: session/6E9D7551A33ADA7F/0000000151
+[01:00:07]: [200] Account Communication Success (6)
+[01:00:07]: Received (KU_3RvV-H5E) from TokenPurpose
+[01:02:56]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000152
+[01:02:56]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000152
+[01:02:56]: Serializing world: session/6E9D7551A33ADA7F/0000000152
+[01:03:00]: Registering master server in China lobby
+[01:10:56]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000153
+[01:10:56]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000153
+[01:10:57]: Serializing world: session/6E9D7551A33ADA7F/0000000153
+[01:11:05]: Registering master server in China lobby
+[01:13:34]: Activating portal[4] to 752602010	
+[01:13:34]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000154
+[01:13:34]: [Shard] Migration request: (KU_3RvV-H5E) to Caves(752602010)
+[01:13:34]: [Shard] Begin migration #3 for (KU_3RvV-H5E)
+[01:13:34]: [Shard] #3 [SHDMASTER](1) -> Caves(752602010)
+[01:13:34]: [Shard] #3 <- session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000154
+[01:13:34]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:13:34]: [Shard] (KU_3RvV-H5E) disconnected from [SHDMASTER](1)
+[01:13:39]: [Shard] Completed migration #3 for player (KU_3RvV-H5E)
+[01:13:39]: [Shard] Writing save location file for (KU_3RvV-H5E)
+[01:13:48]: Activating portal[4] to 752602010	
+[01:13:48]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000154
+[01:13:48]: [Shard] Migration request: (KU_q87X4g9W) to Caves(752602010)
+[01:13:48]: [Shard] Begin migration #4 for (KU_q87X4g9W)
+[01:13:48]: [Shard] #4 [SHDMASTER](1) -> Caves(752602010)
+[01:13:48]: [Shard] #4 <- session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000154
+[01:13:48]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:13:48]: [Shard] (KU_q87X4g9W) disconnected from [SHDMASTER](1)
+[01:14:04]: [Shard] Completed migration #4 for player (KU_q87X4g9W)
+[01:14:04]: [Shard] Writing save location file for (KU_q87X4g9W)
+[01:18:56]: Registering master server in China lobby
+[01:18:57]: Serializing world: session/6E9D7551A33ADA7F/0000000154
+[01:18:57]: Truncating to snapshot #154...
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000139
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000140
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000141
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000142
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000143
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000144
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000145
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000146
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000147
+[01:18:57]:  - session/6E9D7551A33ADA7F/0000000148
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000148
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000147
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000146
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000145
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000144
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000143
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000142
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000141
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000140
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000139
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000148
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000147
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000146
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000145
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000144
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000143
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000142
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000141
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000140
+[01:18:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000139
+[01:18:57]:    30 file(s) removed
+[01:18:57]:  > session/6E9D7551A33ADA7F/A7GDNPFVI4AE/savelocation
+[01:18:57]:    1 file(s) updated
+[01:23:56]: [P2P] Session timed out for 'R:76561197973379781'
+[01:23:56]: [P2P] Remove session: 57.111.147.201|1 'R:76561197973379781'
+[01:26:45]: [Shard] Begin migration #5 for (KU_3RvV-H5E)
+[01:26:45]: [Shard] #5 Caves(752602010) -> [SHDMASTER](1)
+[01:26:45]: [Shard] #5 -> session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000155
+[01:26:45]: [Shard] Received migration #5 data for (KU_3RvV-H5E)
+[01:26:45]: [Shard] (KU_3RvV-H5E) disconnected from Caves(752602010)
+[01:26:51]: New incoming connection 127.0.0.1|61193 <5429498395219895912>
+[01:26:51]: Client connected from [LAN] 127.0.0.1|61193 <5429498395219895912>
+[01:26:51]: ValidateGameSessionToken pgs-sing^KU_3RvV-H5E^DontStarveTogether^5/RYk4xGdfZB07VNzYgdsVhT+AL6rGxvWug9+eoQGBU= for <5429498395219895912>
+[01:26:52]: Client authenticated: (KU_3RvV-H5E) @Viru Man
+[01:26:52]: [Shard] Completed incoming migration #5 for (KU_3RvV-H5E)
+[01:26:52]: [Shard] Completed migration #5 for player (KU_3RvV-H5E)
+[01:26:52]: [Shard] Writing save location file for (KU_3RvV-H5E)
+[01:26:57]: Serializing world: session/6E9D7551A33ADA7F/0000000155
+[01:26:57]: Truncating to snapshot #155...
+[01:26:57]:  - session/6E9D7551A33ADA7F/0000000149
+[01:26:57]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000149
+[01:26:57]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000149
+[01:26:57]:    3 file(s) removed
+[01:27:01]: Registering master server in China lobby
+[01:27:02]: Resuming user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000155
+[01:27:02]: Player will spawn close to portal #4	
+[01:27:02]: Spawning player at: [Load] (-18.56, 0.00, 155.51)	
+[01:30:08]: [200] Account Communication Success (6)
+[01:30:08]: Received (KU_3RvV-H5E) from TokenPurpose
+[01:34:57]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000156
+[01:34:58]: Serializing world: session/6E9D7551A33ADA7F/0000000156
+[01:35:06]: Registering master server in China lobby
+[01:35:37]: [Shard] Begin migration #6 for (KU_q87X4g9W)
+[01:35:37]: [Shard] #6 Caves(752602010) -> [SHDMASTER](1)
+[01:35:37]: [Shard] #6 -> session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000157
+[01:35:37]: [Shard] Received migration #6 data for (KU_q87X4g9W)
+[01:35:37]: [Shard] (KU_q87X4g9W) disconnected from Caves(752602010)
+[01:35:50]: [P2P] Session request for '76561197973379781'
+[01:35:50]: [P2P] Create session: 57.111.147.202|1 'R:76561197973379781'
+[01:35:50]: [P2P] Received from 57.111.147.202|1 'R:76561197973379781'
+[01:35:50]: [P2P] Sent to 57.111.147.202|1 'R:76561197973379781'
+[01:35:51]: New incoming connection 57.111.147.202|1 <4849607673614939160>
+[01:35:51]: Client connected from 57.111.147.202|1 <4849607673614939160>
+[01:35:51]: ValidateGameSessionToken pgs-sing^KU_q87X4g9W^DontStarveTogether^adTpdzGv/jQN66ioneOxgQu2vg7q+FDWTFAWx8Ju95E= for <4849607673614939160>
+[01:35:52]: Client authenticated: (KU_q87X4g9W) Fairy Law
+[01:35:53]: [Shard] Completed incoming migration #6 for (KU_q87X4g9W)
+[01:35:53]: [Shard] Completed migration #6 for player (KU_q87X4g9W)
+[01:35:53]: [Shard] Writing save location file for (KU_q87X4g9W)
+[01:36:08]: Resuming user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000157
+[01:36:08]: Player will spawn close to portal #4	
+[01:36:08]: Spawning player at: [Load] (-18.56, 0.00, 155.51)	
+[01:42:56]: Registering master server in China lobby
+[01:42:58]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000157
+[01:42:58]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000157
+[01:42:58]: Serializing world: session/6E9D7551A33ADA7F/0000000157
+[01:50:58]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000158
+[01:50:58]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000158
+[01:50:58]: Serializing world: session/6E9D7551A33ADA7F/0000000158
+[01:51:02]: Registering master server in China lobby
+[01:58:58]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000159
+[01:58:58]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000159
+[01:58:59]: Serializing world: session/6E9D7551A33ADA7F/0000000159
+[01:59:07]: Registering master server in China lobby
+[02:00:08]: [200] Account Communication Success (6)
+[02:00:08]: Received (KU_3RvV-H5E) from TokenPurpose
+[02:02:43]: Activating portal[4] to 752602010	
+[02:02:44]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000160
+[02:02:44]: [Shard] Migration request: (KU_q87X4g9W) to Caves(752602010)
+[02:02:44]: [Shard] Begin migration #7 for (KU_q87X4g9W)
+[02:02:44]: [Shard] #7 [SHDMASTER](1) -> Caves(752602010)
+[02:02:44]: [Shard] #7 <- session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000160
+[02:02:44]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:02:44]: [Shard] (KU_q87X4g9W) disconnected from [SHDMASTER](1)
+[02:02:58]: [Shard] Completed migration #7 for player (KU_q87X4g9W)
+[02:02:58]: [Shard] Writing save location file for (KU_q87X4g9W)
+[02:03:21]: [Shard] Begin migration #8 for (KU_q87X4g9W)
+[02:03:21]: [Shard] #8 Caves(752602010) -> [SHDMASTER](1)
+[02:03:21]: [Shard] #8 -> session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000160
+[02:03:21]: [Shard] Received migration #8 data for (KU_q87X4g9W)
+[02:03:21]: [Shard] (KU_q87X4g9W) disconnected from Caves(752602010)
+[02:03:32]: [P2P] Received from 57.111.147.202|1 'R:76561197973379781'
+[02:03:32]: [P2P] Sent to 57.111.147.202|1 'R:76561197973379781'
+[02:03:32]: New incoming connection 57.111.147.202|1 <637058929293030226>
+[02:03:32]: Client connected from 57.111.147.202|1 <637058929293030226>
+[02:03:32]: ValidateGameSessionToken pgs-sing^KU_q87X4g9W^DontStarveTogether^xxkK33qRgDRDQBlEJzTB7Il5eyCAMvqRzxg+uVslmaY= for <637058929293030226>
+[02:03:33]: Client authenticated: (KU_q87X4g9W) Fairy Law
+[02:03:33]: [Shard] Completed incoming migration #8 for (KU_q87X4g9W)
+[02:03:33]: [Shard] Completed migration #8 for player (KU_q87X4g9W)
+[02:03:33]: [Shard] Writing save location file for (KU_q87X4g9W)
+[02:03:50]: Resuming user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000160
+[02:03:50]: Player will spawn close to portal #4	
+[02:03:50]: Spawning player at: [Load] (-19.93, 0.00, 155.02)	
+[02:06:57]: Registering master server in China lobby
+[02:06:59]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000160
+[02:06:59]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000160
+[02:06:59]: Serializing world: session/6E9D7551A33ADA7F/0000000160
+[02:10:35]: Activating portal[4] to 752602010	
+[02:10:35]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[02:10:35]: [Shard] Migration request: (KU_q87X4g9W) to Caves(752602010)
+[02:10:35]: [Shard] Begin migration #9 for (KU_q87X4g9W)
+[02:10:35]: [Shard] #9 [SHDMASTER](1) -> Caves(752602010)
+[02:10:35]: [Shard] #9 <- session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[02:10:35]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:10:35]: [Shard] (KU_q87X4g9W) disconnected from [SHDMASTER](1)
+[02:10:50]: [Shard] Completed migration #9 for player (KU_q87X4g9W)
+[02:10:50]: [Shard] Writing save location file for (KU_q87X4g9W)
+[02:11:09]: [Shard] Begin migration #10 for (KU_q87X4g9W)
+[02:11:09]: [Shard] #10 Caves(752602010) -> [SHDMASTER](1)
+[02:11:09]: [Shard] #10 -> session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[02:11:09]: [Shard] Received migration #10 data for (KU_q87X4g9W)
+[02:11:09]: [Shard] (KU_q87X4g9W) disconnected from Caves(752602010)
+[02:11:13]: [P2P] Received from 57.111.147.202|1 'R:76561197973379781'
+[02:11:13]: [P2P] Sent to 57.111.147.202|1 'R:76561197973379781'
+[02:11:14]: New incoming connection 57.111.147.202|1 <5713385314595363394>
+[02:11:14]: Client connected from 57.111.147.202|1 <5713385314595363394>
+[02:11:14]: ValidateGameSessionToken pgs-sing^KU_q87X4g9W^DontStarveTogether^t30mElXhJ5zWUktH5GOGUmnwF8VVoz5EXsUj5zQVNMo= for <5713385314595363394>
+[02:11:15]: Client authenticated: (KU_q87X4g9W) Fairy Law
+[02:11:15]: [Shard] Completed incoming migration #10 for (KU_q87X4g9W)
+[02:11:15]: [Shard] Completed migration #10 for player (KU_q87X4g9W)
+[02:11:15]: [Shard] Writing save location file for (KU_q87X4g9W)
+[02:11:26]: Resuming user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[02:11:26]: Player will spawn close to portal #4	
+[02:11:26]: Spawning player at: [Load] (-19.30, 0.00, 155.05)	
+[02:13:37]: Activating portal[4] to 752602010	
+[02:13:38]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[02:13:38]: [Shard] Migration request: (KU_q87X4g9W) to Caves(752602010)
+[02:13:38]: [Shard] Begin migration #11 for (KU_q87X4g9W)
+[02:13:38]: [Shard] #11 [SHDMASTER](1) -> Caves(752602010)
+[02:13:38]: [Shard] #11 <- session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[02:13:38]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:13:38]: [Shard] (KU_q87X4g9W) disconnected from [SHDMASTER](1)
+[02:13:44]: [Shard] Completed migration #11 for player (KU_q87X4g9W)
+[02:13:44]: [Shard] Writing save location file for (KU_q87X4g9W)
+[02:14:01]: [Shard] Begin migration #12 for (KU_q87X4g9W)
+[02:14:01]: [Shard] #12 Caves(752602010) -> [SHDMASTER](1)
+[02:14:01]: [Shard] #12 -> session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[02:14:01]: [Shard] Received migration #12 data for (KU_q87X4g9W)
+[02:14:01]: [Shard] (KU_q87X4g9W) disconnected from Caves(752602010)
+[02:14:05]: [P2P] Received from 57.111.147.202|1 'R:76561197973379781'
+[02:14:05]: [P2P] Sent to 57.111.147.202|1 'R:76561197973379781'
+[02:14:06]: New incoming connection 57.111.147.202|1 <3897339290723819349>
+[02:14:06]: Client connected from 57.111.147.202|1 <3897339290723819349>
+[02:14:06]: ValidateGameSessionToken pgs-sing^KU_q87X4g9W^DontStarveTogether^0UOkKxFBT8bvyyPWdCEEFuT5sZGgvNGM2TEUF59XY5I= for <3897339290723819349>
+[02:14:07]: Client authenticated: (KU_q87X4g9W) Fairy Law
+[02:14:07]: [Shard] Completed incoming migration #12 for (KU_q87X4g9W)
+[02:14:07]: [Shard] Completed migration #12 for player (KU_q87X4g9W)
+[02:14:07]: [Shard] Writing save location file for (KU_q87X4g9W)
+[02:14:18]: Resuming user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[02:14:18]: Player will spawn close to portal #4	
+[02:14:18]: Spawning player at: [Load] (-21.16, 0.00, 156.81)	
+[02:14:59]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000161
+[02:14:59]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[02:14:59]: Serializing world: session/6E9D7551A33ADA7F/0000000161
+[02:15:03]: Registering master server in China lobby
+[02:22:59]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000162
+[02:22:59]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000162
+[02:22:59]: Serializing world: session/6E9D7551A33ADA7F/0000000162
+[02:23:08]: Registering master server in China lobby
+[02:24:07]: Activating portal[4] to 752602010	
+[02:24:08]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000163
+[02:24:08]: [Shard] Migration request: (KU_3RvV-H5E) to Caves(752602010)
+[02:24:08]: [Shard] Begin migration #13 for (KU_3RvV-H5E)
+[02:24:08]: [Shard] #13 [SHDMASTER](1) -> Caves(752602010)
+[02:24:08]: [Shard] #13 <- session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000163
+[02:24:08]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:24:08]: [Shard] (KU_3RvV-H5E) disconnected from [SHDMASTER](1)
+[02:24:12]: [Shard] Completed migration #13 for player (KU_3RvV-H5E)
+[02:24:12]: [Shard] Writing save location file for (KU_3RvV-H5E)
+[02:30:08]: [200] Account Communication Success (6)
+[02:30:08]: Received (KU_3RvV-H5E) from TokenPurpose
+[02:30:58]: Registering master server in China lobby
+[02:31:00]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000163
+[02:31:00]: Serializing world: session/6E9D7551A33ADA7F/0000000163
+[02:39:00]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000164
+[02:39:00]: Serializing world: session/6E9D7551A33ADA7F/0000000164
+[02:39:04]: Registering master server in China lobby
+[02:42:36]: [Shard] Begin migration #14 for (KU_3RvV-H5E)
+[02:42:36]: [Shard] #14 Caves(752602010) -> [SHDMASTER](1)
+[02:42:36]: [Shard] #14 -> session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000165
+[02:42:36]: [Shard] Received migration #14 data for (KU_3RvV-H5E)
+[02:42:36]: [Shard] (KU_3RvV-H5E) disconnected from Caves(752602010)
+[02:42:40]: New incoming connection 127.0.0.1|55606 <3551189775737162405>
+[02:42:40]: Client connected from [LAN] 127.0.0.1|55606 <3551189775737162405>
+[02:42:40]: ValidateGameSessionToken pgs-sing^KU_3RvV-H5E^DontStarveTogether^qMtmaI4QMbi6JDbxHTNu8dgCJvnzGX2n1G2KBsDWOMQ= for <3551189775737162405>
+[02:42:40]: Client authenticated: (KU_3RvV-H5E) @Viru Man
+[02:42:40]: [Shard] Completed incoming migration #14 for (KU_3RvV-H5E)
+[02:42:40]: [Shard] Completed migration #14 for player (KU_3RvV-H5E)
+[02:42:40]: [Shard] Writing save location file for (KU_3RvV-H5E)
+[02:42:51]: Resuming user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000165
+[02:42:51]: Player will spawn close to portal #6	
+[02:42:51]: Spawning player at: [Load] (-247.17, 0.00, 60.91)	
+[02:42:51]: Validating portal[6] <-> 752602010[6] (active)	
+[02:47:00]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000165
+[02:47:00]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000165
+[02:47:00]: Serializing world: session/6E9D7551A33ADA7F/0000000165
+[02:47:09]: Registering master server in China lobby
+[02:54:59]: Registering master server in China lobby
+[02:55:00]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000166
+[02:55:00]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000166
+[02:55:01]: Serializing world: session/6E9D7551A33ADA7F/0000000166
+[03:00:07]: [200] Account Communication Success (6)
+[03:00:07]: Received (KU_3RvV-H5E) from TokenPurpose
+[03:03:01]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000167
+[03:03:01]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000167
+[03:03:01]: Serializing world: session/6E9D7551A33ADA7F/0000000167
+[03:03:04]: Registering master server in China lobby
+[03:04:56]: Connection lost to 57.111.147.202|1 <3897339290723819349>
+[03:04:56]: [Shard] (KU_q87X4g9W) disconnected from [SHDMASTER](1)
+[03:04:56]: [Rail] Reporting player quit "Fairy Law" (R:76561197973379781).
+[03:04:56]: Registering master server in China lobby
+[03:04:56]: Serializing user: session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000168
+[03:06:02]: [Shard] (KU_3RvV-H5E) disconnected from [SHDMASTER](1)
+[03:06:02]: [Rail] Reporting player quit "@Viru Man" (R:76561197973341873).
+[03:06:02]: Registering master server in China lobby
+[03:06:02]: [IPC] Received shutdown signal.
+[03:06:02]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000168
+[03:06:02]: Serializing world: session/6E9D7551A33ADA7F/0000000168
+[03:06:02]: Truncating to snapshot #168...
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000150
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000151
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000152
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000153
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000154
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000155
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000156
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000157
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000158
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000159
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000160
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000161
+[03:06:02]:  - session/6E9D7551A33ADA7F/0000000162
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000162
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000161
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000160
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000159
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000158
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000157
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000156
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000155
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000154
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000153
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000152
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000151
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000150
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000162
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000161
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000160
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000159
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000158
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000157
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000154
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000153
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000152
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000151
+[03:06:02]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000150
+[03:06:02]:    37 file(s) removed
+[03:06:02]:  > session/6E9D7551A33ADA7F/A7GDNPFVI4AE/savelocation
+[03:06:02]:  > session/6E9D7551A33ADA7F/A7MGG7GH58J0/savelocation
+[03:06:02]:    2 file(s) updated
+[03:06:02]: Removing server from China lobby
+[03:06:02]: [Shard] Stopping shard mode
+[03:06:03]: Collecting garbage...
+[03:06:03]: lua_gc took 0.15 seconds
+[03:06:03]: ~ShardLuaProxy()
+[03:06:03]: ~cEventLeaderboardProxy()
+[03:06:03]: ~ItemServerLuaProxy()
+[03:06:03]: ~InventoryLuaProxy()
+[03:06:03]: ~NetworkLuaProxy()
+[03:06:03]: ~SimLuaProxy()
+[03:06:03]: Cancelling LuaQueryCallback handle [204]
+[03:06:03]: lua_close took 0.37 seconds
+[03:06:03]: CurlRequestManager::ClientThread::Main() complete
+[03:06:03]: HttpClient2 discarded 0 callbacks.
+[03:06:03]: [Rail] Shutting down Rail
+[03:06:05]: Shutting down

@@ -1,0 +1,9 @@
+[00:03:58]: [Join Announcement] Fairy Law
+[00:27:09]: [Death Announcement] @Viru Man 被此人杀死： 冰猎犬. 他变成了可怕的鬼魂！
+[00:28:06]: [Resurrect Announcement] @Viru Man 被此人复活： 替身人偶.
+[01:12:32]: [Death Announcement] @Viru Man 被此人杀死： 独眼巨鹿. 他变成了可怕的鬼魂！
+[01:14:13]: [Join Announcement] Fairy Law
+[01:14:36]: [Leave Announcement] Fairy Law
+[01:15:58]: [Join Announcement] Fairy Law
+[01:16:58]: [Leave Announcement] Fairy Law
+[01:24:12]: [Join Announcement] Fairy Law

@@ -1,0 +1,2983 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 47%
+	Available Physical Memory: 6444m/12177m
+	Available Page File: 3828m/13124m
+	Available Virtual Memory: 3874m/4095m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 103m
+	Working Set Size: 12m
+	Quota Peak Page Pool Usage: 319k
+	Quota Page Pool Usage: 316k
+	Quota Peak Non Paged Pool Usage:95k
+	Quota Non Paged Pool Usage: 94k
+	Page File Usage: 58m
+	Peak Page File Usage: 112m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogetherRail/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 341205
+[00:00:00]: Current time: Thu Jun 20 22:08:49 2019
+
+[00:00:00]: Don't Starve Together: 341205 WIN32_RAIL
+[00:00:00]: Build Date: 4074
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: [Rail] Initializing Rail (2000004)
+[00:00:00]: [Rail] Rail SDK version 1.8.6.0
+[00:00:00]: ....Done
+[00:00:00]: PersistUserStorage is now APP:Klei//DoNotStarveTogetherRail/ 
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: THREAD - started 'GAClient' (15624)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:00]: Mounting file system databundles/images.zip successful.
+[00:00:00]: Mounting file system databundles/scripts.zip successful.
+[00:00:00]: ProfileIndex:4.60
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 4
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: THREAD - started 'Ping Job Thread' (22088)
+[00:00:00]: Authorized application D:\WeGame\rail_apps\
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: loaded ping_cache
+[00:00:00]: Offline user ID: RU_76561197973341873
+[00:00:00]: THREAD - started 'StreamInput' (5684)
+[00:00:00]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 10 企业版
+    version                   10.0.17134
+    architecture              64 位
+    platformSpecific          SP 0.0
+  CPU                       
+    numCores                  4
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+    name                      Intel(R) Core(TM) i5-6300HQ CPU @ 2.30GHz
+    manufacturer              GenuineIntel
+    clockSpeed                2304
+  RAM                       
+    megsOfRam                 12288
+  GPU                       
+    name                      Intel(R) HD Graphics 530
+    driverDate                20170724000000.000000-000
+    megsOfRam                 1024
+    refreshRate               0
+    videoModeDescription      
+    driverVersion             22.20.16.4749
+
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: WindowManager::Initialize
+[00:00:00]: CreateWindow: Requesting 2560,1373 - 5/6/5 - -1/-1/-1 - 0
+[00:00:01]: CreateEGLContext: 12 configs found
+[00:00:01]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:01]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:01]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:01]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:01]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:01]:      5: 5/5/5 -  0/16/ 0 - 0
+[00:00:01]:      6: 5/5/5 -  0/24/ 0 - 0
+[00:00:01]:      7: 5/5/5 -  0/24/ 8 - 0
+[00:00:01]:      8: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:01]:      9: 8/8/8 -  8/16/ 0 - 0
+[00:00:01]:     10: 8/8/8 -  8/24/ 0 - 0
+[00:00:01]:     11: 8/8/8 -  8/24/ 8 - 0
+[00:00:01]: RestoreWindowPosition
+[00:00:01]:    Saved Client Pos (0 x 29)
+[00:00:01]:    Adjusted Window Pos (-9 x -9)
+[00:00:01]: EnsureWindowOnScreen
+[00:00:01]:    All good.
+[00:00:02]: GLInfo
+[00:00:02]: ~~~~~~
+[00:00:02]: GL_VENDOR: Google Inc.
+[00:00:02]: GL_RENDERER: ANGLE (NVIDIA GeForce GTX 960M)
+[00:00:02]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:02]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:02]: OpenGL extensions (19, 19):
+[00:00:02]: GL_ANGLE_depth_texture
+[00:00:02]: GL_ANGLE_framebuffer_blit
+[00:00:02]: GL_ANGLE_framebuffer_multisample
+[00:00:02]: GL_ANGLE_instanced_arrays
+[00:00:02]: THREAD - started 'WindowsInputManager' (24232)
+[00:00:02]: GL_ANGLE_pack_reverse_row_order
+[00:00:02]: GL_ANGLE_texture_compression_dxt3
+[00:00:02]: GL_ANGLE_texture_compression_dxt5
+[00:00:02]: GL_ANGLE_texture_usage
+[00:00:02]: GL_ANGLE_translated_shader_source
+[00:00:02]: GL_EXT_read_format_bgra
+[00:00:02]: GL_EXT_robustness
+[00:00:02]: GL_EXT_texture_compression_dxt1
+[00:00:02]: GL_EXT_texture_format_BGRA8888
+[00:00:02]: GL_EXT_texture_storage
+[00:00:02]: GL_OES_get_program_binary
+[00:00:02]: GL_OES_packed_depth_stencil
+[00:00:02]: GL_OES_rgb8_rgba8
+[00:00:02]: GL_OES_standard_derivatives
+[00:00:02]: GL_OES_texture_npot
+[00:00:02]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:02]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:02]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:02]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:02]: GL_MAX_VARYING_VECTORS = 10
+[00:00:02]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:02]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:02]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:02]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:02]: 4 compressed texture formats
+[00:00:02]: texture format 0x83f0
+[00:00:02]: texture format 0x83f1
+[00:00:02]: texture format 0x83f2
+[00:00:02]: texture format 0x83f3
+[00:00:02]: Renderer initialize: Okay
+[00:00:02]: AnimManager initialize: Okay
+[00:00:02]: Buffers initialize: Okay
+[00:00:03]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:03]: GameSpecific initialize: Okay
+[00:00:03]: cGame::StartPlaying
+[00:00:03]: LOADING LUA
+[00:00:03]: DoLuaFile scripts/main.lua
+[00:00:03]: DoLuaFile loading buffer scripts/main.lua
+[00:00:03]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:00:04]:   taskgrouplist:	default	联机版	
+[00:00:04]:   taskgrouplist:	classic	经典	
+[00:00:04]:   taskgrouplist:	cave_default	地下	
+[00:00:04]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:00:04]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:00:04]: running main.lua
+	
+[00:00:04]: loaded modindex	
+[00:00:04]: ModIndex: Beginning normal load sequence.
+	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:00:04]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:00:04]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511552	
+[00:00:04]: Loading mod: workshop-2199027653598511552 (列队行为学) Version:1.3.6	
+[00:00:04]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511640	
+[00:00:04]: Loading mod: workshop-2199027653598511640 (状态显示) Version:1.6.14.h.0.3	
+[00:00:04]: loaded mod_config_data/modconfiguration_workshop-2199027653598511651	
+[00:00:04]: Loading mod: workshop-2199027653598511651 (几何布局) Version:2.1.7	
+[00:00:04]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:00:04]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:00:04]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:00:04]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:00:04]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:00:04]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:00:04]: Mod: workshop-2199027653598511640 (状态显示)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-2199027653598511640 (状态显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-2199027653598511640 (状态显示)	Loading modmain.lua	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:00:04]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:00:04]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-2199027653598511552 (列队行为学)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modmain.lua	
+[00:00:04]: Mod: workshop-2199027653598511651 (几何布局)	Loading modworldgenmain.lua	
+[00:00:04]: Mod: workshop-2199027653598511651 (几何布局)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:04]: Mod: workshop-2199027653598511651 (几何布局)	Loading modmain.lua	
+[00:00:04]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:06]: AppData writable: True.
+[00:00:06]: Documents writable: True.
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:07]: PlayerDeaths loaded morgue	2405	
+[00:00:07]: PlayerHistory loaded player_history (v2) len:228	
+[00:00:07]: ServerPreferences loaded server_preferences	2	
+[00:00:07]: bloom_enabled	false	
+[00:00:07]: loaded saveindex	
+[00:00:07]: OnFilesLoaded()	
+[00:00:07]: OnUpdatePurchaseStateComplete	
+[00:00:07]: Klump load on boot started.	
+[00:00:07]: Klump files loaded: 	0	
+[00:00:09]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[00:00:09]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-2199027653598511640 (状态显示)	Registering prefabs	
+[00:00:09]: Mod: workshop-2199027653598511640 (状态显示)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[00:00:09]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-2199027653598511552 (列队行为学)	Registering prefabs	
+[00:00:09]: Mod: workshop-2199027653598511552 (列队行为学)	  Registering default mod prefab	
+[00:00:09]: Mod: workshop-2199027653598511651 (几何布局)	Registering prefabs	
+[00:00:09]: Mod: workshop-2199027653598511651 (几何布局)	  Registering prefab file: prefabs/buildgridplacer	
+[00:00:09]: Mod: workshop-2199027653598511651 (几何布局)	    buildgridplacer	
+[00:00:09]: Mod: workshop-2199027653598511651 (几何布局)	  Registering default mod prefab	
+[00:00:09]: 	Load FE	
+[00:00:10]: 	Load FE: done	
+[00:00:10]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/blocklist.txt (Failure)
+[00:00:10]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/adminlist.txt (Failure)
+[00:00:10]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/client_save/whitelist.txt (Failure)
+[00:00:10]: THREAD - started 'FilesExistAsyncThread' (16328)
+[00:00:10]: FilesExistAsyncThread started (11054 files)...
+[00:00:10]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:10]: SimLuaProxy::QueryServer()
+[00:00:10]: ModIndex: Load sequence finished successfully.	
+[00:00:10]: Reset() returning
+[00:00:10]: ... FilesExistAsyncThread complete
+[00:00:11]: [Rail] WARNING: Spent 185 milliseconds in rail calls in the last 1.00 seconds
+[00:00:11]:     RailLibrary::RailFireEvents: 0ms
+[00:00:15]: CURL ERROR: (s3.amazonaws.com) Connection timed out after 5000 milliseconds
+[00:00:15]: [MOTD] Failed To Get MOTD Info from 'https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json' due to 0. Retrying (4).	
+[00:00:17]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:17]: SimLuaProxy::QueryServer()
+[00:00:21]: [Rail] Auth Session Ticket requested...
+[00:00:21]: [Rail] Session ticket acquired
+[00:00:22]: CURL ERROR: (s3.amazonaws.com) Connection timed out after 5000 milliseconds
+[00:00:22]: [MOTD] Failed To Get MOTD Info from 'https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json' due to 0. Retrying (3).	
+[00:00:24]: [200] Account Communication Success (3)
+[00:00:24]: Logging in as KU_3RvV-H5E
+[00:00:24]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:24]: SimLuaProxy::QueryServer()
+[00:00:24]: There is no active event to get the status of.
+[00:00:25]: loaded inventory_cache_prod
+[00:00:27]: loaded inventory_cache_prod
+[00:00:27]: WARNING! Invalid resource handle for atlas '../mods/workshop-2199027653598511640/images/avatars.xml', did you remember to load the asset?
+[00:00:27]: Looking for default texture '' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:00:27]: Error Looking for default texture in from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 2199027653598519491...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010022...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010027...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010024...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 2199027653598511552...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 2199027653598511640...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010002...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:28]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:29]: CURL ERROR: (s3.amazonaws.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:00:29]: [MOTD] Failed To Get MOTD Info from 'https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json' due to 0. Retrying (2).	
+[00:00:31]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:31]: SimLuaProxy::QueryServer()
+[00:00:31]: Frontend-Unloading mod 'all'.	
+[00:00:31]: loaded mod_config_data/modconfiguration_workshop-100010022	
+[00:00:31]: loaded mod_config_data/modconfiguration_workshop-100010062	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010058	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010027	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010024	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010023	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010002	
+[00:00:32]: Warning: 543945797
+显示血量256=>65535
+0.70:回血颜色修正
+0.71:男子汉死亡后复活不持续掉血 was split on non-whitespace.	
+[00:00:32]: FrontendLoadMod	workshop-2199027653598519491	
+[00:00:32]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491	
+[00:00:32]: Fontend-Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:00:32]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:00:32]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:32]: FrontendLoadMod	workshop-100010027	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010027	
+[00:00:32]: Fontend-Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:00:32]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:00:32]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:32]: FrontendLoadMod	workshop-100010024	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010024	
+[00:00:32]: Fontend-Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:00:32]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:00:32]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:32]: FrontendLoadMod	workshop-100010002	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010002	
+[00:00:32]: Fontend-Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:00:32]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:00:32]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:32]: FrontendLoadMod	workshop-100010022	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010022	
+[00:00:32]: Fontend-Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:00:32]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:00:32]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:32]: FrontendLoadMod	workshop-100010062	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010062	
+[00:00:32]: Fontend-Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:00:32]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:00:32]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:32]: FrontendLoadMod	workshop-100010058	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010058	
+[00:00:32]: Fontend-Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:00:32]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:00:32]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:32]: FrontendLoadMod	workshop-100010023	
+[00:00:32]: loaded mod_config_data/modconfiguration_workshop-100010023	
+[00:00:32]: Fontend-Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:00:32]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:00:32]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:32]: TopModsCallback
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598519491...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010022...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010027...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 100010024...
+[00:00:32]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 2199027653598511552...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 2199027653598511640...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010002...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 2199027653598519491...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010022...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010027...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010024...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 2199027653598511552...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 2199027653598511640...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010002...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:33]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 2199027653598519491...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010022...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010027...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010024...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 2199027653598511552...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 2199027653598511640...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010002...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:34]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:35]: Truncating to snapshot #139...
+[00:00:35]:  - session/6E9D7551A33ADA7F/0000000140
+[00:00:35]:  - session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000140
+[00:00:35]:  - session/6E9D7551A33ADA7F/A7MGG7GH58J0/0000000140
+[00:00:35]:    3 file(s) removed
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 2199027653598519491...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010022...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010027...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010024...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 2199027653598511552...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 2199027653598511640...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010002...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:00:36]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:00:36]: CURL ERROR: (s3.amazonaws.com) Connection timed out after 5000 milliseconds
+[00:00:36]: [MOTD] Failed To Get MOTD Info from 'https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json' due to 0. Retrying (1).	
+[00:00:36]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491	
+[00:00:36]: loaded mod_config_data/modconfiguration_workshop-100010027	
+[00:00:36]: loaded mod_config_data/modconfiguration_workshop-100010024	
+[00:00:36]: loaded mod_config_data/modconfiguration_workshop-100010002	
+[00:00:36]: loaded mod_config_data/modconfiguration_workshop-100010022	
+[00:00:36]: loaded mod_config_data/modconfiguration_workshop-100010062	
+[00:00:36]: loaded mod_config_data/modconfiguration_workshop-100010058	
+[00:00:36]: loaded mod_config_data/modconfiguration_workshop-100010023	
+[00:00:36]: Best lobby region is aws/China (ping 68)
+[00:00:36]: [IPC] Signal 'DST_Master_Starting' created  #00000D34
+[00:00:36]: [IPC] Clearing pending signals #00000D34...
+[00:00:36]: [IPC] Registering handler for signal #00000D34
+[00:00:36]: [IPC] Handle #00000D34 added to the Eventhandles
+[00:00:36]: [IPC] Signal 'DST_Master_WorldGen' created  #00000CCC
+[00:00:36]: [IPC] Clearing pending signals #00000CCC...
+[00:00:36]: [IPC] Registering handler for signal #00000CCC
+[00:00:36]: [IPC] Handle #00000CCC added to the Eventhandles
+[00:00:36]: [IPC] Signal 'DST_Master_Ready' created  #00000EEC
+[00:00:36]: [IPC] Clearing pending signals #00000EEC...
+[00:00:36]: [IPC] Registering handler for signal #00000EEC
+[00:00:36]: [IPC] Handle #00000EEC added to the Eventhandles
+[00:00:36]: [IPC] Signal 'DST_Master_ErrPort' created  #00000D10
+[00:00:36]: [IPC] Clearing pending signals #00000D10...
+[00:00:36]: [IPC] Registering handler for signal #00000D10
+[00:00:36]: [IPC] Handle #00000D10 added to the Eventhandles
+[00:00:36]: [IPC] Signal 'DST_Master_ErrStartup' created  #000004D0
+[00:00:36]: [IPC] Clearing pending signals #000004D0...
+[00:00:36]: [IPC] Registering handler for signal #000004D0
+[00:00:36]: [IPC] Handle #000004D0 added to the Eventhandles
+[00:00:36]: [IPC] Signal 'DST_Master_Kill' created  #00000D88
+[00:00:36]: [IPC] Clearing pending signals #00000D88...
+[00:00:37]: [IPC] Signal 'DST_Slave_Starting' created  #00000F24
+[00:00:37]: [IPC] Clearing pending signals #00000F24...
+[00:00:37]: [IPC] Registering handler for signal #00000F24
+[00:00:37]: [IPC] Handle #00000F24 added to the Eventhandles
+[00:00:37]: [IPC] Signal 'DST_Slave_WorldGen' created  #00000F14
+[00:00:37]: [IPC] Clearing pending signals #00000F14...
+[00:00:37]: [IPC] Registering handler for signal #00000F14
+[00:00:37]: [IPC] Handle #00000F14 added to the Eventhandles
+[00:00:37]: [IPC] Signal 'DST_Slave_Ready' created  #00000E8C
+[00:00:37]: [IPC] Clearing pending signals #00000E8C...
+[00:00:37]: [IPC] Registering handler for signal #00000E8C
+[00:00:37]: [IPC] Handle #00000E8C added to the Eventhandles
+[00:00:37]: [IPC] Signal 'DST_Slave_ErrPort' created  #00000F20
+[00:00:37]: [IPC] Clearing pending signals #00000F20...
+[00:00:37]: [IPC] Registering handler for signal #00000F20
+[00:00:37]: [IPC] Handle #00000F20 added to the Eventhandles
+[00:00:37]: [IPC] Signal 'DST_Slave_ErrStartup' created  #00000F0C
+[00:00:37]: [IPC] Clearing pending signals #00000F0C...
+[00:00:37]: [IPC] Registering handler for signal #00000F0C
+[00:00:37]: [IPC] Handle #00000F0C added to the Eventhandles
+[00:00:37]: [IPC] Signal 'DST_Slave_Kill' created  #00000E1C
+[00:00:37]: [IPC] Clearing pending signals #00000E1C...
+[00:00:38]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:00:38]: SimLuaProxy::QueryServer()
+[00:00:44]: CURL ERROR: (s3.amazonaws.com) Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:00:44]: [MOTD] Failed To Get MOTD Info. Too many retries.	
+[00:00:44]: [MOTD] Done Loading.	
+[00:00:44]: [IPC] Received DST_Master Starting signal !
+[00:00:44]: [IPC] Received DST_Slave Starting signal !
+[00:00:57]: [IPC] Received DST_Master Ready signal !
+[00:01:13]: [IPC] Received DST_Slave Ready signal !
+[00:01:13]: [Connect] Init client connection to 127.0.0.1|10999
+[00:01:13]: [Connect] PendingConnection::Reset(true)
+[00:01:13]: [Connect] InternalInitClient <7345656067528298375>
+[00:01:13]: [Shard] Starting shard mode as player
+[00:01:13]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:01:13]: [Connect] Sending ping(s)...
+[00:01:13]: [Connect] Server has no net id, not attempting punchthrough.
+[00:01:13]: [Connect] DirectConnect Ping 127.0.0.1|10999
+[00:01:13]: [Connect] Ping response from 127.0.0.1|10999
+[00:01:13]: [Connect] Joining server from ping response...
+[00:01:13]: [Connect] Got join server response from lua
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 2199027653598519491...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010022...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010027...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010024...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 2199027653598511552...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 2199027653598511640...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010002...
+[00:01:13]: [200] Account Communication Success (13)
+[00:01:13]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10999
+[00:01:13]: [Connect] DirectConnect to 127.0.0.1|10999
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:01:13]: Connection accepted to 127.0.0.1|10999 <6058766952713064579>
+[00:01:13]: Network external address discovered: 127.0.0.1|55492
+[00:01:13]: SendClientHandShakePacket to <6058766952713064579>
+[00:01:13]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:01:14]: DeserializeHandShakeServerListing
+[00:01:14]: Network tick rate: U=10(3), D=15
+[00:01:14]: Platform: 4
+[00:01:14]: Version: 341205
+[00:01:14]: SendClientInventoryHandShakePacket to <6058766952713064579>
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 2199027653598519491...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010022...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010027...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010024...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 2199027653598511552...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 2199027653598511640...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010002...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:01:14]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:01:15]: Begin Session: 6E9D7551A33ADA7F
+[00:01:15]: Done Downloading Client Object Data
+[00:01:15]: DownloadMods and temp disable	
+[00:01:15]: We now have the required mods, enable them for server	
+[00:01:15]: Temp Enabling workshop-100010027	
+[00:01:15]: Temp Enabling workshop-100010024	
+[00:01:15]: Temp Enabling workshop-100010023	
+[00:01:15]: Temp Enabling workshop-100010002	
+[00:01:15]: Temp Enabling workshop-100010058	
+[00:01:15]: Temp Enabling workshop-2199027653598519491	
+[00:01:15]: Temp Enabling workshop-100010062	
+[00:01:15]: Temp Enabling workshop-100010022	
+[00:01:15]: ModIndex:SetTempModConfigData	
+[00:01:15]: Setting temp mod config for mod 	workshop-100010022	
+[00:01:15]: Setting temp mod config for mod 	workshop-2199027653598519491	
+[00:01:15]: Setting temp mod config for mod 	workshop-100010062	
+[00:01:15]: Setting temp mod config for mod 	workshop-100010058	
+[00:01:15]: Setting temp mod config for mod 	workshop-100010027	
+[00:01:15]: Setting temp mod config for mod 	workshop-100010024	
+[00:01:15]: Setting temp mod config for mod 	workshop-100010023	
+[00:01:15]: Setting temp mod config for mod 	workshop-100010002	
+[00:01:15]: Mods are setup for server, save the mod index and proceed.	
+[00:01:15]: Downloading [0] From: server_temp
+[00:01:15]: [Rail] Reporting played with: "@Viru Man" (R:76561197973341873).
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010064...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 2199027653598519491...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010022...
+[00:01:15]: 0 (40%) 1/1 server_temp\server_save 114000b / 284159b
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010027...
+[00:01:15]: 0 (80%) 1/1 server_temp\server_save 228000b / 284159b
+[00:01:15]: 0 (100%) 1/1 server_temp\server_save 284159b / 284159b
+[00:01:15]: Download complete[0] Files: 1 Size: 284159
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010024...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 2199027653598511651...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 2199027653598511552...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010058...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 2199027653598511640...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010062...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010057...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010002...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010023...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010060...
+[00:01:15]: Getting mod details (PublishedFileDetails) - 100010065...
+[00:01:15]: Collecting garbage...
+[00:01:16]: lua_gc took 0.04 seconds
+[00:01:16]: ~ShardLuaProxy()
+[00:01:16]: ~cEventLeaderboardProxy()
+[00:01:16]: ~ItemServerLuaProxy()
+[00:01:16]: ~InventoryLuaProxy()
+[00:01:16]: ~NetworkLuaProxy()
+[00:01:16]: ~SimLuaProxy()
+[00:01:16]: Cancelling LuaQueryCallback handle [10]
+[00:01:16]: lua_close took 0.06 seconds
+[00:01:16]: ReleaseAll
+[00:01:16]: ReleaseAll Finished
+[00:01:16]: cGame::StartPlaying
+[00:01:16]: LOADING LUA
+[00:01:16]: DoLuaFile scripts/main.lua
+[00:01:16]: DoLuaFile loading buffer scripts/main.lua
+[00:01:16]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:01:17]:   taskgrouplist:	default	联机版	
+[00:01:17]:   taskgrouplist:	classic	经典	
+[00:01:17]:   taskgrouplist:	cave_default	地下	
+[00:01:17]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:01:17]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:01:17]: running main.lua
+	
+[00:01:17]: unloading prefabs for mod MOD_workshop-100010065	
+[00:01:17]: unloading prefabs for mod MOD_workshop-2199027653598511640	
+[00:01:17]: unloading prefabs for mod MOD_workshop-100010064	
+[00:01:17]: unloading prefabs for mod MOD_workshop-2199027653598511552	
+[00:01:17]: unloading prefabs for mod MOD_workshop-2199027653598511651	
+[00:01:17]: loaded modindex	
+[00:01:17]: ModIndex: Beginning normal load sequence.
+	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-100010002_CLIENT	
+[00:01:17]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-100010022_CLIENT	
+[00:01:17]: Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-100010023_CLIENT	
+[00:01:17]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:01:17]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:01:17]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:01:17]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:01:17]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:01:17]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:01:17]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511552	
+[00:01:17]: Loading mod: workshop-2199027653598511552 (列队行为学) Version:1.3.6	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511640	
+[00:01:17]: Loading mod: workshop-2199027653598511640 (状态显示) Version:1.6.14.h.0.3	
+[00:01:17]: loaded mod_config_data/modconfiguration_workshop-2199027653598511651	
+[00:01:17]: Loading mod: workshop-2199027653598511651 (几何布局) Version:2.1.7	
+[00:01:17]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491_CLIENT	
+[00:01:17]: Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:01:17]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:01:17]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:01:17]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:01:17]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:01:17]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:01:17]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:01:17]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:01:17]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-100010022 (Slot Machine)	Loading modmain.lua	
+[00:01:17]: modimport: ../mods/workshop-100010022/lib_ver.lua	
+[00:01:17]: 1.05	Slot Machine	
+[00:01:17]: modimport: ../mods/workshop-100010022/lib_fn.lua	
+[00:01:17]: 1.05	Slot Machine	
+[00:01:17]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:01:17]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:01:17]: Mod: workshop-2199027653598511640 (状态显示)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-2199027653598511640 (状态显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-2199027653598511640 (状态显示)	Loading modmain.lua	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:01:17]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:01:17]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-2199027653598511552 (列队行为学)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modmain.lua	
+[00:01:17]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:01:17]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:01:17]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:01:17]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modmain.lua	
+[00:01:17]: Mod: workshop-2199027653598511651 (几何布局)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-2199027653598511651 (几何布局)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-2199027653598511651 (几何布局)	Loading modmain.lua	
+[00:01:17]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:01:17]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:01:17]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:01:17]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:01:19]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:01:19]: LOADING LUA SUCCESS
+[00:01:19]: Registering mod namespace "workshop-100010023"
+[00:01:19]: Registering mod namespace "food item"
+[00:01:19]: PlayerDeaths loaded morgue	2405	
+[00:01:19]: PlayerHistory loaded player_history (v2) len:228	
+[00:01:19]: ServerPreferences loaded server_preferences	2	
+[00:01:19]: bloom_enabled	false	
+[00:01:19]: loaded saveindex	
+[00:01:19]: OnFilesLoaded()	
+[00:01:19]: OnUpdatePurchaseStateComplete	
+[00:01:19]: Loading world: client_temp/server_save	
+[00:01:19]: Save file is at version 4.77	
+[00:01:19]: Klump load on boot started.	
+[00:01:19]: Klump files loaded: 	0	
+[00:01:19]: 	Unload FE	
+[00:01:19]: 	Unload FE done	
+[00:01:21]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[00:01:21]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:01:21]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-100010022 (Slot Machine)	Registering prefabs	
+[00:01:21]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/dubloon	
+[00:01:21]: Mod: workshop-100010022 (Slot Machine)	    dubloon	
+[00:01:21]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/slotmachine	
+[00:01:21]: Mod: workshop-100010022 (Slot Machine)	    slotmachine	
+[00:01:21]: Mod: workshop-100010022 (Slot Machine)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:01:21]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-2199027653598511640 (状态显示)	Registering prefabs	
+[00:01:21]: Mod: workshop-2199027653598511640 (状态显示)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[00:01:21]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-2199027653598511552 (列队行为学)	Registering prefabs	
+[00:01:21]: Mod: workshop-2199027653598511552 (列队行为学)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:01:21]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:01:21]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:01:21]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:01:21]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:01:21]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-100010002 (Damage Indicators)	Registering prefabs	
+[00:01:21]: Mod: workshop-100010002 (Damage Indicators)	  Registering prefab file: prefabs/dmgind	
+[00:01:21]: Mod: workshop-100010002 (Damage Indicators)	    dmgind	
+[00:01:21]: Mod: workshop-100010002 (Damage Indicators)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Registering prefabs	
+[00:01:21]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-2199027653598511651 (几何布局)	Registering prefabs	
+[00:01:21]: Mod: workshop-2199027653598511651 (几何布局)	  Registering prefab file: prefabs/buildgridplacer	
+[00:01:21]: Mod: workshop-2199027653598511651 (几何布局)	    buildgridplacer	
+[00:01:21]: Mod: workshop-2199027653598511651 (几何布局)	  Registering default mod prefab	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	Registering prefabs	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	    globalposition_classified	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	    smoketrail	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	    ping_generic	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	    ping_omw	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	    ping_danger	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	    ping_explore	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	    ping_gohere	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	    globalmapicon_noproxy	
+[00:01:21]: Mod: workshop-100010023 (Global Positions)	  Registering default mod prefab	
+[00:01:21]: 	LOAD BE	
+[00:01:25]: 	LOAD BE: done	
+[00:01:25]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/campfire.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_generic.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_gohere.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_explore.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_danger.xml )
+[00:01:25]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_omw.xml )
+[00:01:25]: Loading 14 new character(s)	
+[00:01:25]: Total 14 character(s) loaded	
+[00:01:25]: Loading Nav Grid	
+[00:01:26]: setting 	summerlength	15	
+[00:01:26]: setting 	isnightmaredawn	false	
+[00:01:26]: setting 	elapseddaysinseason	7	
+[00:01:26]: setting 	isfullmoon	false	
+[00:01:26]: setting 	moisture	919.22534179688	
+[00:01:26]: setting 	springlength	20	
+[00:01:26]: setting 	isnightmarewild	false	
+[00:01:26]: setting 	moonphase	threequarter	
+[00:01:26]: setting 	precipitationrate	0	
+[00:01:26]: setting 	iswet	false	
+[00:01:26]: setting 	isnewmoon	false	
+[00:01:26]: setting 	iswinter	false	
+[00:01:26]: setting 	israining	false	
+[00:01:26]: setting 	issummer	true	
+[00:01:26]: setting 	time	0.002017593383789	
+[00:01:26]: setting 	season	summer	
+[00:01:26]: setting 	nightmaretimeinphase	0	
+[00:01:26]: setting 	moistureceil	6364.7353515625	
+[00:01:26]: setting 	isday	true	
+[00:01:26]: setting 	isnight	false	
+[00:01:26]: setting 	wetness	0	
+[00:01:26]: setting 	cycles	132	
+[00:01:26]: setting 	isnightmarecalm	false	
+[00:01:26]: setting 	timeinphase	0.0029346812855113	
+[00:01:26]: setting 	isdusk	false	
+[00:01:26]: setting 	iscavedusk	false	
+[00:01:26]: setting 	isautumn	false	
+[00:01:26]: setting 	iscaveday	true	
+[00:01:26]: setting 	remainingdaysinseason	8	
+[00:01:26]: setting 	phase	day	
+[00:01:26]: setting 	snowlevel	0	
+[00:01:26]: setting 	iswaxingmoon	false	
+[00:01:26]: setting 	autumnlength	20	
+[00:01:26]: setting 	pop	0.094564766916806	
+[00:01:26]: setting 	nightmaretime	0	
+[00:01:26]: setting 	isspring	false	
+[00:01:26]: setting 	winterlength	15	
+[00:01:26]: setting 	nightmarephase	none	
+[00:01:26]: setting 	issnowcovered	false	
+[00:01:26]: setting 	issnowing	false	
+[00:01:26]: setting 	iscavenight	false	
+[00:01:26]: setting 	temperature	94.827112312999	
+[00:01:26]: setting 	cavephase	day	
+[00:01:26]: setting 	precipitation	none	
+[00:01:26]: setting 	isnightmarewarn	false	
+[00:01:26]: Reconstructing topology	
+[00:01:26]: 	...Sorting points	
+[00:01:26]: 	...Sorting edges	
+[00:01:26]: 	...Connecting nodes	
+[00:01:26]: 	...Validating connections	
+[00:01:26]: 	...Housekeeping	
+[00:01:26]: 	...Done!	
+[00:01:26]: ModIndex: Load sequence finished successfully.	
+[00:01:26]: Reset() returning
+[00:01:27]: Attempting to send resume request
+[00:01:27]: ReceiveResumeNotification
+[00:01:27]: Movement prediction enabled	
+[00:01:27]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'. Is the region specified in the atlas?
+[00:01:27]: Looking for default texture '' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:01:27]: Error Looking for default texture in from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:01:27]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'. Is the region specified in the atlas?
+[00:01:27]: Looking for default texture '' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:01:27]: Error Looking for default texture in from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:01:27]: Deserializing tile data (425 x 425)
+[00:01:27]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:01:28]: AddActionQueuerComponent	
+[00:01:45]: [Rail] Reporting played with: "Fairy Law" (R:76561197973379781).
+[00:05:07]: [SYSMEM]66% - PH:4035m/12177m PG:1995m/14154m VRT:1894m/4095m XM:0m
+[00:05:07]: [PRCMEM]PWS:1655m WS:1607m PPU:994k PU 984k PNU:241k NU:233k PF:1657m PPF:1702m
+[00:06:49]: Invalid RPC data type
+[00:09:26]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:10:07]: [SYSMEM]67% - PH:3938m/12177m PG:1763m/14154m VRT:1878m/4095m XM:0m
+[00:10:07]: [PRCMEM]PWS:1655m WS:1604m PPU:994k PU 986k PNU:241k NU:231k PF:1657m PPF:1702m
+[00:12:33]: Invalid RPC data type
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:12]: Warning: 只是打下手势。 was split on non-whitespace.	
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:12]: Warning: 。 was split on non-whitespace.	
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:12]: Warning: ！ was split on non-whitespace.	
+[00:14:13]: Warning: ！ was split on non-whitespace.	
+[00:14:14]: Warning: ！ was split on non-whitespace.	
+[00:14:14]: Warning: 。 was split on non-whitespace.	
+[00:14:14]: Warning: ！ was split on non-whitespace.	
+[00:14:14]: Warning: ！ was split on non-whitespace.	
+[00:14:14]: Warning: ！ was split on non-whitespace.	
+[00:14:14]: Warning: ！ was split on non-whitespace.	
+[00:14:14]: Warning: 。 was split on non-whitespace.	
+[00:14:14]: Warning: ！ was split on non-whitespace.	
+[00:14:14]: Warning: ！ was split on non-whitespace.	
+[00:14:14]: Warning: ！ was split on non-whitespace.	
+[00:14:24]: Warning: ！ was split on non-whitespace.	
+[00:14:24]: Warning: 只是打下手势。 was split on non-whitespace.	
+[00:14:24]: Warning: ！ was split on non-whitespace.	
+[00:14:24]: Warning: ！ was split on non-whitespace.	
+[00:14:24]: Warning: ！ was split on non-whitespace.	
+[00:14:24]: Warning: ！ was split on non-whitespace.	
+[00:14:25]: Warning: ！ was split on non-whitespace.	
+[00:14:25]: Warning: 。 was split on non-whitespace.	
+[00:14:25]: Warning: ！ was split on non-whitespace.	
+[00:14:25]: Warning: ！ was split on non-whitespace.	
+[00:14:25]: Warning: ！ was split on non-whitespace.	
+[00:14:26]: Warning: 。 was split on non-whitespace.	
+[00:14:26]: Warning: ！ was split on non-whitespace.	
+[00:14:26]: Warning: 。 was split on non-whitespace.	
+[00:14:26]: Warning: ！ was split on non-whitespace.	
+[00:14:26]: Warning: ！ was split on non-whitespace.	
+[00:14:26]: Warning: ！ was split on non-whitespace.	
+[00:14:26]: Warning: ！ was split on non-whitespace.	
+[00:14:26]: Warning: 。 was split on non-whitespace.	
+[00:14:26]: Warning: ！ was split on non-whitespace.	
+[00:14:26]: Warning: ！ was split on non-whitespace.	
+[00:14:26]: Warning: ！ was split on non-whitespace.	
+[00:14:27]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: 。 was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: 。 was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: 只是打下手势。 was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:28]: Warning: ！ was split on non-whitespace.	
+[00:14:29]: Warning: ！ was split on non-whitespace.	
+[00:15:07]: [SYSMEM]67% - PH:4007m/12177m PG:1753m/14154m VRT:1892m/4095m XM:0m
+[00:15:07]: [PRCMEM]PWS:1655m WS:1617m PPU:994k PU 963k PNU:241k NU:232k PF:1666m PPF:1702m
+[00:16:31]: Warning: ！ was split on non-whitespace.	
+[00:16:31]: Warning: 。 was split on non-whitespace.	
+[00:16:31]: Warning: ！ was split on non-whitespace.	
+[00:16:31]: Warning: ！ was split on non-whitespace.	
+[00:16:31]: Warning: ！ was split on non-whitespace.	
+[00:16:31]: Warning: ！ was split on non-whitespace.	
+[00:16:31]: Warning: ！ was split on non-whitespace.	
+[00:16:32]: Warning: 。 was split on non-whitespace.	
+[00:16:33]: Warning: ！ was split on non-whitespace.	
+[00:16:33]: Warning: 。 was split on non-whitespace.	
+[00:16:33]: Warning: ！ was split on non-whitespace.	
+[00:16:33]: Warning: ！ was split on non-whitespace.	
+[00:16:33]: Warning: ！ was split on non-whitespace.	
+[00:16:33]: Warning: ！ was split on non-whitespace.	
+[00:16:33]: Warning: 。 was split on non-whitespace.	
+[00:16:33]: Warning: ！ was split on non-whitespace.	
+[00:16:33]: Warning: ！ was split on non-whitespace.	
+[00:16:33]: Warning: ！ was split on non-whitespace.	
+[00:16:34]: Warning: ！ was split on non-whitespace.	
+[00:16:34]: Warning: 。 was split on non-whitespace.	
+[00:16:34]: Warning: ！ was split on non-whitespace.	
+[00:16:34]: Warning: ！ was split on non-whitespace.	
+[00:16:34]: Warning: ！ was split on non-whitespace.	
+[00:16:34]: Warning: ！ was split on non-whitespace.	
+[00:16:34]: Warning: 。 was split on non-whitespace.	
+[00:16:34]: Warning: ！ was split on non-whitespace.	
+[00:16:34]: Warning: ！ was split on non-whitespace.	
+[00:16:34]: Warning: ！ was split on non-whitespace.	
+[00:16:36]: Warning: ！ was split on non-whitespace.	
+[00:16:36]: Warning: 。 was split on non-whitespace.	
+[00:16:36]: Warning: ！ was split on non-whitespace.	
+[00:16:36]: Warning: ！ was split on non-whitespace.	
+[00:16:36]: Warning: ！ was split on non-whitespace.	
+[00:16:36]: Warning: ！ was split on non-whitespace.	
+[00:16:36]: Warning: 。 was split on non-whitespace.	
+[00:16:36]: Warning: ！ was split on non-whitespace.	
+[00:16:36]: Warning: ！ was split on non-whitespace.	
+[00:16:36]: Warning: ！ was split on non-whitespace.	
+[00:16:37]: Warning: ！ was split on non-whitespace.	
+[00:16:37]: Warning: 。 was split on non-whitespace.	
+[00:16:37]: Warning: ！ was split on non-whitespace.	
+[00:16:37]: Warning: ！ was split on non-whitespace.	
+[00:16:37]: Warning: ！ was split on non-whitespace.	
+[00:16:37]: Warning: ！ was split on non-whitespace.	
+[00:16:37]: Warning: 。 was split on non-whitespace.	
+[00:16:37]: Warning: ！ was split on non-whitespace.	
+[00:16:37]: Warning: ！ was split on non-whitespace.	
+[00:16:37]: Warning: ！ was split on non-whitespace.	
+[00:16:38]: Warning: 。 was split on non-whitespace.	
+[00:16:38]: Warning: ！ was split on non-whitespace.	
+[00:16:38]: Warning: 。 was split on non-whitespace.	
+[00:16:38]: Warning: ！ was split on non-whitespace.	
+[00:16:38]: Warning: ！ was split on non-whitespace.	
+[00:16:38]: Warning: ！ was split on non-whitespace.	
+[00:16:38]: Warning: ！ was split on non-whitespace.	
+[00:16:38]: Warning: 。 was split on non-whitespace.	
+[00:16:38]: Warning: ！ was split on non-whitespace.	
+[00:16:38]: Warning: ！ was split on non-whitespace.	
+[00:16:38]: Warning: ！ was split on non-whitespace.	
+[00:16:39]: Warning: 。 was split on non-whitespace.	
+[00:16:39]: Warning: ！ was split on non-whitespace.	
+[00:16:39]: Warning: ！ was split on non-whitespace.	
+[00:16:39]: Warning: ！ was split on non-whitespace.	
+[00:16:39]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: 。 was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: 。 was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: ！ was split on non-whitespace.	
+[00:16:42]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:44]: Warning: ！ was split on non-whitespace.	
+[00:16:44]: Warning: ！ was split on non-whitespace.	
+[00:16:44]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:44]: Warning: ！ was split on non-whitespace.	
+[00:16:44]: Warning: ！ was split on non-whitespace.	
+[00:16:44]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:45]: Warning: ！ was split on non-whitespace.	
+[00:16:45]: Warning: ！ was split on non-whitespace.	
+[00:16:45]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:45]: Warning: ！ was split on non-whitespace.	
+[00:16:45]: Warning: ！ was split on non-whitespace.	
+[00:16:45]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:47]: Warning: ！ was split on non-whitespace.	
+[00:16:47]: Warning: ！ was split on non-whitespace.	
+[00:16:47]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:47]: Warning: ！ was split on non-whitespace.	
+[00:16:47]: Warning: ！ was split on non-whitespace.	
+[00:16:47]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:48]: Warning: ！ was split on non-whitespace.	
+[00:16:48]: Warning: ！ was split on non-whitespace.	
+[00:16:48]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:48]: Warning: ！ was split on non-whitespace.	
+[00:16:48]: Warning: ！ was split on non-whitespace.	
+[00:16:48]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:49]: Warning: ！ was split on non-whitespace.	
+[00:16:49]: Warning: ！ was split on non-whitespace.	
+[00:16:49]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:49]: Warning: ！ was split on non-whitespace.	
+[00:16:49]: Warning: ！ was split on non-whitespace.	
+[00:16:49]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:16:53]: Warning: ！ was split on non-whitespace.	
+[00:16:53]: Warning: 。 was split on non-whitespace.	
+[00:16:53]: Warning: ！ was split on non-whitespace.	
+[00:16:53]: Warning: ！ was split on non-whitespace.	
+[00:16:53]: Warning: ！ was split on non-whitespace.	
+[00:16:53]: Warning: ！ was split on non-whitespace.	
+[00:16:53]: Warning: ！ was split on non-whitespace.	
+[00:16:54]: Warning: 。 was split on non-whitespace.	
+[00:16:55]: Warning: ！ was split on non-whitespace.	
+[00:16:55]: Warning: 。 was split on non-whitespace.	
+[00:16:55]: Warning: ！ was split on non-whitespace.	
+[00:16:55]: Warning: ！ was split on non-whitespace.	
+[00:16:55]: Warning: ！ was split on non-whitespace.	
+[00:16:55]: Warning: ！ was split on non-whitespace.	
+[00:16:55]: Warning: 。 was split on non-whitespace.	
+[00:16:55]: Warning: ！ was split on non-whitespace.	
+[00:16:55]: Warning: ！ was split on non-whitespace.	
+[00:16:55]: Warning: ！ was split on non-whitespace.	
+[00:16:57]: Warning: ！ was split on non-whitespace.	
+[00:16:57]: Warning: 。 was split on non-whitespace.	
+[00:16:57]: Warning: ！ was split on non-whitespace.	
+[00:16:57]: Warning: ！ was split on non-whitespace.	
+[00:16:57]: Warning: ！ was split on non-whitespace.	
+[00:16:57]: Warning: ！ was split on non-whitespace.	
+[00:16:57]: Warning: 。 was split on non-whitespace.	
+[00:16:57]: Warning: ！ was split on non-whitespace.	
+[00:16:57]: Warning: ！ was split on non-whitespace.	
+[00:16:57]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: 。 was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: 。 was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: ！ was split on non-whitespace.	
+[00:16:58]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:17:00]: Warning: ！ was split on non-whitespace.	
+[00:17:00]: Warning: ！ was split on non-whitespace.	
+[00:17:00]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:17:01]: Warning: ！ was split on non-whitespace.	
+[00:17:01]: Warning: ！ was split on non-whitespace.	
+[00:17:01]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:17:02]: Warning: ！ was split on non-whitespace.	
+[00:17:02]: Warning: ！ was split on non-whitespace.	
+[00:17:02]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:17:02]: Warning: ！ was split on non-whitespace.	
+[00:17:02]: Warning: ！ was split on non-whitespace.	
+[00:17:02]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:17:26]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:17:34]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:17:47]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:18:05]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:20:07]: [SYSMEM]67% - PH:3992m/12177m PG:1730m/14154m VRT:1879m/4095m XM:0m
+[00:20:07]: [PRCMEM]PWS:1655m WS:1621m PPU:1000k PU 998k PNU:241k NU:231k PF:1668m PPF:1702m
+[00:21:00]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:25:06]: Warning: ！ was split on non-whitespace.	
+[00:25:06]: Warning: 。 was split on non-whitespace.	
+[00:25:06]: Warning: ！ was split on non-whitespace.	
+[00:25:06]: Warning: ！ was split on non-whitespace.	
+[00:25:06]: Warning: ！ was split on non-whitespace.	
+[00:25:06]: Warning: ！ was split on non-whitespace.	
+[00:25:07]: [SYSMEM]66% - PH:4101m/12177m PG:1721m/14154m VRT:1863m/4095m XM:0m
+[00:25:07]: [PRCMEM]PWS:1655m WS:1620m PPU:1003k PU 998k PNU:241k NU:231k PF:1669m PPF:1702m
+[00:25:08]: Warning: 。 was split on non-whitespace.	
+[00:25:09]: Warning: ！ was split on non-whitespace.	
+[00:25:09]: Warning: 。 was split on non-whitespace.	
+[00:25:09]: Warning: ！ was split on non-whitespace.	
+[00:25:09]: Warning: ！ was split on non-whitespace.	
+[00:25:09]: Warning: ！ was split on non-whitespace.	
+[00:25:09]: Warning: ！ was split on non-whitespace.	
+[00:25:09]: Warning: 。 was split on non-whitespace.	
+[00:25:09]: Warning: ！ was split on non-whitespace.	
+[00:25:09]: Warning: ！ was split on non-whitespace.	
+[00:25:09]: Warning: ！ was split on non-whitespace.	
+[00:25:10]: Warning: ！ was split on non-whitespace.	
+[00:25:10]: Warning: 。 was split on non-whitespace.	
+[00:25:10]: Warning: ！ was split on non-whitespace.	
+[00:25:10]: Warning: ！ was split on non-whitespace.	
+[00:25:10]: Warning: ！ was split on non-whitespace.	
+[00:25:11]: Warning: ！ was split on non-whitespace.	
+[00:25:11]: Warning: 。 was split on non-whitespace.	
+[00:25:11]: Warning: ！ was split on non-whitespace.	
+[00:25:11]: Warning: ！ was split on non-whitespace.	
+[00:25:11]: Warning: ！ was split on non-whitespace.	
+[00:25:12]: Warning: ！ was split on non-whitespace.	
+[00:25:12]: Warning: 。 was split on non-whitespace.	
+[00:25:12]: Warning: ！ was split on non-whitespace.	
+[00:25:12]: Warning: ！ was split on non-whitespace.	
+[00:25:12]: Warning: ！ was split on non-whitespace.	
+[00:25:12]: Warning: ！ was split on non-whitespace.	
+[00:25:12]: Warning: 。 was split on non-whitespace.	
+[00:25:12]: Warning: ！ was split on non-whitespace.	
+[00:25:12]: Warning: ！ was split on non-whitespace.	
+[00:25:12]: Warning: ！ was split on non-whitespace.	
+[00:25:13]: Warning: ！ was split on non-whitespace.	
+[00:25:13]: Warning: 。 was split on non-whitespace.	
+[00:25:13]: Warning: ！ was split on non-whitespace.	
+[00:25:13]: Warning: ！ was split on non-whitespace.	
+[00:25:13]: Warning: ！ was split on non-whitespace.	
+[00:25:13]: Warning: ！ was split on non-whitespace.	
+[00:25:13]: Warning: 。 was split on non-whitespace.	
+[00:25:13]: Warning: ！ was split on non-whitespace.	
+[00:25:13]: Warning: ！ was split on non-whitespace.	
+[00:25:13]: Warning: ！ was split on non-whitespace.	
+[00:25:15]: Warning: ！ was split on non-whitespace.	
+[00:25:15]: Warning: ！ was split on non-whitespace.	
+[00:25:15]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:25:15]: Warning: ！ was split on non-whitespace.	
+[00:25:17]: Warning: ！ was split on non-whitespace.	
+[00:25:17]: Warning: ！ was split on non-whitespace.	
+[00:25:17]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:25:17]: Warning: ！ was split on non-whitespace.	
+[00:25:17]: Warning: ！ was split on non-whitespace.	
+[00:25:17]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:25:19]: Warning: ！ was split on non-whitespace.	
+[00:25:19]: Warning: ！ was split on non-whitespace.	
+[00:25:19]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:25:19]: Warning: ！ was split on non-whitespace.	
+[00:25:19]: Warning: ！ was split on non-whitespace.	
+[00:25:19]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:25:19]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:25:19]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:25:21]: Warning: ！ was split on non-whitespace.	
+[00:25:21]: Warning: ！ was split on non-whitespace.	
+[00:25:21]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:25:21]: Warning: ！ was split on non-whitespace.	
+[00:25:21]: Warning: ！ was split on non-whitespace.	
+[00:25:21]: Warning: 并导致饥饿。 was split on non-whitespace.	
+[00:25:27]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:26:43]: Warning: 更长。 was split on non-whitespace.	
+[00:26:43]: Warning: ！ was split on non-whitespace.	
+[00:27:05]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:27:05]: [Shard] Starting LAN migration...
+[00:27:05]: [Connect] SetMigrationInfo 127.0.0.1|10998 []
+[00:27:05]: Received ID_DST_SHARD_SILENT_DISCONNECT
+[00:27:05]: Collecting garbage...
+[00:27:05]: lua_gc took 0.06 seconds
+[00:27:05]: ~ShardLuaProxy()
+[00:27:05]: ~cEventLeaderboardProxy()
+[00:27:05]: ~ItemServerLuaProxy()
+[00:27:05]: ~InventoryLuaProxy()
+[00:27:05]: ~NetworkLuaProxy()
+[00:27:05]: ~SimLuaProxy()
+[00:27:05]: lua_close took 0.05 seconds
+[00:27:05]: ReleaseAll
+[00:27:05]: ReleaseAll Finished
+[00:27:05]: cGame::StartPlaying
+[00:27:05]: LOADING LUA
+[00:27:05]: DoLuaFile scripts/main.lua
+[00:27:05]: DoLuaFile loading buffer scripts/main.lua
+[00:27:05]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:27:06]:   taskgrouplist:	default	联机版	
+[00:27:06]:   taskgrouplist:	classic	经典	
+[00:27:06]:   taskgrouplist:	cave_default	地下	
+[00:27:06]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:27:06]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:27:06]: running main.lua
+	
+[00:27:06]: unloading prefabs for mod MOD_workshop-100010065	
+[00:27:06]: unloading prefabs for mod MOD_workshop-100010058	
+[00:27:06]: unloading prefabs for mod MOD_workshop-100010022	
+[00:27:06]: unloading prefabs for mod MOD_workshop-100010062	
+[00:27:06]: unloading prefabs for mod MOD_workshop-2199027653598511640	
+[00:27:06]: unloading prefabs for mod MOD_workshop-100010064	
+[00:27:06]: unloading prefabs for mod MOD_workshop-2199027653598511552	
+[00:27:06]: unloading prefabs for mod MOD_workshop-100010024	
+[00:27:06]: unloading prefabs for mod MOD_workshop-100010027	
+[00:27:06]: unloading prefabs for mod MOD_workshop-100010002	
+[00:27:06]: unloading prefabs for mod MOD_workshop-2199027653598519491	
+[00:27:06]: unloading prefabs for mod MOD_workshop-2199027653598511651	
+[00:27:06]: unloading prefabs for mod MOD_workshop-100010023	
+[00:27:06]: loaded modindex	
+[00:27:06]: ModIndex: Beginning normal load sequence.
+	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-100010002_CLIENT	
+[00:27:06]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-100010022_CLIENT	
+[00:27:06]: Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-100010023_CLIENT	
+[00:27:06]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:27:06]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:27:06]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:27:06]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:27:06]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:27:06]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:27:06]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511552	
+[00:27:06]: Loading mod: workshop-2199027653598511552 (列队行为学) Version:1.3.6	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511640	
+[00:27:06]: Loading mod: workshop-2199027653598511640 (状态显示) Version:1.6.14.h.0.3	
+[00:27:06]: loaded mod_config_data/modconfiguration_workshop-2199027653598511651	
+[00:27:06]: Loading mod: workshop-2199027653598511651 (几何布局) Version:2.1.7	
+[00:27:06]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491_CLIENT	
+[00:27:06]: Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:27:06]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:27:06]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:27:06]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:27:06]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:27:06]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:27:06]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:27:06]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:27:06]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-100010022 (Slot Machine)	Loading modmain.lua	
+[00:27:06]: modimport: ../mods/workshop-100010022/lib_ver.lua	
+[00:27:06]: 1.05	Slot Machine	
+[00:27:06]: modimport: ../mods/workshop-100010022/lib_fn.lua	
+[00:27:06]: 1.05	Slot Machine	
+[00:27:06]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:27:06]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:27:06]: Mod: workshop-2199027653598511640 (状态显示)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-2199027653598511640 (状态显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-2199027653598511640 (状态显示)	Loading modmain.lua	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:27:06]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:27:06]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-2199027653598511552 (列队行为学)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modmain.lua	
+[00:27:06]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:27:06]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:27:06]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:27:06]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modmain.lua	
+[00:27:06]: Mod: workshop-2199027653598511651 (几何布局)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-2199027653598511651 (几何布局)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-2199027653598511651 (几何布局)	Loading modmain.lua	
+[00:27:06]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:27:06]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:06]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:27:06]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:27:07]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:27:07]: LOADING LUA SUCCESS
+[00:27:07]: Registering mod namespace "workshop-100010023"
+[00:27:07]: Registering mod namespace "food item"
+[00:27:08]: PlayerDeaths loaded morgue	2405	
+[00:27:08]: PlayerHistory loaded player_history (v2) len:228	
+[00:27:08]: ServerPreferences loaded server_preferences	2	
+[00:27:08]: bloom_enabled	false	
+[00:27:08]: loaded saveindex	
+[00:27:08]: OnFilesLoaded()	
+[00:27:08]: OnUpdatePurchaseStateComplete	
+[00:27:08]: [Connect] Init client connection to 127.0.0.1|10998
+[00:27:08]: [Connect] PendingConnection::Reset(true)
+[00:27:08]: [Shard] Stopping shard mode
+[00:27:08]: [Connect] InternalInitClient <949492881113797313>
+[00:27:08]: [Shard] Starting shard mode as player
+[00:27:08]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:27:08]: [Connect] Sending ping(s)...
+[00:27:08]: [Connect] Server has no net id, not attempting punchthrough.
+[00:27:08]: [Connect] DirectConnect Ping 127.0.0.1|10998
+[00:27:08]: ModIndex: Load sequence finished successfully.	
+[00:27:08]: Reset() returning
+[00:27:08]: [Connect] Ping response from 127.0.0.1|10998
+[00:27:08]: [Connect] Joining server from ping response...
+[00:27:08]: [Connect] Got join server response from lua
+[00:27:09]: [200] Account Communication Success (13)
+[00:27:09]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10998
+[00:27:09]: [Connect] DirectConnect to 127.0.0.1|10998
+[00:27:09]: Connection accepted to 127.0.0.1|10998 <6058766953213650582>
+[00:27:09]: Network external address discovered: 127.0.0.1|55440
+[00:27:09]: SendClientHandShakePacket to <6058766953213650582>
+[00:27:09]: DeserializeHandShakeServerListing
+[00:27:09]: Network tick rate: U=10(3), D=15
+[00:27:09]: Platform: 4
+[00:27:09]: Version: 341205
+[00:27:09]: Begin Session: 25BB00CA18219617
+[00:27:09]: Done Downloading Client Object Data
+[00:27:09]: DownloadMods and temp disable	
+[00:27:09]: We now have the required mods, enable them for server	
+[00:27:09]: Temp Enabling workshop-100010027	
+[00:27:09]: Temp Enabling workshop-100010023	
+[00:27:09]: Temp Enabling workshop-100010024	
+[00:27:09]: Temp Enabling workshop-100010002	
+[00:27:09]: Temp Enabling workshop-100010022	
+[00:27:09]: Temp Enabling workshop-2199027653598519491	
+[00:27:09]: Temp Enabling workshop-100010062	
+[00:27:09]: Temp Enabling workshop-100010058	
+[00:27:09]: ModIndex:SetTempModConfigData	
+[00:27:09]: Setting temp mod config for mod 	workshop-100010022	
+[00:27:09]: Setting temp mod config for mod 	workshop-2199027653598519491	
+[00:27:09]: Setting temp mod config for mod 	workshop-100010062	
+[00:27:09]: Setting temp mod config for mod 	workshop-100010058	
+[00:27:09]: Setting temp mod config for mod 	workshop-100010027	
+[00:27:09]: Setting temp mod config for mod 	workshop-100010024	
+[00:27:09]: Setting temp mod config for mod 	workshop-100010023	
+[00:27:09]: Setting temp mod config for mod 	workshop-100010002	
+[00:27:09]: Mods are setup for server, save the mod index and proceed.	
+[00:27:09]: Downloading [1] From: server_temp
+[00:27:09]: [Rail] Reporting played with: "@Viru Man" (R:76561197973341873).
+[00:27:09]: 1 (38%) 1/1 server_temp\server_save 114000b / 295775b
+[00:27:09]: 1 (76%) 1/1 server_temp\server_save 228000b / 295775b
+[00:27:10]: 1 (100%) 1/1 server_temp\server_save 295775b / 295775b
+[00:27:10]: Download complete[1] Files: 1 Size: 295775
+[00:27:10]: Collecting garbage...
+[00:27:10]: lua_gc took 0.02 seconds
+[00:27:10]: ~ShardLuaProxy()
+[00:27:10]: ~cEventLeaderboardProxy()
+[00:27:10]: ~ItemServerLuaProxy()
+[00:27:10]: ~InventoryLuaProxy()
+[00:27:10]: ~NetworkLuaProxy()
+[00:27:10]: ~SimLuaProxy()
+[00:27:10]: Cancelling LuaQueryCallback handle [12]
+[00:27:10]: lua_close took 0.04 seconds
+[00:27:10]: ReleaseAll
+[00:27:10]: ReleaseAll Finished
+[00:27:10]: cGame::StartPlaying
+[00:27:10]: LOADING LUA
+[00:27:10]: DoLuaFile scripts/main.lua
+[00:27:10]: DoLuaFile loading buffer scripts/main.lua
+[00:27:10]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:27:11]:   taskgrouplist:	default	联机版	
+[00:27:11]:   taskgrouplist:	classic	经典	
+[00:27:11]:   taskgrouplist:	cave_default	地下	
+[00:27:11]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:27:11]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:27:11]: running main.lua
+	
+[00:27:11]: loaded modindex	
+[00:27:11]: ModIndex: Beginning normal load sequence.
+	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-100010002_CLIENT	
+[00:27:11]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-100010022_CLIENT	
+[00:27:11]: Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-100010023_CLIENT	
+[00:27:11]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:27:11]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:27:11]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:27:11]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:27:11]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:27:11]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:27:11]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511552	
+[00:27:11]: Loading mod: workshop-2199027653598511552 (列队行为学) Version:1.3.6	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511640	
+[00:27:11]: Loading mod: workshop-2199027653598511640 (状态显示) Version:1.6.14.h.0.3	
+[00:27:11]: loaded mod_config_data/modconfiguration_workshop-2199027653598511651	
+[00:27:11]: Loading mod: workshop-2199027653598511651 (几何布局) Version:2.1.7	
+[00:27:11]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491_CLIENT	
+[00:27:11]: Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:27:11]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:27:11]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:27:11]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:27:11]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:27:11]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:27:11]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:27:11]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:27:11]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-100010022 (Slot Machine)	Loading modmain.lua	
+[00:27:11]: modimport: ../mods/workshop-100010022/lib_ver.lua	
+[00:27:11]: 1.05	Slot Machine	
+[00:27:11]: modimport: ../mods/workshop-100010022/lib_fn.lua	
+[00:27:11]: 1.05	Slot Machine	
+[00:27:11]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:27:11]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:27:11]: Mod: workshop-2199027653598511640 (状态显示)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-2199027653598511640 (状态显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-2199027653598511640 (状态显示)	Loading modmain.lua	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:27:11]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:27:11]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-2199027653598511552 (列队行为学)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modmain.lua	
+[00:27:11]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:27:11]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:27:11]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:27:11]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modmain.lua	
+[00:27:11]: Mod: workshop-2199027653598511651 (几何布局)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-2199027653598511651 (几何布局)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-2199027653598511651 (几何布局)	Loading modmain.lua	
+[00:27:11]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:27:11]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:27:11]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:27:11]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:27:12]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:27:12]: LOADING LUA SUCCESS
+[00:27:12]: Registering mod namespace "workshop-100010023"
+[00:27:12]: Registering mod namespace "food item"
+[00:27:12]: PlayerDeaths loaded morgue	2405	
+[00:27:12]: PlayerHistory loaded player_history (v2) len:228	
+[00:27:12]: ServerPreferences loaded server_preferences	2	
+[00:27:12]: bloom_enabled	false	
+[00:27:12]: loaded saveindex	
+[00:27:12]: OnFilesLoaded()	
+[00:27:12]: OnUpdatePurchaseStateComplete	
+[00:27:12]: Loading world: client_temp/server_save	
+[00:27:12]: Save file is at version 4.77	
+[00:27:12]: Klump load on boot started.	
+[00:27:12]: Klump files loaded: 	0	
+[00:27:12]: 	Unload characters	
+[00:27:12]: 	Unload FE	
+[00:27:12]: 	Unload FE done	
+[00:27:14]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[00:27:14]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:27:14]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-100010022 (Slot Machine)	Registering prefabs	
+[00:27:14]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/dubloon	
+[00:27:14]: Mod: workshop-100010022 (Slot Machine)	    dubloon	
+[00:27:14]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/slotmachine	
+[00:27:14]: Mod: workshop-100010022 (Slot Machine)	    slotmachine	
+[00:27:14]: Mod: workshop-100010022 (Slot Machine)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:27:14]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-2199027653598511640 (状态显示)	Registering prefabs	
+[00:27:14]: Mod: workshop-2199027653598511640 (状态显示)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[00:27:14]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-2199027653598511552 (列队行为学)	Registering prefabs	
+[00:27:14]: Mod: workshop-2199027653598511552 (列队行为学)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:27:14]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:27:14]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:27:14]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:27:14]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:27:14]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-100010002 (Damage Indicators)	Registering prefabs	
+[00:27:14]: Mod: workshop-100010002 (Damage Indicators)	  Registering prefab file: prefabs/dmgind	
+[00:27:14]: Mod: workshop-100010002 (Damage Indicators)	    dmgind	
+[00:27:14]: Mod: workshop-100010002 (Damage Indicators)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Registering prefabs	
+[00:27:14]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-2199027653598511651 (几何布局)	Registering prefabs	
+[00:27:14]: Mod: workshop-2199027653598511651 (几何布局)	  Registering prefab file: prefabs/buildgridplacer	
+[00:27:14]: Mod: workshop-2199027653598511651 (几何布局)	    buildgridplacer	
+[00:27:14]: Mod: workshop-2199027653598511651 (几何布局)	  Registering default mod prefab	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	Registering prefabs	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	    globalposition_classified	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	    smoketrail	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	    ping_generic	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	    ping_omw	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	    ping_danger	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	    ping_explore	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	    ping_gohere	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	    globalmapicon_noproxy	
+[00:27:14]: Mod: workshop-100010023 (Global Positions)	  Registering default mod prefab	
+[00:27:14]: 	LOAD BE	
+[00:27:17]: 	LOAD BE: done	
+[00:27:17]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/campfire.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_generic.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_gohere.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_explore.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_danger.xml )
+[00:27:17]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_omw.xml )
+[00:27:17]: Loading 14 new character(s)	
+[00:27:18]: Total 14 character(s) loaded	
+[00:27:18]: Loading Nav Grid	
+[00:27:18]: setting 	summerlength	15	
+[00:27:18]: setting 	isnightmaredawn	false	
+[00:27:18]: setting 	elapseddaysinseason	7	
+[00:27:18]: setting 	isfullmoon	false	
+[00:27:18]: setting 	moisture	1128.9638671875	
+[00:27:18]: setting 	springlength	20	
+[00:27:18]: setting 	isnightmarewild	false	
+[00:27:18]: setting 	moonphase	new	
+[00:27:18]: setting 	precipitationrate	0	
+[00:27:18]: setting 	iswet	false	
+[00:27:18]: setting 	isnewmoon	false	
+[00:27:18]: setting 	iswinter	false	
+[00:27:18]: setting 	israining	false	
+[00:27:18]: setting 	issummer	true	
+[00:27:18]: setting 	time	0.0020870208740235	
+[00:27:18]: setting 	season	summer	
+[00:27:18]: setting 	nightmaretimeinphase	0.80758972952771	
+[00:27:18]: setting 	moistureceil	11700.73828125	
+[00:27:18]: setting 	isday	false	
+[00:27:18]: setting 	isnight	true	
+[00:27:18]: setting 	wetness	0	
+[00:27:18]: setting 	cycles	132	
+[00:27:18]: setting 	isnightmarecalm	false	
+[00:27:18]: setting 	timeinphase	0.0030356667258523	
+[00:27:18]: setting 	isdusk	false	
+[00:27:18]: setting 	iscavedusk	false	
+[00:27:18]: setting 	isautumn	false	
+[00:27:18]: setting 	iscaveday	true	
+[00:27:18]: setting 	remainingdaysinseason	8	
+[00:27:18]: setting 	phase	night	
+[00:27:18]: setting 	snowlevel	0	
+[00:27:18]: setting 	iswaxingmoon	true	
+[00:27:18]: setting 	autumnlength	20	
+[00:27:18]: setting 	pop	0.050430015393182	
+[00:27:18]: setting 	nightmaretime	432.68307565749	
+[00:27:18]: setting 	isspring	false	
+[00:27:18]: setting 	winterlength	15	
+[00:27:18]: setting 	nightmarephase	warn	
+[00:27:18]: setting 	issnowcovered	false	
+[00:27:18]: setting 	issnowing	false	
+[00:27:18]: setting 	iscavenight	false	
+[00:27:18]: setting 	temperature	56.842891935042	
+[00:27:18]: setting 	cavephase	day	
+[00:27:18]: setting 	precipitation	none	
+[00:27:18]: setting 	isnightmarewarn	true	
+[00:27:18]: Reconstructing topology	
+[00:27:18]: 	...Sorting points	
+[00:27:18]: 	...Sorting edges	
+[00:27:18]: 	...Connecting nodes	
+[00:27:18]: 	...Validating connections	
+[00:27:19]: 	...Housekeeping	
+[00:27:19]: 	...Done!	
+[00:27:19]: ModIndex: Load sequence finished successfully.	
+[00:27:19]: Reset() returning
+[00:27:20]: Attempting to send resume request
+[00:27:20]: [Rail] Reporting played with: "Fairy Law" (R:76561197973379781).
+[00:27:20]: ReceiveResumeNotification
+[00:27:20]: Movement prediction enabled	
+[00:27:20]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'. Is the region specified in the atlas?
+[00:27:20]: Looking for default texture '' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:27:20]: Error Looking for default texture in from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:27:20]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'. Is the region specified in the atlas?
+[00:27:20]: Looking for default texture '' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:27:20]: Error Looking for default texture in from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:27:20]: Deserializing tile data (429 x 429)
+[00:27:20]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:27:21]: AddActionQueuerComponent	
+[00:30:01]: [200] Account Communication Success (6)
+[00:30:01]: Received (KU_3RvV-H5E) from TokenPurpose
+[00:30:07]: [SYSMEM]64% - PH:4337m/12177m PG:1696m/14154m VRT:1729m/4095m XM:0m
+[00:30:07]: [PRCMEM]PWS:1855m WS:1634m PPU:1014k PU 973k PNU:255k NU:236k PF:1683m PPF:1896m
+[00:32:25]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:32:25]: [Shard] Starting LAN migration...
+[00:32:25]: [Connect] SetMigrationInfo 127.0.0.1|10999 []
+[00:32:25]: Received ID_DST_SHARD_SILENT_DISCONNECT
+[00:32:25]: Collecting garbage...
+[00:32:25]: lua_gc took 0.03 seconds
+[00:32:25]: ~ShardLuaProxy()
+[00:32:25]: ~cEventLeaderboardProxy()
+[00:32:25]: ~ItemServerLuaProxy()
+[00:32:25]: ~InventoryLuaProxy()
+[00:32:25]: ~NetworkLuaProxy()
+[00:32:25]: ~SimLuaProxy()
+[00:32:25]: lua_close took 0.05 seconds
+[00:32:25]: ReleaseAll
+[00:32:25]: ReleaseAll Finished
+[00:32:25]: cGame::StartPlaying
+[00:32:25]: LOADING LUA
+[00:32:25]: DoLuaFile scripts/main.lua
+[00:32:25]: DoLuaFile loading buffer scripts/main.lua
+[00:32:25]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:32:26]:   taskgrouplist:	default	联机版	
+[00:32:26]:   taskgrouplist:	classic	经典	
+[00:32:26]:   taskgrouplist:	cave_default	地下	
+[00:32:26]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:32:26]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:32:26]: running main.lua
+	
+[00:32:26]: unloading prefabs for mod MOD_workshop-100010065	
+[00:32:26]: unloading prefabs for mod MOD_workshop-100010058	
+[00:32:26]: unloading prefabs for mod MOD_workshop-100010022	
+[00:32:26]: unloading prefabs for mod MOD_workshop-100010062	
+[00:32:26]: unloading prefabs for mod MOD_workshop-2199027653598511640	
+[00:32:26]: unloading prefabs for mod MOD_workshop-100010064	
+[00:32:26]: unloading prefabs for mod MOD_workshop-2199027653598511552	
+[00:32:26]: unloading prefabs for mod MOD_workshop-100010024	
+[00:32:26]: unloading prefabs for mod MOD_workshop-100010027	
+[00:32:26]: unloading prefabs for mod MOD_workshop-100010002	
+[00:32:26]: unloading prefabs for mod MOD_workshop-2199027653598519491	
+[00:32:26]: unloading prefabs for mod MOD_workshop-2199027653598511651	
+[00:32:26]: unloading prefabs for mod MOD_workshop-100010023	
+[00:32:26]: loaded modindex	
+[00:32:26]: ModIndex: Beginning normal load sequence.
+	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-100010002_CLIENT	
+[00:32:26]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-100010022_CLIENT	
+[00:32:26]: Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-100010023_CLIENT	
+[00:32:26]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:32:26]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:32:26]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:32:26]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:32:26]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:32:26]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:32:26]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511552	
+[00:32:26]: Loading mod: workshop-2199027653598511552 (列队行为学) Version:1.3.6	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511640	
+[00:32:26]: Loading mod: workshop-2199027653598511640 (状态显示) Version:1.6.14.h.0.3	
+[00:32:26]: loaded mod_config_data/modconfiguration_workshop-2199027653598511651	
+[00:32:26]: Loading mod: workshop-2199027653598511651 (几何布局) Version:2.1.7	
+[00:32:26]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491_CLIENT	
+[00:32:26]: Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:32:26]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:32:26]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:32:26]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:32:26]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:32:26]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:32:26]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:32:26]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:32:26]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-100010022 (Slot Machine)	Loading modmain.lua	
+[00:32:26]: modimport: ../mods/workshop-100010022/lib_ver.lua	
+[00:32:26]: 1.05	Slot Machine	
+[00:32:26]: modimport: ../mods/workshop-100010022/lib_fn.lua	
+[00:32:26]: 1.05	Slot Machine	
+[00:32:26]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:32:26]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:32:26]: Mod: workshop-2199027653598511640 (状态显示)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-2199027653598511640 (状态显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-2199027653598511640 (状态显示)	Loading modmain.lua	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:32:26]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:32:26]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-2199027653598511552 (列队行为学)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modmain.lua	
+[00:32:26]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:32:26]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:32:26]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:32:26]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modmain.lua	
+[00:32:26]: Mod: workshop-2199027653598511651 (几何布局)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-2199027653598511651 (几何布局)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-2199027653598511651 (几何布局)	Loading modmain.lua	
+[00:32:26]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:32:26]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:26]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:32:26]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:32:27]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:32:27]: LOADING LUA SUCCESS
+[00:32:27]: Registering mod namespace "workshop-100010023"
+[00:32:27]: Registering mod namespace "food item"
+[00:32:27]: PlayerDeaths loaded morgue	2405	
+[00:32:27]: PlayerHistory loaded player_history (v2) len:228	
+[00:32:27]: ServerPreferences loaded server_preferences	2	
+[00:32:27]: bloom_enabled	false	
+[00:32:27]: loaded saveindex	
+[00:32:27]: OnFilesLoaded()	
+[00:32:27]: OnUpdatePurchaseStateComplete	
+[00:32:27]: [Connect] Init client connection to 127.0.0.1|10999
+[00:32:27]: [Connect] PendingConnection::Reset(true)
+[00:32:27]: [Shard] Stopping shard mode
+[00:32:28]: [Connect] InternalInitClient <4201927272977144227>
+[00:32:28]: [Shard] Starting shard mode as player
+[00:32:28]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:32:28]: [Connect] Sending ping(s)...
+[00:32:28]: [Connect] Server has no net id, not attempting punchthrough.
+[00:32:28]: [Connect] DirectConnect Ping 127.0.0.1|10999
+[00:32:28]: ModIndex: Load sequence finished successfully.	
+[00:32:28]: Reset() returning
+[00:32:28]: [Connect] Ping response from 127.0.0.1|10999
+[00:32:28]: [Connect] Joining server from ping response...
+[00:32:28]: [Connect] Got join server response from lua
+[00:32:30]: [200] Account Communication Success (13)
+[00:32:30]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10999
+[00:32:30]: [Connect] DirectConnect to 127.0.0.1|10999
+[00:32:30]: Connection accepted to 127.0.0.1|10999 <6058766952713064579>
+[00:32:30]: Network external address discovered: 127.0.0.1|64800
+[00:32:30]: SendClientHandShakePacket to <6058766952713064579>
+[00:32:30]: DeserializeHandShakeServerListing
+[00:32:30]: Network tick rate: U=10(3), D=15
+[00:32:30]: Platform: 4
+[00:32:30]: Version: 341205
+[00:32:30]: Begin Session: 6E9D7551A33ADA7F
+[00:32:30]: Done Downloading Client Object Data
+[00:32:30]: DownloadMods and temp disable	
+[00:32:30]: We now have the required mods, enable them for server	
+[00:32:30]: Temp Enabling workshop-100010027	
+[00:32:30]: Temp Enabling workshop-100010024	
+[00:32:30]: Temp Enabling workshop-100010023	
+[00:32:30]: Temp Enabling workshop-100010002	
+[00:32:30]: Temp Enabling workshop-100010058	
+[00:32:30]: Temp Enabling workshop-2199027653598519491	
+[00:32:30]: Temp Enabling workshop-100010062	
+[00:32:30]: Temp Enabling workshop-100010022	
+[00:32:30]: ModIndex:SetTempModConfigData	
+[00:32:30]: Setting temp mod config for mod 	workshop-100010022	
+[00:32:30]: Setting temp mod config for mod 	workshop-2199027653598519491	
+[00:32:30]: Setting temp mod config for mod 	workshop-100010062	
+[00:32:30]: Setting temp mod config for mod 	workshop-100010058	
+[00:32:30]: Setting temp mod config for mod 	workshop-100010027	
+[00:32:30]: Setting temp mod config for mod 	workshop-100010024	
+[00:32:30]: Setting temp mod config for mod 	workshop-100010023	
+[00:32:30]: Setting temp mod config for mod 	workshop-100010002	
+[00:32:30]: Mods are setup for server, save the mod index and proceed.	
+[00:32:30]: Downloading [2] From: server_temp
+[00:32:30]: [Rail] Reporting played with: "Fairy Law" (R:76561197973379781).
+[00:32:30]: [Rail] Reporting played with: "@Viru Man" (R:76561197973341873).
+[00:32:31]: 2 (40%) 1/1 server_temp\server_save 114000b / 284159b
+[00:32:31]: 2 (80%) 1/1 server_temp\server_save 228000b / 284159b
+[00:32:31]: 2 (100%) 1/1 server_temp\server_save 284159b / 284159b
+[00:32:31]: Download complete[2] Files: 1 Size: 284159
+[00:32:31]: Collecting garbage...
+[00:32:31]: lua_gc took 0.02 seconds
+[00:32:31]: ~ShardLuaProxy()
+[00:32:31]: ~cEventLeaderboardProxy()
+[00:32:31]: ~ItemServerLuaProxy()
+[00:32:31]: ~InventoryLuaProxy()
+[00:32:31]: ~NetworkLuaProxy()
+[00:32:31]: ~SimLuaProxy()
+[00:32:31]: Cancelling LuaQueryCallback handle [15]
+[00:32:31]: lua_close took 0.03 seconds
+[00:32:31]: ReleaseAll
+[00:32:31]: ReleaseAll Finished
+[00:32:31]: cGame::StartPlaying
+[00:32:31]: LOADING LUA
+[00:32:31]: DoLuaFile scripts/main.lua
+[00:32:31]: DoLuaFile loading buffer scripts/main.lua
+[00:32:31]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:32:32]:   taskgrouplist:	default	联机版	
+[00:32:32]:   taskgrouplist:	classic	经典	
+[00:32:32]:   taskgrouplist:	cave_default	地下	
+[00:32:32]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:32:32]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:32:32]: running main.lua
+	
+[00:32:32]: loaded modindex	
+[00:32:32]: ModIndex: Beginning normal load sequence.
+	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-100010002_CLIENT	
+[00:32:32]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-100010022_CLIENT	
+[00:32:32]: Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-100010023_CLIENT	
+[00:32:32]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:32:32]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:32:32]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:32:32]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:32:32]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:32:32]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:32:32]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511552	
+[00:32:32]: Loading mod: workshop-2199027653598511552 (列队行为学) Version:1.3.6	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511640	
+[00:32:32]: Loading mod: workshop-2199027653598511640 (状态显示) Version:1.6.14.h.0.3	
+[00:32:32]: loaded mod_config_data/modconfiguration_workshop-2199027653598511651	
+[00:32:32]: Loading mod: workshop-2199027653598511651 (几何布局) Version:2.1.7	
+[00:32:32]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491_CLIENT	
+[00:32:32]: Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:32:32]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:32:32]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:32:32]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:32:32]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:32:32]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:32:32]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:32:32]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:32:32]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-100010022 (Slot Machine)	Loading modmain.lua	
+[00:32:32]: modimport: ../mods/workshop-100010022/lib_ver.lua	
+[00:32:32]: 1.05	Slot Machine	
+[00:32:32]: modimport: ../mods/workshop-100010022/lib_fn.lua	
+[00:32:32]: 1.05	Slot Machine	
+[00:32:32]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:32:32]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:32:32]: Mod: workshop-2199027653598511640 (状态显示)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-2199027653598511640 (状态显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-2199027653598511640 (状态显示)	Loading modmain.lua	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:32:32]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:32:32]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-2199027653598511552 (列队行为学)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modmain.lua	
+[00:32:32]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:32:32]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:32:32]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:32:32]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modmain.lua	
+[00:32:32]: Mod: workshop-2199027653598511651 (几何布局)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-2199027653598511651 (几何布局)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-2199027653598511651 (几何布局)	Loading modmain.lua	
+[00:32:32]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:32:32]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:32:32]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:32:32]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:32:33]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:32:33]: LOADING LUA SUCCESS
+[00:32:33]: Registering mod namespace "workshop-100010023"
+[00:32:33]: Registering mod namespace "food item"
+[00:32:33]: PlayerDeaths loaded morgue	2405	
+[00:32:33]: PlayerHistory loaded player_history (v2) len:228	
+[00:32:33]: ServerPreferences loaded server_preferences	2	
+[00:32:33]: bloom_enabled	false	
+[00:32:33]: loaded saveindex	
+[00:32:33]: OnFilesLoaded()	
+[00:32:33]: OnUpdatePurchaseStateComplete	
+[00:32:33]: Loading world: client_temp/server_save	
+[00:32:33]: Save file is at version 4.77	
+[00:32:33]: Klump load on boot started.	
+[00:32:33]: Klump files loaded: 	0	
+[00:32:33]: 	Unload characters	
+[00:32:33]: 	Unload FE	
+[00:32:33]: 	Unload FE done	
+[00:32:35]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[00:32:35]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:32:35]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-100010022 (Slot Machine)	Registering prefabs	
+[00:32:35]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/dubloon	
+[00:32:35]: Mod: workshop-100010022 (Slot Machine)	    dubloon	
+[00:32:35]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/slotmachine	
+[00:32:35]: Mod: workshop-100010022 (Slot Machine)	    slotmachine	
+[00:32:35]: Mod: workshop-100010022 (Slot Machine)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:32:35]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-2199027653598511640 (状态显示)	Registering prefabs	
+[00:32:35]: Mod: workshop-2199027653598511640 (状态显示)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[00:32:35]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-2199027653598511552 (列队行为学)	Registering prefabs	
+[00:32:35]: Mod: workshop-2199027653598511552 (列队行为学)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:32:35]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:32:35]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:32:35]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:32:35]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:32:35]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-100010002 (Damage Indicators)	Registering prefabs	
+[00:32:35]: Mod: workshop-100010002 (Damage Indicators)	  Registering prefab file: prefabs/dmgind	
+[00:32:35]: Mod: workshop-100010002 (Damage Indicators)	    dmgind	
+[00:32:35]: Mod: workshop-100010002 (Damage Indicators)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Registering prefabs	
+[00:32:35]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-2199027653598511651 (几何布局)	Registering prefabs	
+[00:32:35]: Mod: workshop-2199027653598511651 (几何布局)	  Registering prefab file: prefabs/buildgridplacer	
+[00:32:35]: Mod: workshop-2199027653598511651 (几何布局)	    buildgridplacer	
+[00:32:35]: Mod: workshop-2199027653598511651 (几何布局)	  Registering default mod prefab	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	Registering prefabs	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	    globalposition_classified	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	    smoketrail	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	    ping_generic	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	    ping_omw	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	    ping_danger	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	    ping_explore	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	    ping_gohere	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	    globalmapicon_noproxy	
+[00:32:35]: Mod: workshop-100010023 (Global Positions)	  Registering default mod prefab	
+[00:32:35]: 	LOAD BE	
+[00:32:38]: 	LOAD BE: done	
+[00:32:39]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/campfire.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_generic.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_gohere.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_explore.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_danger.xml )
+[00:32:39]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_omw.xml )
+[00:32:39]: Loading 14 new character(s)	
+[00:32:39]: Total 14 character(s) loaded	
+[00:32:39]: Loading Nav Grid	
+[00:32:39]: setting 	summerlength	15	
+[00:32:39]: setting 	isnightmaredawn	false	
+[00:32:39]: setting 	elapseddaysinseason	7	
+[00:32:39]: setting 	isfullmoon	false	
+[00:32:39]: setting 	moisture	919.22534179688	
+[00:32:39]: setting 	springlength	20	
+[00:32:39]: setting 	isnightmarewild	false	
+[00:32:39]: setting 	moonphase	threequarter	
+[00:32:39]: setting 	precipitationrate	0	
+[00:32:39]: setting 	iswet	false	
+[00:32:39]: setting 	isnewmoon	false	
+[00:32:39]: setting 	iswinter	false	
+[00:32:39]: setting 	israining	false	
+[00:32:39]: setting 	issummer	true	
+[00:32:39]: setting 	time	0.002017593383789	
+[00:32:39]: setting 	season	summer	
+[00:32:39]: setting 	nightmaretimeinphase	0	
+[00:32:39]: setting 	moistureceil	6364.7353515625	
+[00:32:39]: setting 	isday	true	
+[00:32:39]: setting 	isnight	false	
+[00:32:39]: setting 	wetness	0	
+[00:32:39]: setting 	cycles	132	
+[00:32:39]: setting 	isnightmarecalm	false	
+[00:32:39]: setting 	timeinphase	0.0029346812855113	
+[00:32:39]: setting 	isdusk	false	
+[00:32:39]: setting 	iscavedusk	false	
+[00:32:39]: setting 	isautumn	false	
+[00:32:39]: setting 	iscaveday	true	
+[00:32:39]: setting 	remainingdaysinseason	8	
+[00:32:39]: setting 	phase	day	
+[00:32:39]: setting 	snowlevel	0	
+[00:32:39]: setting 	iswaxingmoon	false	
+[00:32:39]: setting 	autumnlength	20	
+[00:32:39]: setting 	pop	0.094564766916806	
+[00:32:39]: setting 	nightmaretime	0	
+[00:32:39]: setting 	isspring	false	
+[00:32:39]: setting 	winterlength	15	
+[00:32:39]: setting 	nightmarephase	none	
+[00:32:39]: setting 	issnowcovered	false	
+[00:32:39]: setting 	issnowing	false	
+[00:32:39]: setting 	iscavenight	false	
+[00:32:39]: setting 	temperature	94.827112312999	
+[00:32:39]: setting 	cavephase	day	
+[00:32:39]: setting 	precipitation	none	
+[00:32:39]: setting 	isnightmarewarn	false	
+[00:32:39]: Reconstructing topology	
+[00:32:39]: 	...Sorting points	
+[00:32:39]: 	...Sorting edges	
+[00:32:39]: 	...Connecting nodes	
+[00:32:39]: 	...Validating connections	
+[00:32:39]: 	...Housekeeping	
+[00:32:39]: 	...Done!	
+[00:32:39]: ModIndex: Load sequence finished successfully.	
+[00:32:39]: Reset() returning
+[00:32:40]: Attempting to send resume request
+[00:32:40]: ReceiveResumeNotification
+[00:32:41]: Movement prediction enabled	
+[00:32:41]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'. Is the region specified in the atlas?
+[00:32:41]: Looking for default texture '' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:32:41]: Error Looking for default texture in from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:32:41]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'. Is the region specified in the atlas?
+[00:32:41]: Looking for default texture '' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:32:41]: Error Looking for default texture in from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:32:41]: Deserializing tile data (425 x 425)
+[00:32:41]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:32:41]: AddActionQueuerComponent	
+[00:33:08]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:33:10]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:33:19]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:33:25]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:33:27]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:33:27]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:33:42]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:34:12]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:34:16]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:34:20]: Could not find anim [close] in bank [ui_chest_5x16]
+[00:34:33]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:34:33]: [Shard] Starting LAN migration...
+[00:34:33]: [Connect] SetMigrationInfo 127.0.0.1|10998 []
+[00:34:33]: Received ID_DST_SHARD_SILENT_DISCONNECT
+[00:34:33]: Collecting garbage...
+[00:34:33]: lua_gc took 0.04 seconds
+[00:34:33]: ~ShardLuaProxy()
+[00:34:33]: ~cEventLeaderboardProxy()
+[00:34:33]: ~ItemServerLuaProxy()
+[00:34:33]: ~InventoryLuaProxy()
+[00:34:33]: ~NetworkLuaProxy()
+[00:34:33]: ~SimLuaProxy()
+[00:34:33]: lua_close took 0.05 seconds
+[00:34:33]: ReleaseAll
+[00:34:33]: ReleaseAll Finished
+[00:34:33]: cGame::StartPlaying
+[00:34:33]: LOADING LUA
+[00:34:33]: DoLuaFile scripts/main.lua
+[00:34:33]: DoLuaFile loading buffer scripts/main.lua
+[00:34:33]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:34:34]:   taskgrouplist:	default	联机版	
+[00:34:34]:   taskgrouplist:	classic	经典	
+[00:34:34]:   taskgrouplist:	cave_default	地下	
+[00:34:34]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:34:34]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:34:34]: running main.lua
+	
+[00:34:34]: unloading prefabs for mod MOD_workshop-100010065	
+[00:34:34]: unloading prefabs for mod MOD_workshop-100010058	
+[00:34:34]: unloading prefabs for mod MOD_workshop-100010022	
+[00:34:34]: unloading prefabs for mod MOD_workshop-100010062	
+[00:34:34]: unloading prefabs for mod MOD_workshop-2199027653598511640	
+[00:34:34]: unloading prefabs for mod MOD_workshop-100010064	
+[00:34:34]: unloading prefabs for mod MOD_workshop-2199027653598511552	
+[00:34:34]: unloading prefabs for mod MOD_workshop-100010024	
+[00:34:34]: unloading prefabs for mod MOD_workshop-100010027	
+[00:34:34]: unloading prefabs for mod MOD_workshop-100010002	
+[00:34:34]: unloading prefabs for mod MOD_workshop-2199027653598519491	
+[00:34:34]: unloading prefabs for mod MOD_workshop-2199027653598511651	
+[00:34:34]: unloading prefabs for mod MOD_workshop-100010023	
+[00:34:34]: loaded modindex	
+[00:34:34]: ModIndex: Beginning normal load sequence.
+	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-100010002_CLIENT	
+[00:34:35]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-100010022_CLIENT	
+[00:34:35]: Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-100010023_CLIENT	
+[00:34:35]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:34:35]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:34:35]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:34:35]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:34:35]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:34:35]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:34:35]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511552	
+[00:34:35]: Loading mod: workshop-2199027653598511552 (列队行为学) Version:1.3.6	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511640	
+[00:34:35]: Loading mod: workshop-2199027653598511640 (状态显示) Version:1.6.14.h.0.3	
+[00:34:35]: loaded mod_config_data/modconfiguration_workshop-2199027653598511651	
+[00:34:35]: Loading mod: workshop-2199027653598511651 (几何布局) Version:2.1.7	
+[00:34:35]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491_CLIENT	
+[00:34:35]: Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:34:35]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:34:35]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:34:35]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:34:35]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:34:35]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:34:35]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:34:35]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:34:35]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-100010022 (Slot Machine)	Loading modmain.lua	
+[00:34:35]: modimport: ../mods/workshop-100010022/lib_ver.lua	
+[00:34:35]: 1.05	Slot Machine	
+[00:34:35]: modimport: ../mods/workshop-100010022/lib_fn.lua	
+[00:34:35]: 1.05	Slot Machine	
+[00:34:35]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:34:35]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:34:35]: Mod: workshop-2199027653598511640 (状态显示)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-2199027653598511640 (状态显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-2199027653598511640 (状态显示)	Loading modmain.lua	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:34:35]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:34:35]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-2199027653598511552 (列队行为学)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modmain.lua	
+[00:34:35]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:34:35]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:34:35]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:34:35]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modmain.lua	
+[00:34:35]: Mod: workshop-2199027653598511651 (几何布局)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-2199027653598511651 (几何布局)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-2199027653598511651 (几何布局)	Loading modmain.lua	
+[00:34:35]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:34:35]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:35]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:34:35]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:34:36]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:34:36]: LOADING LUA SUCCESS
+[00:34:36]: Registering mod namespace "workshop-100010023"
+[00:34:36]: Registering mod namespace "food item"
+[00:34:36]: PlayerDeaths loaded morgue	2405	
+[00:34:36]: PlayerHistory loaded player_history (v2) len:228	
+[00:34:36]: ServerPreferences loaded server_preferences	2	
+[00:34:36]: bloom_enabled	false	
+[00:34:36]: loaded saveindex	
+[00:34:36]: OnFilesLoaded()	
+[00:34:36]: OnUpdatePurchaseStateComplete	
+[00:34:36]: [Connect] Init client connection to 127.0.0.1|10998
+[00:34:36]: [Connect] PendingConnection::Reset(true)
+[00:34:36]: [Shard] Stopping shard mode
+[00:34:36]: [Connect] InternalInitClient <3197919776434835973>
+[00:34:36]: [Shard] Starting shard mode as player
+[00:34:36]: [Connect] No server listing found for <UNASSIGNED_RAKNET_GUID>
+[00:34:36]: [Connect] Sending ping(s)...
+[00:34:36]: [Connect] Server has no net id, not attempting punchthrough.
+[00:34:36]: [Connect] DirectConnect Ping 127.0.0.1|10998
+[00:34:36]: ModIndex: Load sequence finished successfully.	
+[00:34:36]: Reset() returning
+[00:34:36]: [Connect] Ping response from 127.0.0.1|10998
+[00:34:36]: [Connect] Joining server from ping response...
+[00:34:36]: [Connect] Got join server response from lua
+[00:34:37]: [200] Account Communication Success (13)
+[00:34:37]: [Connect] PendingConnectionDoConnect to 127.0.0.1|10998
+[00:34:37]: [Connect] DirectConnect to 127.0.0.1|10998
+[00:34:37]: Connection accepted to 127.0.0.1|10998 <6058766953213650582>
+[00:34:37]: Network external address discovered: 127.0.0.1|51319
+[00:34:37]: SendClientHandShakePacket to <6058766953213650582>
+[00:34:38]: DeserializeHandShakeServerListing
+[00:34:38]: Network tick rate: U=10(3), D=15
+[00:34:38]: Platform: 4
+[00:34:38]: Version: 341205
+[00:34:38]: Begin Session: 25BB00CA18219617
+[00:34:38]: Done Downloading Client Object Data
+[00:34:38]: DownloadMods and temp disable	
+[00:34:38]: We now have the required mods, enable them for server	
+[00:34:38]: Temp Enabling workshop-100010027	
+[00:34:38]: Temp Enabling workshop-100010023	
+[00:34:38]: Temp Enabling workshop-100010024	
+[00:34:38]: Temp Enabling workshop-100010002	
+[00:34:38]: Temp Enabling workshop-100010022	
+[00:34:38]: Temp Enabling workshop-2199027653598519491	
+[00:34:38]: Temp Enabling workshop-100010062	
+[00:34:38]: Temp Enabling workshop-100010058	
+[00:34:38]: ModIndex:SetTempModConfigData	
+[00:34:38]: Setting temp mod config for mod 	workshop-100010022	
+[00:34:38]: Setting temp mod config for mod 	workshop-2199027653598519491	
+[00:34:38]: Setting temp mod config for mod 	workshop-100010062	
+[00:34:38]: Setting temp mod config for mod 	workshop-100010058	
+[00:34:38]: Setting temp mod config for mod 	workshop-100010027	
+[00:34:38]: Setting temp mod config for mod 	workshop-100010024	
+[00:34:38]: Setting temp mod config for mod 	workshop-100010023	
+[00:34:38]: Setting temp mod config for mod 	workshop-100010002	
+[00:34:38]: Mods are setup for server, save the mod index and proceed.	
+[00:34:38]: Downloading [3] From: server_temp
+[00:34:38]: [Rail] Reporting played with: "@Viru Man" (R:76561197973341873).
+[00:34:38]: 3 (38%) 1/1 server_temp\server_save 114000b / 295775b
+[00:34:38]: 3 (76%) 1/1 server_temp\server_save 228000b / 295775b
+[00:34:38]: 3 (100%) 1/1 server_temp\server_save 295775b / 295775b
+[00:34:38]: Download complete[3] Files: 1 Size: 295775
+[00:34:38]: Collecting garbage...
+[00:34:38]: lua_gc took 0.02 seconds
+[00:34:38]: ~ShardLuaProxy()
+[00:34:38]: ~cEventLeaderboardProxy()
+[00:34:38]: ~ItemServerLuaProxy()
+[00:34:38]: ~InventoryLuaProxy()
+[00:34:38]: ~NetworkLuaProxy()
+[00:34:38]: ~SimLuaProxy()
+[00:34:38]: Cancelling LuaQueryCallback handle [17]
+[00:34:38]: lua_close took 0.03 seconds
+[00:34:38]: ReleaseAll
+[00:34:38]: ReleaseAll Finished
+[00:34:38]: cGame::StartPlaying
+[00:34:38]: LOADING LUA
+[00:34:38]: DoLuaFile scripts/main.lua
+[00:34:38]: DoLuaFile loading buffer scripts/main.lua
+[00:34:38]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:34:39]:   taskgrouplist:	default	联机版	
+[00:34:39]:   taskgrouplist:	classic	经典	
+[00:34:39]:   taskgrouplist:	cave_default	地下	
+[00:34:39]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:34:39]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:34:39]: running main.lua
+	
+[00:34:39]: loaded modindex	
+[00:34:39]: ModIndex: Beginning normal load sequence.
+	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-100010002_CLIENT	
+[00:34:39]: Loading mod: workshop-100010002 (Damage Indicators) Version:0.72	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-100010022_CLIENT	
+[00:34:39]: Loading mod: workshop-100010022 (Slot Machine) Version:0.04	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-100010023_CLIENT	
+[00:34:39]: Loading mod: workshop-100010023 (Global Positions) Version:1.6.2	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-100010024_CLIENT	
+[00:34:39]: Loading mod: workshop-100010024 (储藏室（地窖）) Version:2.1b.h.0.2	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-100010027_CLIENT	
+[00:34:39]: Loading mod: workshop-100010027 (Wormhole Marks) Version:1.4.5	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-100010058_CLIENT	
+[00:34:39]: Loading mod: workshop-100010058 (食物属性标签) Version:1.61.h.0.1	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-100010062_CLIENT	
+[00:34:39]: Loading mod: workshop-100010062 (Health Info) Version:2.1.4	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:34:39]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:34:39]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511552	
+[00:34:39]: Loading mod: workshop-2199027653598511552 (列队行为学) Version:1.3.6	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511640	
+[00:34:39]: Loading mod: workshop-2199027653598511640 (状态显示) Version:1.6.14.h.0.3	
+[00:34:39]: loaded mod_config_data/modconfiguration_workshop-2199027653598511651	
+[00:34:39]: Loading mod: workshop-2199027653598511651 (几何布局) Version:2.1.7	
+[00:34:39]: Could not load mod_config_data/modconfiguration_workshop-2199027653598519491_CLIENT	
+[00:34:39]: Loading mod: workshop-2199027653598519491 (DST PickyPickyPicky) Version:2.0	
+[00:34:39]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:34:39]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:34:39]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:34:39]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:34:39]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:34:39]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:34:39]: Mod: workshop-100010058 (食物属性标签)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-100010058 (食物属性标签)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-100010058 (食物属性标签)	Loading modmain.lua	
+[00:34:39]: Mod: workshop-100010022 (Slot Machine)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-100010022 (Slot Machine)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-100010022 (Slot Machine)	Loading modmain.lua	
+[00:34:39]: modimport: ../mods/workshop-100010022/lib_ver.lua	
+[00:34:39]: 1.05	Slot Machine	
+[00:34:39]: modimport: ../mods/workshop-100010022/lib_fn.lua	
+[00:34:39]: 1.05	Slot Machine	
+[00:34:39]: Mod: workshop-100010062 (Health Info)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-100010062 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-100010062 (Health Info)	Loading modmain.lua	
+[00:34:39]: modimport: ../mods/workshop-100010062/black_white_lists.lua	
+[00:34:39]: Mod: workshop-2199027653598511640 (状态显示)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-2199027653598511640 (状态显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-2199027653598511640 (状态显示)	Loading modmain.lua	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:34:39]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:34:39]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-2199027653598511552 (列队行为学)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modmain.lua	
+[00:34:39]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-100010024 (储藏室（地窖）)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-100010024 (储藏室（地窖）)	Loading modmain.lua	
+[00:34:39]: Mod: workshop-100010027 (Wormhole Marks)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-100010027 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-100010027 (Wormhole Marks)	Loading modmain.lua	
+[00:34:39]: Mod: workshop-100010002 (Damage Indicators)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-100010002 (Damage Indicators)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-100010002 (Damage Indicators)	Loading modmain.lua	
+[00:34:39]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Loading modmain.lua	
+[00:34:39]: Mod: workshop-2199027653598511651 (几何布局)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-2199027653598511651 (几何布局)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-2199027653598511651 (几何布局)	Loading modmain.lua	
+[00:34:39]: Mod: workshop-100010023 (Global Positions)	Loading modworldgenmain.lua	
+[00:34:39]: Mod: workshop-100010023 (Global Positions)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:34:39]: Mod: workshop-100010023 (Global Positions)	Loading modmain.lua	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010002	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010022	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010023	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010024	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010027	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010058	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010062	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:34:39]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598519491	
+[00:34:40]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:34:40]: LOADING LUA SUCCESS
+[00:34:40]: Registering mod namespace "workshop-100010023"
+[00:34:40]: Registering mod namespace "food item"
+[00:34:40]: PlayerDeaths loaded morgue	2405	
+[00:34:40]: PlayerHistory loaded player_history (v2) len:228	
+[00:34:40]: ServerPreferences loaded server_preferences	2	
+[00:34:40]: bloom_enabled	false	
+[00:34:40]: loaded saveindex	
+[00:34:40]: OnFilesLoaded()	
+[00:34:40]: OnUpdatePurchaseStateComplete	
+[00:34:41]: Loading world: client_temp/server_save	
+[00:34:41]: Save file is at version 4.77	
+[00:34:41]: Klump load on boot started.	
+[00:34:41]: Klump files loaded: 	0	
+[00:34:41]: 	Unload characters	
+[00:34:41]: 	Unload FE	
+[00:34:41]: 	Unload FE done	
+[00:34:43]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[00:34:43]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-100010058 (食物属性标签)	Registering prefabs	
+[00:34:43]: Mod: workshop-100010058 (食物属性标签)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-100010022 (Slot Machine)	Registering prefabs	
+[00:34:43]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/dubloon	
+[00:34:43]: Mod: workshop-100010022 (Slot Machine)	    dubloon	
+[00:34:43]: Mod: workshop-100010022 (Slot Machine)	  Registering prefab file: prefabs/slotmachine	
+[00:34:43]: Mod: workshop-100010022 (Slot Machine)	    slotmachine	
+[00:34:43]: Mod: workshop-100010022 (Slot Machine)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-100010062 (Health Info)	Registering prefabs	
+[00:34:43]: Mod: workshop-100010062 (Health Info)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-2199027653598511640 (状态显示)	Registering prefabs	
+[00:34:43]: Mod: workshop-2199027653598511640 (状态显示)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[00:34:43]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-2199027653598511552 (列队行为学)	Registering prefabs	
+[00:34:43]: Mod: workshop-2199027653598511552 (列队行为学)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-100010024 (储藏室（地窖）)	Registering prefabs	
+[00:34:43]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering prefab file: prefabs/storeroom	
+[00:34:43]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom	
+[00:34:43]: Mod: workshop-100010024 (储藏室（地窖）)	    storeroom_placer	
+[00:34:43]: Mod: workshop-100010024 (储藏室（地窖）)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-100010027 (Wormhole Marks)	Registering prefabs	
+[00:34:43]: Mod: workshop-100010027 (Wormhole Marks)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-100010002 (Damage Indicators)	Registering prefabs	
+[00:34:43]: Mod: workshop-100010002 (Damage Indicators)	  Registering prefab file: prefabs/dmgind	
+[00:34:43]: Mod: workshop-100010002 (Damage Indicators)	    dmgind	
+[00:34:43]: Mod: workshop-100010002 (Damage Indicators)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	Registering prefabs	
+[00:34:43]: Mod: workshop-2199027653598519491 (DST PickyPickyPicky)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-2199027653598511651 (几何布局)	Registering prefabs	
+[00:34:43]: Mod: workshop-2199027653598511651 (几何布局)	  Registering prefab file: prefabs/buildgridplacer	
+[00:34:43]: Mod: workshop-2199027653598511651 (几何布局)	    buildgridplacer	
+[00:34:43]: Mod: workshop-2199027653598511651 (几何布局)	  Registering default mod prefab	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	Registering prefabs	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalposition_classified	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	    globalposition_classified	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/smoketrail	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	    smoketrail	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/pings	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	    ping_generic	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	    ping_omw	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	    ping_danger	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	    ping_explore	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	    ping_gohere	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	  Registering prefab file: prefabs/globalmapicon_noproxy	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	    globalmapicon_noproxy	
+[00:34:43]: Mod: workshop-100010023 (Global Positions)	  Registering default mod prefab	
+[00:34:43]: 	LOAD BE	
+[00:34:46]: 	LOAD BE: done	
+[00:34:46]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010024/minimap/storeroom.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_1.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_2.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_3.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_4.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_5.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_6.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_7.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_8.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_9.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_10.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_11.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_12.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_13.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_14.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_15.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_16.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_17.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_18.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_19.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_20.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_21.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010027/images/mark_22.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/campfire.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_generic.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_gohere.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_explore.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_danger.xml )
+[00:34:46]: MiniMapComponent::AddAtlas( ../mods/workshop-100010023/minimap/ping_omw.xml )
+[00:34:46]: Loading 14 new character(s)	
+[00:34:47]: Total 14 character(s) loaded	
+[00:34:47]: Loading Nav Grid	
+[00:34:47]: setting 	summerlength	15	
+[00:34:47]: setting 	isnightmaredawn	false	
+[00:34:47]: setting 	elapseddaysinseason	7	
+[00:34:47]: setting 	isfullmoon	false	
+[00:34:47]: setting 	moisture	1128.9638671875	
+[00:34:47]: setting 	springlength	20	
+[00:34:47]: setting 	isnightmarewild	false	
+[00:34:47]: setting 	moonphase	new	
+[00:34:47]: setting 	precipitationrate	0	
+[00:34:47]: setting 	iswet	false	
+[00:34:47]: setting 	isnewmoon	false	
+[00:34:47]: setting 	iswinter	false	
+[00:34:47]: setting 	israining	false	
+[00:34:47]: setting 	issummer	true	
+[00:34:47]: setting 	time	0.0020870208740235	
+[00:34:47]: setting 	season	summer	
+[00:34:47]: setting 	nightmaretimeinphase	0.80758972952771	
+[00:34:47]: setting 	moistureceil	11700.73828125	
+[00:34:47]: setting 	isday	false	
+[00:34:47]: setting 	isnight	true	
+[00:34:47]: setting 	wetness	0	
+[00:34:47]: setting 	cycles	132	
+[00:34:47]: setting 	isnightmarecalm	false	
+[00:34:47]: setting 	timeinphase	0.0030356667258523	
+[00:34:47]: setting 	isdusk	false	
+[00:34:47]: setting 	iscavedusk	false	
+[00:34:47]: setting 	isautumn	false	
+[00:34:47]: setting 	iscaveday	true	
+[00:34:47]: setting 	remainingdaysinseason	8	
+[00:34:47]: setting 	phase	night	
+[00:34:47]: setting 	snowlevel	0	
+[00:34:47]: setting 	iswaxingmoon	true	
+[00:34:47]: setting 	autumnlength	20	
+[00:34:47]: setting 	pop	0.050430015393182	
+[00:34:47]: setting 	nightmaretime	432.68307565749	
+[00:34:47]: setting 	isspring	false	
+[00:34:47]: setting 	winterlength	15	
+[00:34:47]: setting 	nightmarephase	warn	
+[00:34:47]: setting 	issnowcovered	false	
+[00:34:47]: setting 	issnowing	false	
+[00:34:47]: setting 	iscavenight	false	
+[00:34:47]: setting 	temperature	56.842891935042	
+[00:34:47]: setting 	cavephase	day	
+[00:34:47]: setting 	precipitation	none	
+[00:34:47]: setting 	isnightmarewarn	true	
+[00:34:47]: Reconstructing topology	
+[00:34:47]: 	...Sorting points	
+[00:34:47]: 	...Sorting edges	
+[00:34:47]: 	...Connecting nodes	
+[00:34:47]: 	...Validating connections	
+[00:34:47]: 	...Housekeeping	
+[00:34:47]: 	...Done!	
+[00:34:47]: ModIndex: Load sequence finished successfully.	
+[00:34:47]: Reset() returning
+[00:34:48]: Attempting to send resume request
+[00:34:48]: [Rail] Reporting played with: "Fairy Law" (R:76561197973379781).
+[00:34:48]: ReceiveResumeNotification
+[00:34:48]: Movement prediction enabled	
+[00:34:48]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'. Is the region specified in the atlas?
+[00:34:48]: Looking for default texture '' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:34:48]: Error Looking for default texture in from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:34:48]: WARNING! Could not find region 'loading_indicator.tex' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'. Is the region specified in the atlas?
+[00:34:48]: Looking for default texture '' from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:34:48]: Error Looking for default texture in from atlas '../mods/workshop-2199027653598511640/images/avatars.xml'.
+[00:34:48]: Deserializing tile data (429 x 429)
+[00:34:48]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:34:49]: AddActionQueuerComponent	
+[00:35:07]: [SYSMEM]59% - PH:4990m/12177m PG:1659m/14154m VRT:1710m/4095m XM:0m
+[00:35:07]: [PRCMEM]PWS:1855m WS:1153m PPU:1015k PU 983k PNU:261k NU:238k PF:1692m PPF:1917m
+[00:35:13]: DoRestart:	true	
+[00:35:14]: Serializing user: session/6E9D7551A33ADA7F/A7GDNPFVI4AE/0000000001
+[00:35:14]: [Shard] Stopping shard mode
+[00:35:15]: [IPC] Sending signal... #00000D88
+[00:35:18]: [IPC] Unregistering handler for signal #00000D34
+[00:35:18]: [IPC] Unregistering handler for signal #00000CCC
+[00:35:18]: [IPC] Unregistering handler for signal #00000EEC
+[00:35:18]: [IPC] Unregistering handler for signal #00000D10
+[00:35:18]: [IPC] Unregistering handler for signal #000004D0
+[00:35:18]: [IPC] Sending signal... #00000E1C
+[00:35:21]: [IPC] Unregistering handler for signal #00000F24
+[00:35:21]: [IPC] Unregistering handler for signal #00000F14
+[00:35:21]: [IPC] Unregistering handler for signal #00000E8C
+[00:35:21]: [IPC] Unregistering handler for signal #00000F20
+[00:35:21]: [IPC] Unregistering handler for signal #00000F0C
+[00:35:21]: Collecting garbage...
+[00:35:21]: lua_gc took 0.04 seconds
+[00:35:21]: ~ShardLuaProxy()
+[00:35:21]: ~cEventLeaderboardProxy()
+[00:35:21]: ~ItemServerLuaProxy()
+[00:35:21]: ~InventoryLuaProxy()
+[00:35:21]: ~NetworkLuaProxy()
+[00:35:21]: ~SimLuaProxy()
+[00:35:21]: lua_close took 0.05 seconds
+[00:35:21]: ReleaseAll
+[00:35:21]: ReleaseAll Finished
+[00:35:21]: cGame::StartPlaying
+[00:35:21]: LOADING LUA
+[00:35:21]: DoLuaFile scripts/main.lua
+[00:35:21]: DoLuaFile loading buffer scripts/main.lua
+[00:35:21]: Translator:LoadPOFile - loading file: scripts/languages/chinese_r.po	
+[00:35:22]:   taskgrouplist:	default	联机版	
+[00:35:22]:   taskgrouplist:	classic	经典	
+[00:35:22]:   taskgrouplist:	cave_default	地下	
+[00:35:22]:   taskgrouplist:	lavaarena_taskset	熔炉	
+[00:35:22]:   taskgrouplist:	quagmire_taskset	暴食	
+[00:35:22]: running main.lua
+	
+[00:35:22]: unloading prefabs for mod MOD_workshop-100010065	
+[00:35:22]: unloading prefabs for mod MOD_workshop-100010058	
+[00:35:22]: unloading prefabs for mod MOD_workshop-100010022	
+[00:35:22]: unloading prefabs for mod MOD_workshop-100010062	
+[00:35:22]: unloading prefabs for mod MOD_workshop-2199027653598511640	
+[00:35:22]: unloading prefabs for mod MOD_workshop-100010064	
+[00:35:22]: unloading prefabs for mod MOD_workshop-2199027653598511552	
+[00:35:22]: unloading prefabs for mod MOD_workshop-100010024	
+[00:35:22]: unloading prefabs for mod MOD_workshop-100010027	
+[00:35:22]: unloading prefabs for mod MOD_workshop-100010002	
+[00:35:22]: unloading prefabs for mod MOD_workshop-2199027653598519491	
+[00:35:22]: unloading prefabs for mod MOD_workshop-2199027653598511651	
+[00:35:22]: unloading prefabs for mod MOD_workshop-100010023	
+[00:35:22]: loaded modindex	
+[00:35:22]: ModIndex: Beginning normal load sequence.
+	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:35:22]: Could not load mod_config_data/modconfiguration_workshop-100010064	
+[00:35:22]: Loading mod: workshop-100010064 (小地图插件) Version:1.0.7.h.0.1	
+[00:35:22]: Could not load mod_config_data/modconfiguration_workshop-100010065	
+[00:35:22]: Loading mod: workshop-100010065 (智能餐锅) Version:4.02.h.0.1	
+[00:35:22]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511552	
+[00:35:22]: Loading mod: workshop-2199027653598511552 (列队行为学) Version:1.3.6	
+[00:35:22]: Could not load mod_config_data/modconfiguration_workshop-2199027653598511640	
+[00:35:22]: Loading mod: workshop-2199027653598511640 (状态显示) Version:1.6.14.h.0.3	
+[00:35:22]: loaded mod_config_data/modconfiguration_workshop-2199027653598511651	
+[00:35:22]: Loading mod: workshop-2199027653598511651 (几何布局) Version:2.1.7	
+[00:35:22]: Mod: workshop-100010065 (智能餐锅)	Loading modworldgenmain.lua	
+[00:35:22]: Mod: workshop-100010065 (智能餐锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:35:22]: Mod: workshop-100010065 (智能餐锅)	Loading modmain.lua	
+[00:35:22]: modimport: ../mods/workshop-100010065/modmain_segments/containerwidgetfunction.lua	
+[00:35:22]: modimport: ../mods/workshop-100010065/modmain_segments/containers_setup.lua	
+[00:35:22]: modimport: ../mods/workshop-100010065/modmain_segments/action_predict.lua	
+[00:35:22]: WARNING: Positional Action parameters are deprecated. Please pass action a table instead.	
+[00:35:22]: Action defined at 	../mods/workshop-100010065/modmain_segments/action_predict.lua:1 in (local) result (main) <0-0>	
+[00:35:22]: Mod: workshop-2199027653598511640 (状态显示)	Loading modworldgenmain.lua	
+[00:35:22]: Mod: workshop-2199027653598511640 (状态显示)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:35:22]: Mod: workshop-2199027653598511640 (状态显示)	Loading modmain.lua	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010064	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-100010065	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511552	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511640	
+[00:35:22]: ModIndex:GetModsToLoad inserting moddir, 	workshop-2199027653598511651	
+[00:35:22]: Mod: workshop-100010064 (小地图插件)	Loading modworldgenmain.lua	
+[00:35:22]: Mod: workshop-100010064 (小地图插件)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:35:22]: Mod: workshop-100010064 (小地图插件)	Loading modmain.lua	
+[00:35:22]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modworldgenmain.lua	
+[00:35:22]: Mod: workshop-2199027653598511552 (列队行为学)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:35:22]: Mod: workshop-2199027653598511552 (列队行为学)	Loading modmain.lua	
+[00:35:22]: Mod: workshop-2199027653598511651 (几何布局)	Loading modworldgenmain.lua	
+[00:35:22]: Mod: workshop-2199027653598511651 (几何布局)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:35:22]: Mod: workshop-2199027653598511651 (几何布局)	Loading modmain.lua	
+[00:35:22]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:35:22]: LOADING LUA SUCCESS
+[00:35:22]: PlayerDeaths loaded morgue	2405	
+[00:35:23]: PlayerHistory loaded player_history (v2) len:228	
+[00:35:23]: ServerPreferences loaded server_preferences	2	
+[00:35:23]: bloom_enabled	false	
+[00:35:23]: loaded saveindex	
+[00:35:23]: OnFilesLoaded()	
+[00:35:23]: OnUpdatePurchaseStateComplete	
+[00:35:23]: Klump load on boot started.	
+[00:35:23]: Klump files loaded: 	0	
+[00:35:23]: 	Unload characters	
+[00:35:23]: 	Unload BE	
+[00:35:23]: 	Unload BE done	
+[00:35:24]: Mod: workshop-100010065 (智能餐锅)	Registering prefabs	
+[00:35:24]: Mod: workshop-100010065 (智能餐锅)	  Registering default mod prefab	
+[00:35:24]: Mod: workshop-2199027653598511640 (状态显示)	Registering prefabs	
+[00:35:24]: Mod: workshop-2199027653598511640 (状态显示)	  Registering default mod prefab	
+[00:35:24]: Mod: workshop-100010064 (小地图插件)	Registering prefabs	
+[00:35:24]: Mod: workshop-100010064 (小地图插件)	  Registering default mod prefab	
+[00:35:24]: Mod: workshop-2199027653598511552 (列队行为学)	Registering prefabs	
+[00:35:24]: Mod: workshop-2199027653598511552 (列队行为学)	  Registering default mod prefab	
+[00:35:24]: Mod: workshop-2199027653598511651 (几何布局)	Registering prefabs	
+[00:35:24]: Mod: workshop-2199027653598511651 (几何布局)	  Registering prefab file: prefabs/buildgridplacer	
+[00:35:24]: Mod: workshop-2199027653598511651 (几何布局)	    buildgridplacer	
+[00:35:24]: Mod: workshop-2199027653598511651 (几何布局)	  Registering default mod prefab	
+[00:35:24]: 	Load FE	
+[00:35:24]: 	Load FE: done	
+[00:35:24]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/blocklist.txt (Failure)
+[00:35:24]: OnLoadPermissionList: APP:Klei//DoNotStarveTogetherRail/client_save/adminlist.txt (Failure)
+[00:35:24]: OnLoadUserIdList: APP:Klei//DoNotStarveTogetherRail/client_save/whitelist.txt (Failure)
+[00:35:24]: [MOTD] Downloading info from	https://s3.amazonaws.com/ds-motd/dst_rail_image_motd.json	
+[00:35:24]: SimLuaProxy::QueryServer()
+[00:35:24]: ModIndex: Load sequence finished successfully.	
+[00:35:24]: Reset() returning
+[00:35:26]: [MOTD] Done Loading.	
+[00:35:27]: Collecting garbage...
+[00:35:27]: lua_gc took 0.03 seconds
+[00:35:27]: ~ShardLuaProxy()
+[00:35:27]: ~cEventLeaderboardProxy()
+[00:35:27]: ~ItemServerLuaProxy()
+[00:35:27]: ~InventoryLuaProxy()
+[00:35:27]: ~NetworkLuaProxy()
+[00:35:27]: ~SimLuaProxy()
+[00:35:27]: lua_close took 0.04 seconds
+[00:35:28]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[00:35:28]: anim/structure_collapse_fx.zip - 4
+[00:35:28]: anim/gems.zip - 24
+[00:35:28]: anim/statue_ruins_small.zip - 16
+[00:35:28]: anim/statue_ruins.zip - 16
+[00:35:28]: anim/statue_ruins_small_gem.zip - 16
+[00:35:28]: anim/nightmarefuel.zip - 4
+[00:35:28]: anim/die.zip - 4
+[00:35:28]: anim/statue_ruins_gem.zip - 16
+[00:35:28]: anim/thulecite.zip - 4
+[00:35:28]: anim/statue_ruins_fx.zip - 4
+[00:35:28]: anim/marble.zip - 4
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[00:35:28]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[00:35:28]: anim/statue_ruins_small_gem.zip:statue_ruins_small_gem--atlas-0.tex - 1
+[00:35:28]: anim/thulecite.zip:thulecite--atlas-0.tex - 1
+[00:35:28]: anim/gems.zip:gems--atlas-0.tex - 1
+[00:35:28]: anim/statue_ruins.zip:statue_ruins--atlas-0.tex - 1
+[00:35:28]: anim/structure_collapse_fx.zip:structure_collapse_fx--atlas-0.tex - 1
+[00:35:28]: anim/nightmarefuel.zip:nightmarefuel--atlas-0.tex - 1
+[00:35:28]: anim/statue_ruins_fx.zip:statue_ruins_fx--atlas-0.tex - 1
+[00:35:28]: anim/statue_ruins.zip:statue_ruins--atlas-1.tex - 1
+[00:35:28]: anim/statue_ruins_gem.zip:statue_ruins_gem--atlas-0.tex - 1
+[00:35:28]: anim/marble.zip:marble--atlas-0.tex - 1
+[00:35:28]: anim/die.zip:die--atlas-0.tex - 1
+[00:35:28]: anim/statue_ruins_small.zip:statue_ruins_small--atlas-0.tex - 1
+[00:35:28]: CurlRequestManager::ClientThread::Main() complete
+[00:35:28]: HttpClient2 discarded 0 callbacks.
+[00:35:28]: [Rail] Shutting down Rail
+[00:35:30]: Shutting down

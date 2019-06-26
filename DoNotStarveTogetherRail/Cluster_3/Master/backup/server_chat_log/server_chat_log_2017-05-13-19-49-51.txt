@@ -1,0 +1,5 @@
+[00:00:43]: [Join Announcement] 
+[00:01:34]: [Join Announcement] 
+[00:06:13]: [Death Announcement]  已被击杀，击杀者是 蜘蛛. 她变成了一个幽灵！
+[00:06:16]: [Leave Announcement] 
+[00:06:16]: [Leave Announcement] 
